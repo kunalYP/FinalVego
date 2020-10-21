@@ -17,12 +17,21 @@
 </head>
 
 <body>
-
+    <!-- sidebar -->
+    <section id="sidebar ">
+        <div class="vego-sidebar vego-bar-block vego-animate-left " style="display:none;z-index:5;width:80%;"
+            id="mySidebar">
+            <a class="vego-bar-item" onclick="sidebar_close()">
+                /\</a>
+            <a style="color:black" href="login.html" class="w3-bar-item">Service</a>
+        </div>
+    </section>
+    <!-- sidebar end -->
     <header>
         <nav class="navbar navbar-expand-lg ">
-            <img class="navbar-toggler togglerimg" type="button" data-toggle="collapse"
-                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-                aria-label="Toggle navigation" src="assets/images/sidebartoggler.svg" alt="">
+            <img class="navbar-toggler togglerimg" type="button" data-toggle="collapse" data-target="#"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"
+                src="assets/images/sidebartoggler.svg" alt="" onclick="sidebar_open()">
             <a class="navbar-brand" href="#">
                 <img src="assets/images/logo.png" alt="">
             </a>
@@ -80,6 +89,7 @@
         </form>
 
     </header>
+
 
     <!-- user location -->
     <div class="locationcard">
