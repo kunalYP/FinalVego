@@ -76,7 +76,7 @@ html {
         padding-left: 1rem;
         padding-bottom: 10px;
         padding-top: 0.4rem;
-        background:#e9ddca;
+        background:#c7c7c7;
         box-shadow: 0 2px 10px rgba(0,0,0,.105882);
         border-top:none;
     }
@@ -97,7 +97,9 @@ html {
         padding-top: 8px;
     }
     header {
-        background:#e3324a linear-gradient(90deg,#fd3752,#fd3752);
+        /* background:#e3324a linear-gradient(90deg,#fd3752,#fd3752); */
+        background:#e3324a linear-gradient(90deg,#ee1f3a,#cc041f);
+
     }
 }
 
