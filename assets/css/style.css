@@ -5,11 +5,12 @@ html {
 
 body {
     margin: 0;
-    background: rgb(247, 247, 247);
+    background: rgb(245, 245, 245);
 }
 
 html {
     box-sizing: border-box;
+    overflow-x: hidden
 }
 
 *, *:before, *:after {
@@ -19,10 +20,6 @@ html {
 html, body {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-}
-
-html {
-    overflow-x: hidden
 }
 
 /* Searchbar text center */
@@ -64,7 +61,6 @@ html {
     .searchbar {
         padding: 0px 0px 0px 40px;
         height: 2.8rem;
-      
         width: 96%;
         margin-left: 2%;
     }
@@ -75,17 +71,17 @@ html {
     .locationcard {
         display: flex;
         padding-left: 1rem;
-        padding-bottom: 10px;
-        padding-top: 0.4rem;
-        background:#ffffff;
-        box-shadow: 0 2px 10px rgba(0,0,0,.105882);
-        border-top:none;
+        padding-bottom: 15px;
+        padding-top: 0.8rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+        border-top: none;
+        background-color: white;
     }
     .locationtxt {
         display: flex;
     }
     .locationtxt p {
-        font-size: 15.4px;
+        font-size: 15px;
         margin-bottom: 0px;
         margin-top: 2px;
     }
@@ -100,7 +96,56 @@ html {
     header {
         /* background:#e3324a linear-gradient(90deg,#fd3752,#fd3752); */
         /* background:#e3324a linear-gradient(90deg,#ee1f3a,#cc041f); */
-        background:#e3324a linear-gradient(180deg,#f0233e,#f3324c);
+        background: #e3324a linear-gradient(180deg, #f0233e, #f3324c);
+    }
+    .services {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin-top: 5px;
+        width: 98%;
+        margin-left: 1%;
+        border-radius: 5px;
+    }
+    .service {
+        width: 50%;
+        text-align: center;
+        padding: 1rem;
+        padding-bottom: 0;
+    }
+    .firstrow {
+        display: flex;
+    }
+    .secondrow {
+        display: flex;
+    }
+    .serviceicon {
+        text-align: center;
+    }
+    .serviceicon img {
+        height: 3.5rem;
+        margin-bottom: 1rem;
+    }
+    .servicename p {
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    #service1 {
+        border-right: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
+    #service2 {
+        border-bottom: 1px solid lightgray;
+    }
+    #service3 {
+        border-right: 1px solid lightgray;
+    }
+    .service:hover .serviceicon img {
+        height: 4rem;
+    }
+    .service:hover .servicename p {
+       font-weight:550;
+       color:#f0233e;
     }
 }
 
@@ -125,6 +170,39 @@ html {
         height: 2.8rem;
         border: 1px solid lightgray;
     }
+    .locationimg img {
+        height: 1.2rem;
+        margin: 0px 5px 0px 8px;
+    }
+    .locationcard {
+        display: flex;
+        padding-left: 1rem;
+        padding-bottom: 15px;
+        padding-top: 0.8rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+        border-top: none;
+    }
+    .locationtxt {
+        display: flex;
+    }
+    .locationtxt p {
+        font-size: 15.4px;
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+    .locationtxt img {
+        height: 0.5rem;
+        margin-left: 5px;
+        margin-top: 2.5px;
+    }
+    .navbar {
+        padding-top: 8px;
+    }
+    header {
+        /* background:#e3324a linear-gradient(90deg,#fd3752,#fd3752); */
+        /* background:#e3324a linear-gradient(90deg,#ee1f3a,#cc041f); */
+        background: #e3324a linear-gradient(180deg, #f0233e, #f3324c);
+    }
 }
 
 /* Medium devices (Desktop, 850px and up) */
@@ -139,6 +217,10 @@ html {
     }
     .dropdown-menu {
         display: none;
+        font-size: 15px;
+    }
+    .dropdown-menu a {
+        font-size: 15px;
     }
     .dropdown:hover .dropdown-menu {
         display: block;
@@ -148,5 +230,22 @@ html {
     }
     .searchbar-cont {
         display: none;
+    }
+    .navbar {
+        padding-top: 8px;
+    }
+    header {
+        /* background:#e3324a linear-gradient(90deg,#fd3752,#fd3752); */
+        /* background:#e3324a linear-gradient(90deg,#ee1f3a,#cc041f); */
+        background: #e3324a linear-gradient(180deg, #f0233e, #f3324c);
+    }
+    .locationcard {
+        display: none;
+    }
+    .nav-link {
+        color: white;
+    }
+    .nav-link:hover {
+        color: lightgrey;
     }
 }
