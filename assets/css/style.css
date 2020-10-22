@@ -207,7 +207,7 @@ a:hover {
     }
     /* sidebar */
     .vego-sidebar {
-        height: 32%;
+        height: 35%;
         width: 200px;
         background-color: #fff;
         position: fixed!important;
@@ -339,6 +339,11 @@ a:hover {
     #headloc {
         font-size: 17px;
         font-weight: 500;
+        padding-top:1rem;
+    }
+    #loc2{
+        color: grey;
+        margin-bottom:15px;
     }
     .dtbtn {
         background-color: #209586;
