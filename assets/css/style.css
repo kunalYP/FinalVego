@@ -156,7 +156,7 @@ a:hover {
     header {
         /* background:#e3324a linear-gradient(90deg,#fd3752,#fd3752); */
         /* background:#e3324a linear-gradient(90deg,#ee1f3a,#cc041f); */
-        background: #e10000;
+        background: #e3324a linear-gradient(180deg, #f0233e, #f3324c);
     }
     .services {
         display: flex;
