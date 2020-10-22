@@ -158,6 +158,34 @@
         </div>
     </section>
     <!-- sidebar end -->
+
+    <!-- sidebar location -->
+    <section id="sidebar">
+        <div class="vego-sidebar vego-bar-block vego-animate-bottom " style="display:none;z-index:5;width:100%;"
+            id="addLocationSidebar">
+
+            <div class="LocationUser">
+                <div class="loctxt">
+                    <p id="headloc">Choose Your Location</p>
+                    <p>Select a location to see exact results</p>
+                </div>
+                <div class="addcity">
+                    <form class="form p-2 searchbar-cont">
+                        <input class="form-control  searchbar" type="search" placeholder="Enter Pincode or City"
+                            aria-label="Search">
+                        <img src="assets/images/location.svg" alt="" class="searchicon">
+                    </form>
+                </div>
+                <div class="detect text-center">
+                    <a href="" class="btn dtbtn">
+                        <img src="assets/images/detectlocation.svg" alt="">
+                        Detect My Current Location
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sidebar location end -->
     <header>
         <nav class="navbar navbar-expand-lg ">
             <img class="navbar-toggler togglerimg" type="button" data-toggle="collapse" data-target="#"
@@ -223,7 +251,7 @@
 
 
     <!-- user location -->
-    <div class="locationcard">
+    <div class="locationcard" onclick="addLocationsidebar_open()">
         <div class="locationimg">
             <img src="assets/images/location.svg" alt="">
         </div>
@@ -339,6 +367,8 @@
         </section>
         <!-- Services end -->
         <div class="vego-overlay" onclick="sidebar_close()" style="cursor:pointer" id="myOverlay"></div>
+        <div class="vego-overlay" onclick="addLocationsidebar_close()" style="cursor:pointer" id="myOverlay2"></div>
+
     </section>
 
 

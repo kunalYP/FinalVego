@@ -63,6 +63,22 @@ a:hover {
     animation: animateleft 0.4s
 }
 
+.vego-animate-bottom {
+    position: relative;
+    animation: animatebottom 0.4s
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
 @keyframes animateleft {
     from {
         left: -300px;
@@ -191,12 +207,13 @@ a:hover {
     }
     /* sidebar */
     .vego-sidebar {
-        height: 100%;
+        height: 32%;
         width: 200px;
         background-color: #fff;
         position: fixed!important;
         z-index: 1;
         overflow: auto;
+        bottom: 0;
     }
     .vego-bar-block {
         width: 100%;
@@ -225,6 +242,7 @@ a:hover {
         width: 100%;
         padding: 0;
     }
+    
     .indexcarousel {
         display: none;
     }
@@ -305,10 +323,28 @@ a:hover {
         font-weight: 550;
         color: #f0233e;
     }
-    .cutsidebar img{
-        height:0.9rem;
-        float:right;
-        margin:20px;
+    .cutsidebar img {
+        height: 0.9rem;
+        float: right;
+        margin: 20px;
+    }
+    /* Detect Location */
+    .detect img {
+        height: 1.5rem;
+    }
+    .loctxt p {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    #headloc {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .dtbtn {
+        background-color: #209586;
+        color: white;
+        font-size: 15px;
+        padding: 7px;
     }
 }
 
@@ -417,18 +453,18 @@ a:hover {
     }
     /* sidebar */
     .vego-sidebar {
-        height: 100%;
+        height: 32%;
         width: 200px;
         background-color: #fff;
         position: fixed!important;
         z-index: 1;
         overflow: auto;
+        bottom:0;
     }
     .vego-bar-block {
         width: 100%;
         text-align: left;
         padding: 8px 16px;
-        width: 100%;
         display: block;
         padding: 8px 16px;
         text-align: left;
@@ -535,10 +571,28 @@ a:hover {
         font-weight: 550;
         color: #f0233e;
     }
-    .cutsidebar img{
-        height:0.9rem;
-        float:right;
-        margin:20px;
+    .cutsidebar img {
+        height: 0.9rem;
+        float: right;
+        margin: 20px;
+    }
+    /* Detect Location */
+    .detect img {
+        height: 1.5rem;
+    }
+    .loctxt p {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    #headloc {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .dtbtn {
+        background-color: #209586;
+        color: white;
+        font-size: 15px;
+        padding: 7px;
     }
 }
 

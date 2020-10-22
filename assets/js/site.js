@@ -11,3 +11,16 @@ function sidebar_close() {
     document.getElementById("myOverlay").style.display = "none";
 
 }
+function addLocationsidebar_open() {
+
+    document.getElementById("addLocationSidebar").style.display = "block";
+    document.getElementById("myOverlay2").style.display = "block";
+
+
+}
+
+function addLocationsidebar_close() {
+    document.getElementById("addLocationSidebar").style.display = "none";
+    document.getElementById("myOverlay2").style.display = "none";
+
+}
