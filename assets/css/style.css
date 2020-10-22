@@ -21,7 +21,8 @@ html, body {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
 }
 
@@ -245,12 +246,12 @@ a:hover{
         border-radius: 5px;
     }
     .userprofile {
-        height: 10.5rem;
+        height: 9rem;
         background: rgb(245, 245, 245);
     }
     .usericon img {
         height: 3.5rem;
-        margin-top: 2.3rem;
+        margin-top: 1rem;
         margin-left: 1rem;
     }
     .username p {
@@ -264,9 +265,9 @@ a:hover{
         display: flex;
     }
     .username img {
-        height: 0.8rem;
-        margin-top: 1.5rem;
-        margin-left: 8px;
+        height: 0.7rem;
+        margin-top: 1.6rem;
+        margin-left: 7px;
     }
     .usernumber p {
         color: rgb(61, 58, 58);
@@ -278,8 +279,8 @@ a:hover{
         width: 100%;
         padding: 0.7rem;
         border-bottom: 1px solid lightgray;
-        padding-top:1rem;
-        padding-bottom:1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
     .sblinkicon img {
         height: 1.3rem;
@@ -292,18 +293,22 @@ a:hover{
     }
     .sblinktxt {
         width: 80%;
-        padding-left:0.5rem;
+        padding-left: 0.5rem;
     }
     .sblinktxt p {
         font-size: 15px;
-        margin-top:3px;
-        margin-bottom:0;
-        color:black;
-      
+        margin-top: 3px;
+        margin-bottom: 0;
+        color: black;
     }
-    .sblinktxt p:hover{
+    .sblinktxt p:hover {
         font-weight: 550;
         color: #f0233e;
+    }
+    .cutsidebar img{
+        height:0.9rem;
+        float:right;
+        margin:20px;
     }
 }
 
