@@ -41,6 +41,46 @@ html, body {
     text-align: start;
 }
 
+.vego-overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2
+}
+
+.vego-animate-left {
+    position: relative;
+    animation: animateleft 0.4s
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+.scroll {
+    margin: auto;
+}
+
+.horizontal-scroll {
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+    box-sizing: border-box;
+}
+
 /* Extra small devices (phones, 0px to 550px) */
 
 @media only screen and (max-width: 550px) {
@@ -71,7 +111,7 @@ html, body {
     .locationcard {
         display: flex;
         padding-left: 0.3rem;
-        padding-bottom: 15px;
+        padding-bottom: 13px;
         padding-top: 0.8rem;
         box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
         border-top: none;
@@ -82,186 +122,6 @@ html, body {
     }
     .locationtxt p {
         font-size: 15px;
-        margin-bottom: 0px;
-        margin-top: 2px;
-    }
-    .locationtxt img {
-        height: 0.5rem;
-        margin-left: 5px;
-        margin-top: 2.5px;
-    }
-    .navbar {
-        padding-top: 8px;
-    }
-    header {
-        /* background:#e3324a linear-gradient(90deg,#fd3752,#fd3752); */
-        /* background:#e3324a linear-gradient(90deg,#ee1f3a,#cc041f); */
-        background: #e3324a linear-gradient(180deg, #f0233e, #f3324c);
-    }
-    .services {
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        margin-top: 5px;
-        width: 96%;
-        margin-left: 2%;
-        border-radius: 5px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
-    }
-    .service {
-        width: 50%;
-        text-align: center;
-        padding: 1.2rem;
-        padding-bottom: 0;
-    }
-    .firstrow {
-        display: flex;
-    }
-    .secondrow {
-        display: flex;
-    }
-    .serviceicon {
-        text-align: center;
-    }
-    .serviceicon img {
-        height: 3.6rem;
-        margin-bottom: 1.2rem;
-    }
-    .servicename p {
-        margin-bottom: 5px;
-        font-size: 15px;
-    }
-    #service1 {
-        border-right: 1px solid lightgray;
-        border-bottom: 1px solid lightgray;
-    }
-    #service2 {
-        border-bottom: 1px solid lightgray;
-    }
-    #service3 {
-        border-right: 1px solid lightgray;
-    }
-    .service:hover .serviceicon img {
-        height: 4.2rem;
-    }
-    .service:hover .servicename p {
-        font-weight: 550;
-        color: #f0233e;
-    }
-    /* sidebar */
-    .vego-sidebar {
-        height: 100%;
-        width: 200px;
-        background-color: #fff;
-        position: fixed!important;
-        z-index: 1;
-        overflow: auto;
-    }
-    .vego-bar-block {
-        width: 100%;
-        text-align: left;
-        padding: 8px 16px;
-        width: 100%;
-        display: block;
-        padding: 8px 16px;
-        text-align: left;
-        border: none;
-        white-space: normal;
-        float: none;
-        outline: 0;
-        min-width: 100%;
-    }
-    .vego-bar-item {
-        padding: 8px 16px;
-        width: auto;
-        border: none;
-        display: block;
-        outline: 0;
-        text-align: left;
-        border: none;
-        text-align: center;
-        float: none;
-        width: 100%;
-    }
-    .vego-overlay {
-        position: fixed;
-        display: none;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0, 0, 0, 0.5);
-        z-index: 2
-    }
-    .vego-animate-left {
-        position: relative;
-        animation: animateleft 0.4s
-    }
-    @keyframes animateleft {
-        from {
-            left: -300px;
-            opacity: 0
-        }
-        to {
-            left: 0;
-            opacity: 1
-        }
-    }
-    #mySidebar {
-        position: fixed;
-        left: 0;
-        height: 100%;
-        z-index: 1000;
-        padding: 20px;
-        overflow-x: hidden;
-        overflow-y: auto;
-        padding-right: 0;
-        padding-left: 0;
-        width: 100%;
-    }
-}
-
-/* Medium devices (landscape tablets, 550px to 850) */
-
-@media only screen and (min-width: 550px) and (max-width: 989px) {
-    .navbar-brand img {
-        height: 3rem;
-        width: auto;
-    }
-    .togglerimg {
-        height: 2.2rem;
-        border: none;
-    }
-    .searchicon {
-        position: absolute;
-        height: 1.2rem;
-        margin: -30px 0px 0px 15px;
-    }
-    .searchbar {
-        padding: 0px 0px 0px 40px;
-        height: 2.8rem;
-        border: 1px solid lightgray;
-    }
-    .locationimg img {
-        height: 1.2rem;
-        margin: 0px 5px 0px 8px;
-    }
-    .locationcard {
-        display: flex;
-        padding-left: 1rem;
-        padding-bottom: 15px;
-        padding-top: 0.8rem;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
-        border-top: none;
-        background-color: white;
-    }
-    .locationtxt {
-        display: flex;
-    }
-    .locationtxt p {
-        font-size: 15.4px;
         margin-bottom: 0px;
         margin-top: 2px;
     }
@@ -363,6 +223,201 @@ html, body {
         float: none;
         width: 100%;
     }
+    #mySidebar {
+        position: fixed;
+        left: 0;
+        height: 100%;
+        z-index: 1000;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+    .indexcarousel {
+        display: none;
+    }
+    /* offers vego */
+    .offer-sc {
+        padding-top: 0.5rem;
+        padding-bottom: 0.3rem;
+        padding-right: 0.3rem;
+    }
+    .scroll-container {
+        display: block;
+        white-space: nowrap;
+        width: 90%;
+        margin-left: 5px;
+    }
+    .scroll-container img {
+        height: 6.1rem;
+        width: 100%;
+        border-radius: 5px;
+    }
+}
+
+/* Medium devices (landscape tablets, 550px to 850) */
+
+@media only screen and (min-width: 550px) and (max-width: 989px) {
+    .navbar-brand img {
+        height: 3rem;
+        width: auto;
+    }
+    .togglerimg {
+        height: 2.2rem;
+        border: none;
+    }
+    .searchicon {
+        position: absolute;
+        height: 1.2rem;
+        margin: -30px 0px 0px 15px;
+    }
+    .searchbar {
+        padding: 0px 0px 0px 40px;
+        height: 2.8rem;
+        border: 1px solid lightgray;
+    }
+    .locationimg img {
+        height: 1.2rem;
+        margin: 0px 5px 0px 8px;
+    }
+    .locationcard {
+        display: flex;
+        padding-left: 1rem;
+        padding-bottom: 15px;
+        padding-top: 0.8rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+        border-top: none;
+        background-color: white;
+    }
+    .locationtxt {
+        display: flex;
+    }
+    .locationtxt p {
+        font-size: 15.4px;
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+    .locationtxt img {
+        height: 0.5rem;
+        margin-left: 5px;
+        margin-top: 2.5px;
+    }
+    .navbar {
+        padding-top: 8px;
+    }
+    header {
+        /* background:#e3324a linear-gradient(90deg,#fd3752,#fd3752); */
+        /* background:#e3324a linear-gradient(90deg,#ee1f3a,#cc041f); */
+        background: #e3324a linear-gradient(180deg, #f0233e, #f3324c);
+    }
+    /* Vego Services 4 */
+    .services {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin-top: 10px;
+        width: 98%;
+        margin-left: 1%;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+    }
+    .service {
+        width: 50%;
+        text-align: center;
+        padding: 1.5rem;
+        padding-bottom: 0;
+    }
+    .firstrow {
+        display: flex;
+    }
+    .secondrow {
+        display: flex;
+    }
+    .serviceicon {
+        text-align: center;
+    }
+    .serviceicon img {
+        height: 3.6rem;
+        margin-bottom: 1.2rem;
+    }
+    .servicename p {
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    #service1 {
+        border-right: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
+    #service2 {
+        border-bottom: 1px solid lightgray;
+    }
+    #service3 {
+        border-right: 1px solid lightgray;
+    }
+    .service:hover .serviceicon img {
+        height: 4.2rem;
+    }
+    .service:hover .servicename p {
+        font-weight: 550;
+        color: #f0233e;
+    }
+    /* sidebar */
+    .vego-sidebar {
+        height: 100%;
+        width: 200px;
+        background-color: #fff;
+        position: fixed!important;
+        z-index: 1;
+        overflow: auto;
+    }
+    .vego-bar-block {
+        width: 100%;
+        text-align: left;
+        padding: 8px 16px;
+        width: 100%;
+        display: block;
+        padding: 8px 16px;
+        text-align: left;
+        border: none;
+        white-space: normal;
+        float: none;
+        outline: 0;
+        min-width: 100%;
+    }
+    .vego-bar-item {
+        padding: 8px 16px;
+        width: auto;
+        border: none;
+        display: block;
+        outline: 0;
+        text-align: left;
+        border: none;
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    .indexcarousel {
+        display: none;
+    }
+    /* offers vego */
+    .offer-sc {
+        padding-top: 0.7rem;
+        padding-bottom: 0.1rem;
+        padding-right: 0.9rem;
+    }
+    .scroll-container {
+        display: block;
+        white-space: nowrap;
+        width: 90%;
+        margin-left: 15px;
+    }
+    .scroll-container img {
+        height: 12rem;
+        width: 100%;
+        border-radius: 5px;
+    }
 }
 
 /* Medium devices (Desktop, 850px and up) */
@@ -407,5 +462,67 @@ html, body {
     }
     .nav-link:hover {
         color: lightgrey;
+    }
+    /* services vego */
+    .services {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin-top: 20px;
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+    }
+    .service {
+        width: 50%;
+        text-align: center;
+        padding: 3.5rem;
+        padding-bottom: 0;
+    }
+    .firstrow {
+        display: flex;
+    }
+    .secondrow {
+        display: flex;
+    }
+    .serviceicon {
+        text-align: center;
+    }
+    .serviceicon img {
+        height: 4rem;
+        margin-bottom: 1.5rem;
+    }
+    .servicename p {
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    #service1 {
+        border-right: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
+    #service2 {
+        border-bottom: 1px solid lightgray;
+    }
+    #service3 {
+        border-right: 1px solid lightgray;
+    }
+    .service:hover .serviceicon img {
+        height: 4.2rem;
+    }
+    .service:hover .servicename p {
+        font-weight: 550;
+        color: #f0233e;
+    }
+    .desktopservices {
+        display: flex;
+    }
+    .indexcarousel {
+        width: 60%;
+    }
+    .vegoservices4 {
+        width: 40%;
+    }
+    .vegooffers {
+        display: none;
     }
 }
