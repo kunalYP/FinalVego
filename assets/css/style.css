@@ -283,7 +283,7 @@ a:hover {
         display: flex;
     }
     .username img {
-        height: 0.7rem;
+        height: 0.8rem;
         margin-top: 1.6rem;
         margin-left: 7px;
     }
@@ -517,8 +517,8 @@ a:hover {
     }
     /* sidebar vego tablet */
     .userprofile {
-        height: 9rem;
-        background: rgb(245, 245, 245);
+        height: 10rem;
+        background: #209586;
     }
     .usericon img {
         height: 3.5rem;
@@ -526,7 +526,7 @@ a:hover {
         margin-left: 1rem;
     }
     .username p {
-        color: black;
+        color: rgb(255, 255, 255);
         margin-top: 1.4rem;
         margin-left: 1rem;
         margin-bottom: 0;
@@ -541,7 +541,7 @@ a:hover {
         margin-left: 7px;
     }
     .usernumber p {
-        color: rgb(61, 58, 58);
+        color: rgb(218, 218, 218);
         font-size: 14px;
         margin-left: 1rem;
     }
