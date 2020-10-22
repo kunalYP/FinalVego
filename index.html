@@ -19,11 +19,138 @@
 <body>
     <!-- sidebar -->
     <section id="sidebar ">
-        <div class="vego-sidebar vego-bar-block vego-animate-left " style="display:none;z-index:5;width:80%;"
+        <div class="vego-sidebar vego-bar-block vego-animate-left " style="display:none;z-index:5;width:70%;"
             id="mySidebar">
-            <a class="vego-bar-item" onclick="sidebar_close()">
-                /\</a>
-            <a style="color:black" href="login.html" class="w3-bar-item">Service</a>
+            <div class="userprofile">
+                <div class="usericon">
+                    <img src="assets/images/user.svg" alt="">
+                </div>
+                <div class="username">
+                    <p>Kunal Pandharkar</p>
+                    <img src="assets/images/edit.svg" alt="">
+                </div>
+                <div class="usernumber">
+                    <p>+91 7774843561</p>
+                </div>
+            </div>
+            <a href="#">
+                <div class="sidebarlink">
+                    <div class="sblinkicon">
+                        <img src="assets/images/home.svg" alt="">
+                    </div>
+                    <div class="sblinktxt">
+                        <p>Home</p>
+                    </div>
+                    <div class="sblinknav">
+                        <img src="assets/images/navarrow.svg" alt="">
+                    </div>
+                </div>
+            </a>
+          
+            <a href="#">
+                <div class="sidebarlink">
+                    <div class="sblinkicon">
+                        <img src="assets/images/emergencyicon.svg" alt="">
+                    </div>
+                    <div class="sblinktxt">
+                        <p>Emergency Service</p>
+                    </div>
+                    <div class="sblinknav">
+                        <img src="assets/images/navarrow.svg" alt="">
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebarlink">
+                    <div class="sblinkicon">
+                        <img src="assets/images/compare_vehicles.svg" alt="">
+                    </div>
+                    <div class="sblinktxt">
+                        <p>Compare Vehicles</p>
+                    </div>
+                    <div class="sblinknav">
+                        <img src="assets/images/navarrow.svg" alt="">
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebarlink">
+                    <div class="sblinkicon">
+                        <img src="assets/images/garageicon.svg" alt="">
+                    </div>
+                    <div class="sblinktxt">
+                        <p>Nearby Garages</p>
+                    </div>
+                    <div class="sblinknav">
+                        <img src="assets/images/navarrow.svg" alt="">
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebarlink">
+                    <div class="sblinkicon">
+                        <img src="assets/images/showroomicon.svg" alt="">
+                    </div>
+                    <div class="sblinktxt">
+                        <p>Nearby Showrooms</p>
+                    </div>
+                    <div class="sblinknav">
+                        <img src="assets/images/navarrow.svg" alt="">
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebarlink">
+                    <div class="sblinkicon">
+                        <img src="assets/images/handshake.svg" alt="">
+                    </div>
+                    <div class="sblinktxt">
+                        <p>Work with Us</p>
+                    </div>
+                    <div class="sblinknav">
+                        <img src="assets/images/navarrow.svg" alt="">
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebarlink">
+                    <div class="sblinkicon">
+                        <img src="assets/images/aboutus.svg" alt="">
+                    </div>
+                    <div class="sblinktxt">
+                        <p>About Us</p>
+                    </div>
+                    <div class="sblinknav">
+                        <img src="assets/images/navarrow.svg" alt="">
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebarlink">
+                    <div class="sblinkicon">
+                        <img src="assets/images/contactus.svg" alt="">
+                    </div>
+                    <div class="sblinktxt">
+                        <p>Contact Us</p>
+                    </div>
+                    <div class="sblinknav">
+                        <img src="assets/images/navarrow.svg" alt="">
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sidebarlink">
+                    <div class="sblinkicon">
+                        <img src="assets/images/loginsignup.svg" alt="">
+                    </div>
+                    <div class="sblinktxt">
+                        <p>Login / SignUp</p>
+                    </div>
+                    <div class="sblinknav">
+                        <img src="assets/images/navarrow.svg" alt="">
+                    </div>
+                </div>
+            </a>
         </div>
     </section>
     <!-- sidebar end -->
@@ -207,7 +334,10 @@
 
         </section>
         <!-- Services end -->
+        <div class="vego-overlay" onclick="sidebar_close()" style="cursor:pointer" id="myOverlay"></div>
     </section>
+
+
     <!-- Option 1: jQuery, Popper.js, and Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

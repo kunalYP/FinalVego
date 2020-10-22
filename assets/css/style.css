@@ -21,6 +21,9 @@ html, body {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
+a:hover{
+    text-decoration: none;
+}
 
 /* Searchbar text center */
 
@@ -51,7 +54,7 @@ html, body {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2
+    z-index: 2;
 }
 
 .vego-animate-left {
@@ -181,7 +184,6 @@ html, body {
     #service3 {
         border-right: 1px solid lightgray;
     }
-  
     .service:hover .servicename p {
         font-weight: 550;
         color: #f0233e;
@@ -207,19 +209,7 @@ html, body {
         white-space: normal;
         float: none;
         outline: 0;
-        min-width: 100%;
-    }
-    .vego-bar-item {
-        padding: 8px 16px;
-        width: auto;
-        border: none;
-        display: block;
-        outline: 0;
-        text-align: left;
-        border: none;
-        text-align: center;
-        float: none;
-        width: 100%;
+        min-width: 85%;
     }
     #mySidebar {
         position: fixed;
@@ -232,6 +222,7 @@ html, body {
         padding-right: 0;
         padding-left: 0;
         width: 100%;
+        padding: 0;
     }
     .indexcarousel {
         display: none;
@@ -252,6 +243,67 @@ html, body {
         height: 6.1rem;
         width: 100%;
         border-radius: 5px;
+    }
+    .userprofile {
+        height: 10.5rem;
+        background: rgb(245, 245, 245);
+    }
+    .usericon img {
+        height: 3.5rem;
+        margin-top: 2.3rem;
+        margin-left: 1rem;
+    }
+    .username p {
+        color: black;
+        margin-top: 1.4rem;
+        margin-left: 1rem;
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    .username {
+        display: flex;
+    }
+    .username img {
+        height: 0.8rem;
+        margin-top: 1.5rem;
+        margin-left: 8px;
+    }
+    .usernumber p {
+        color: rgb(61, 58, 58);
+        font-size: 14px;
+        margin-left: 1rem;
+    }
+    .sidebarlink {
+        display: flex;
+        width: 100%;
+        padding: 0.7rem;
+        border-bottom: 1px solid lightgray;
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+    .sblinkicon img {
+        height: 1.3rem;
+    }
+    .sblinknav img {
+        height: 0.5rem;
+    }
+    .sblinkicon {
+        width: 10%;
+    }
+    .sblinktxt {
+        width: 80%;
+        padding-left:0.5rem;
+    }
+    .sblinktxt p {
+        font-size: 15px;
+        margin-top:3px;
+        margin-bottom:0;
+        color:black;
+      
+    }
+    .sblinktxt p:hover{
+        font-weight: 550;
+        color: #f0233e;
     }
 }
 
@@ -354,7 +406,6 @@ html, body {
     #service3 {
         border-right: 1px solid lightgray;
     }
-   
     .service:hover .servicename p {
         font-weight: 550;
         color: #f0233e;
@@ -381,18 +432,6 @@ html, body {
         float: none;
         outline: 0;
         min-width: 100%;
-    }
-    .vego-bar-item {
-        padding: 8px 16px;
-        width: auto;
-        border: none;
-        display: block;
-        outline: 0;
-        text-align: left;
-        border: none;
-        text-align: center;
-        float: none;
-        width: 100%;
     }
     .indexcarousel {
         display: none;
