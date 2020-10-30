@@ -19,23 +19,18 @@ html {
 
 html, body {
     font-weight: 500;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 a:hover {
     text-decoration: none;
-    color: inherit;
-}
-
-a {
-    color: inherit;
 }
 
 /* Searchbar text center */
 
 .searchbar::-webkit-input-placeholder {
     text-align: start;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .searchbar:-moz-placeholder {
@@ -129,8 +124,8 @@ a {
         width: 96%;
         margin-left: 2%;
     }
-    .locationimg span {
-        color: #209586;
+    .locationimg img {
+        height: 1.2rem;
         margin: 0px 5px 0px 8px;
     }
     .locationcard {
@@ -150,7 +145,9 @@ a {
         margin-bottom: 0px;
         margin-top: 3px;
     }
-    .locationtxt span {
+    .locationtxt img {
+        height: 0.5rem;
+        margin-left: 5px;
         margin-top: 2.5px;
     }
     .navbar {
@@ -245,6 +242,7 @@ a {
         width: 100%;
         padding: 0;
     }
+    
     .indexcarousel {
         display: none;
     }
@@ -301,21 +299,12 @@ a {
         border-bottom: 1px solid lightgray;
         padding-top: 1rem;
         padding-bottom: 1rem;
-        height: 3.6rem;
     }
     .sblinkicon img {
         height: 1.3rem;
     }
-   .sblinkicon span{
-       color: #e3324a;
-   }
-    .sblinknav span {
-        margin-top: 5px;
-        margin-bottom: 0px;
-        font-size: 18px;
-        margin-right: 15px;
-        margin-left: 0px;
-        padding: 0;
+    .sblinknav img {
+        height: 0.5rem;
     }
     .sblinkicon {
         width: 10%;
@@ -325,7 +314,7 @@ a {
         padding-left: 0.5rem;
     }
     .sblinktxt p {
-        font-size: 14px;
+        font-size: 15px;
         margin-top: 3px;
         margin-bottom: 0;
         color: black;
@@ -334,8 +323,8 @@ a {
         font-weight: 550;
         color: #f0233e;
     }
-    .cutsidebar span {
-        color: white;
+    .cutsidebar img {
+        height:1.2rem;
         float: right;
         margin: 20px;
     }
@@ -344,22 +333,22 @@ a {
         height: 1.5rem;
     }
     .loctxt p {
-        font-size: 14px;
+        font-size: 15px;
         margin-bottom: 5px;
     }
     #headloc {
-        font-size: 16px;
+        font-size: 17px;
         font-weight: 500;
-        padding-top: 1rem;
+        padding-top:1rem;
     }
-    #loc2 {
+    #loc2{
         color: grey;
-        margin-bottom: 15px;
+        margin-bottom:15px;
     }
     .dtbtn {
         background-color: #209586;
         color: white;
-        font-size: 14px;
+        font-size: 15px;
         padding: 7px;
     }
 }
@@ -385,7 +374,8 @@ a {
         height: 2.8rem;
         border: 1px solid lightgray;
     }
-    .locationimg span {
+    .locationimg img {
+        height: 1.2rem;
         margin: 0px 5px 0px 8px;
     }
     .locationcard {
@@ -405,7 +395,8 @@ a {
         margin-bottom: 0px;
         margin-top: 2px;
     }
-    .locationtxt span {
+    .locationtxt img {
+        height: 0.5rem;
         margin-left: 5px;
         margin-top: 2.5px;
     }
@@ -473,7 +464,7 @@ a {
         position: fixed!important;
         z-index: 1;
         overflow: auto;
-        bottom: 0;
+        bottom:0;
     }
     .vego-bar-block {
         width: 100%;
@@ -565,13 +556,8 @@ a {
     .sblinkicon img {
         height: 1.3rem;
     }
-    .sblinknav span {
-        margin-top: 5px;
-        margin-bottom: 0px;
-        font-size: 18px;
-        margin-right: 15px;
-        margin-left: 0px;
-        padding: 0;
+    .sblinknav img {
+        height: 0.5rem;
     }
     .sblinkicon {
         width: 10%;
@@ -700,6 +686,9 @@ a {
     }
     #service3 {
         border-right: 1px solid lightgray;
+    }
+    .service:hover .serviceicon img {
+        height: 4.2rem;
     }
     .service:hover .servicename p {
         font-weight: 550;
