@@ -277,7 +277,7 @@ a:hover {
         margin-top: 1.7rem;
         margin-left: 1rem;
         margin-bottom: 0;
-        font-size: 14px;
+        font-size: 15px;
     }
     .username {
         display: flex;
@@ -289,7 +289,7 @@ a:hover {
     }
     .usernumber p {
         color: rgb(218, 218, 218);
-        font-size: 13px;
+        font-size: 14px;
         margin-left: 1rem;
     }
     .sidebarlink {
