@@ -30,7 +30,7 @@ a:hover {
 
 .searchbar::-webkit-input-placeholder {
     text-align: start;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .searchbar:-moz-placeholder {
@@ -277,7 +277,7 @@ a:hover {
         margin-top: 1.7rem;
         margin-left: 1rem;
         margin-bottom: 0;
-        font-size: 15px;
+        font-size: 14px;
     }
     .username {
         display: flex;
@@ -289,7 +289,7 @@ a:hover {
     }
     .usernumber p {
         color: rgb(218, 218, 218);
-        font-size: 14px;
+        font-size: 13px;
         margin-left: 1rem;
     }
     .sidebarlink {
@@ -314,7 +314,7 @@ a:hover {
         padding-left: 0.5rem;
     }
     .sblinktxt p {
-        font-size: 15px;
+        font-size: 14px;
         margin-top: 3px;
         margin-bottom: 0;
         color: black;
@@ -333,11 +333,11 @@ a:hover {
         height: 1.5rem;
     }
     .loctxt p {
-        font-size: 15px;
+        font-size: 14px;
         margin-bottom: 5px;
     }
     #headloc {
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 500;
         padding-top:1rem;
     }
@@ -348,7 +348,7 @@ a:hover {
     .dtbtn {
         background-color: #209586;
         color: white;
-        font-size: 15px;
+        font-size: 14px;
         padding: 7px;
     }
 }
