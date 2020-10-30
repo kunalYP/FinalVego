@@ -19,7 +19,7 @@ html {
 
 html, body {
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    font-family:  'Open Sans', sans-serif;
 }
 
 a:hover {
@@ -687,9 +687,7 @@ a:hover {
     #service3 {
         border-right: 1px solid lightgray;
     }
-    .service:hover .serviceicon img {
-        height: 4.2rem;
-    }
+   
     .service:hover .servicename p {
         font-weight: 550;
         color: #f0233e;
