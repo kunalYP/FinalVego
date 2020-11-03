@@ -24,3 +24,16 @@ function addLocationsidebar_close() {
     document.getElementById("myOverlay2").style.display = "none";
 
 }
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("searchbox");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
