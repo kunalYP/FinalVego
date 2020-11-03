@@ -434,6 +434,28 @@ a:hover {
         top: 0;
         width: 100%;
     }
+    .emergencyservice{
+        width:100%;
+        display: flex;
+        margin-top:1rem;
+    }
+    .emergencyimg{
+        width:40%;
+    }
+    .emergencyimg img{
+        height:4rem;
+    }
+    .emergencyinfo{
+        width:60%;
+    }
+    .emergencyinfo h5{
+        font-size: 0.85rem;
+        font-weight:570;
+    }
+    .emergencyinfo p{
+        font-size: 0.7rem;
+        color:grey;
+    }
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
