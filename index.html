@@ -13,6 +13,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="description" content="Online Vehicle Repair Service">
+    <meta name="keywords"
+        content="car,garage,showroom,shop,bike,tcs,honda,audi,mechanic,repair,carcompare,carbuy,carshop">
+    <meta name="author" content="Kunal Pandharkar">
+    <meta name="robots" content="index, follow" />
+
+    <link rel="canonical" href="https://google.com" />
+    <link rel="shortcut icon" href="assets/images/appshortcut.png" type="/x-icon" />
     <title>Vego - Home !</title>
 </head>
 
@@ -237,7 +245,16 @@
                     <li class="nav-item">
                         <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">About us</a>
                     </li>
+
                 </ul>
+
+            </div>
+            <div class="addlocationdesk">
+
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Add Location" aria-label="Search"
+                        Value="Aurangabad-431001" data-toggle="modal" data-target="#LocationModal">
+                </form>
             </div>
         </nav>
         <form class="form p-2 searchbar-cont">
@@ -248,6 +265,41 @@
 
     </header>
 
+    <!-- add location modal desktop -->
+    <div class="modal fade" id="LocationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add Location</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="LocationUser">
+                        <div class="loctxt">
+                            <p id="headloc">Choose Your Location</p>
+                            <p id="loc2">Select a location to see exact results</p>
+                        </div>
+                        <div class="addcity">
+                            <form class="form p-2">
+                                <input class="form-control detectlocationbox" type="search"
+                                    placeholder="Enter Pincode or City" aria-label="Search">
+                                <img src="assets/images/location.svg" alt="" class="searchicon">
+                            </form>
+                        </div>
+                        <div class="detect text-center">
+                            <a href="" class="btn dtbtn">
+                                Detect My Current Location
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- add location modal desktop end-->
 
     <!-- user location -->
     <div class="locationcard" onclick="addLocationsidebar_open()">
