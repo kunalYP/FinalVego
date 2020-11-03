@@ -403,7 +403,7 @@ a:hover {
     }
     .showroomtype p {
         font-size: 0.6rem;
-        padding:2px 0px 3px 5px;
+        padding:4px 0px 0px 5px;
     }
     .address{
         border-top:1px solid #e9e9eb;
@@ -415,14 +415,18 @@ a:hover {
     .type {
         width: 50%;
         border-right:1px solid #e9e9eb;
+        padding:2px 0px 3px 5px;
     }
     .ratings {
         width: 50%;
         text-align: center;
+   
     }
     .ratings img{
         height:0.5rem;
         width:10%;
+        margin-top:-1px;
+     
     }
 }
 
