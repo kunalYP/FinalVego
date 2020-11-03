@@ -257,8 +257,8 @@ a:hover {
         width: 90%;
         margin-left: 5px;
     }
-    .scroll-container img {
-        height: 6.1rem;
+    .offers img {
+        height: 6.3rem;
         width: 100%;
         border-radius: 5px;
     }
@@ -352,6 +352,49 @@ a:hover {
     }
     .addlocationdesk {
         display: none;
+    }
+    /* top showrooms */
+    .topshowrooms {
+        height: 200px;
+        background-color: white;
+        margin-top: 8px;
+    }
+    .heading {
+        padding: 8px 10px 10px 10px;
+    }
+    .heading h5 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .headingunderline {
+        width: 10%;
+        text-align: left;
+        margin: 0;
+        background-color: red;
+        height: 1px;
+    }
+    .showrommscroll{
+        margin-left:10px;
+       
+    }
+    .showroomcard {
+        display: inline-block;
+        height: 180px;
+        width: 240px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left:5px;
+    }
+    .showroomcard img {
+        height: 6.3rem;
+        width: 100%;
+    }
+    .showroomname {
+        text-align: start;
+        white-space: pre-line;
+        font-size: 0.6rem;
+        word-break: break-all;
+       
     }
 }
 
@@ -499,7 +542,7 @@ a:hover {
         width: 90%;
         margin-left: 15px;
     }
-    .scroll-container img {
+    .offers img {
         height: 12rem;
         width: 100%;
         border-radius: 5px;
@@ -622,6 +665,12 @@ a:hover {
     }
     .dropdown-menu a {
         font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .dropdown-menu a:hover {
+        background-color: #e3324a;
+        color: white;
     }
     .dropdown:hover .dropdown-menu {
         display: block;
