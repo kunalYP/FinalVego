@@ -420,6 +420,10 @@ a:hover {
         width: 50%;
         text-align: center;
     }
+    .ratings img{
+        height:0.5rem;
+        width:10%;
+    }
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
