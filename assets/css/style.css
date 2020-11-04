@@ -122,6 +122,11 @@ hr {
     top: 0;
     width: 100%;
 }
+.stickyfilter {
+    position: fixed;
+    top: 60.8px;
+    width: 100%;
+}
 
 /* Extra small devices (phones, 0px to 550px) */
 
@@ -498,7 +503,7 @@ hr {
         box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
         background-color: white;
         width: 100%;
-        margin-top: 2px;
+        border-top: 1px solid #e9e9eb;
         height: 3rem;
     }
     .filtercard img {
