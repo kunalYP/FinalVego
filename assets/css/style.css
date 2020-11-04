@@ -620,19 +620,19 @@ hr {
     }
     .garagestatus p{
         margin-bottom: 0;
-        font-size: 13px;
+        font-size: 12.3px;
         color: green;
         font-weight:500;
     }
     .garagedistance p{
         margin-bottom: 0;
-        font-size: 13px;
+        font-size: 12.3px;
         font-weight:600;
         color:#f0233e;
     }
     .garagetype p{
         margin-bottom: 0;
-        font-size: 13px;
+        font-size: 12.3px;
         font-weight:500;
     }
 }
