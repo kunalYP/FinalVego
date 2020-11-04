@@ -37,6 +37,19 @@ function sortsidebar_close() {
   document.getElementById("myOverlay3").style.display = "none";
 
 }
+function filtersidebar_open() {
+
+  document.getElementById("filtersidebar").style.display = "block";
+  document.getElementById("myOverlay4").style.display = "block";
+
+
+}
+
+function filtersidebar_close() {
+  document.getElementById("filtersidebar").style.display = "none";
+  document.getElementById("myOverlay4").style.display = "none";
+
+}
 
 window.onscroll = function() {myFunction()};
 

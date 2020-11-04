@@ -250,6 +250,77 @@
     </section>
     <!-- sidebar Sort end -->
 
+    <!-- sidebar Filter -->
+    <section id="sidebar">
+        <div class="vego-sidebar vego-bar-block vego-animate-bottom " style="display:none;z-index:5;width:100%;"
+            id="filtersidebar">
+
+            <div class="sortby">
+                <div class="sorthead">
+                    <p>Filters</p>
+                    <hr>
+                </div>
+
+                <form action="">
+                    <div class="form-group form-check">
+
+                        <div class="filteroptions">
+                            <div class="sortlist" id="leftoption">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck7">
+
+                                <label class="form-check-label" for="exampleCheck7">Only 2-Wheelers</label>
+                            </div>
+                            <div class="sortlist" id="rightoption">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck8">
+
+                                <label class="form-check-label" for="exampleCheck8">Only 3-Wheelers</label>
+                            </div>
+                        </div>
+                        <div class="filteroptions">
+                            <div class="sortlist" id="leftoption">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck9">
+
+                                <label class="form-check-label" for="exampleCheck9">Only 4-Wheelers</label>
+
+                            </div>
+                            <div class="sortlist " id="rightoption">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck10">
+
+                                <label class="form-check-label" for="exampleCheck10">Trucks, jcb & Others...</label>
+
+                            </div>
+                        </div>
+                        <div class="filteroptions">
+
+                            <div class="sortlist" id="leftoption">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck12">
+
+                                <label class="form-check-label" for="exampleCheck12">Local Service Centers</label>
+                            </div>
+                            <div class="sortlist " id="rightoption">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck13">
+
+                                <label class="form-check-label" for="exampleCheck13">Workshops</label>
+                            </div>
+                        </div>
+
+
+                        <div class="sortlist">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck11">
+
+                            <label class="form-check-label" for="exampleCheck11">Authorized Service Centers</label>
+
+                        </div>
+
+                    </div>
+                    <div class="apply">
+                        <button class="btn">Apply</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- sidebar Filter end -->
     <header>
         <nav class="navbar navbar-expand-lg ">
             <img class="navbar-toggler togglerimg" type="button" data-toggle="collapse" data-target="#"
@@ -380,15 +451,15 @@
                 <img src="assets/images/sort.svg" alt="">
             </div>
             <div class="sorttxt">
-                <p> <strong>Sort</strong></p>
+                <p>Sort</p>
             </div>
         </div>
-        <div class="filter">
+        <div class="filter" onclick="filtersidebar_open()">
             <div class="sorticon">
                 <img src="assets/images/filter.svg" alt="">
             </div>
             <div class="sorttxt">
-                <p><strong>Filter</strong></p>
+                <p>Filter</p>
             </div>
         </div>
     </div>
@@ -400,7 +471,7 @@
     <div class="vego-overlay" onclick="sidebar_close()" style="cursor:pointer" id="myOverlay"></div>
     <div class="vego-overlay" onclick="addLocationsidebar_close()" style="cursor:pointer" id="myOverlay2"></div>
     <div class="vego-overlay" onclick="sortsidebar_close()" style="cursor:pointer" id="myOverlay3"></div>
-
+    <div class="vego-overlay" onclick="filtersidebar_close()" style="cursor:pointer" id="myOverlay4"></div>
 
 
 
