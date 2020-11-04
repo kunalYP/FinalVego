@@ -386,7 +386,7 @@ a:hover {
         width: 10%;
         text-align: left;
         margin: 0;
-        background-color: red;
+        background-color: #f0233e;
         height: 1px;
     }
     .showroomcard {
@@ -748,7 +748,7 @@ a:hover {
         width: 10%;
         text-align: left;
         margin: 0;
-        background-color: red;
+        background-color: #f0233e;
         height: 1px;
     }
     .showroomcard {
@@ -994,6 +994,12 @@ a:hover {
     }
     /* top Showorom cards  */
     /* top showrooms */
+    .scroll-container {
+        display: block;
+        white-space: nowrap;
+        width: 90%;
+        margin-left: 5px;
+    }
     .topshowrooms {
         background-color: white;
         width: 100%;
@@ -1012,7 +1018,7 @@ a:hover {
         width: 50px;
         text-align: left;
         margin: 0;
-        background-color: red;
+        background-color: #f0233e;
         height: 2px;
         margin: auto;
     }
