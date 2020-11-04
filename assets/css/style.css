@@ -32,6 +32,10 @@ a {
 a:hover {
     text-decoration: none;
 }
+hr{
+    margin:0;
+    padding:0;
+}
 
 /* Searchbar text center */
 
@@ -499,8 +503,7 @@ a:hover {
     }
     .filtercard p{
         font-size:15px;
-        font-weight:590;
-        margin-top:2px;
+        margin-top:3px;
         margin-left:2px;
     }
     .sort{
@@ -516,6 +519,16 @@ a:hover {
         justify-content: center;
         margin-top:0.6rem;
     }
+    .sorthead p{
+        margin-top:4px;
+        margin-bottom:7px;
+    }
+    .sortlist{
+        margin-top:10px;
+    }
+    
+    
+    
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */

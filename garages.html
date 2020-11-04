@@ -198,6 +198,58 @@
         </div>
     </section>
     <!-- sidebar location end -->
+
+    <!-- sidebar Sort -->
+    <section id="sidebar">
+        <div class="vego-sidebar vego-bar-block vego-animate-bottom " style="display:none;z-index:5;width:100%;"
+            id="sortsidebar">
+
+            <div class="sortby">
+                <div class="sorthead">
+                    <p>SORT BY</p>
+                    <hr>
+                </div>
+
+                <form action="">
+                    <div class="form-group form-check">
+                        <div class="sortlist">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <span class="geekmark"></span>
+                            <label class="form-check-label" for="exampleCheck1">Sort By Distance</label>
+                        </div>
+                        <div class="sortlist">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                            <span class="geekmark"></span>
+                            <label class="form-check-label" for="exampleCheck2">Sort By Ratings</label>
+
+                        </div>
+                        <div class="sortlist">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                            <span class="geekmark"></span>
+                            <label class="form-check-label" for="exampleCheck3">Delievery Price - Low to High</label>
+
+                        </div>
+                        <div class="sortlist">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck4">
+                            <span class="geekmark"></span>
+                            <label class="form-check-label" for="exampleCheck4">Delievery Price - High to Low</label>
+
+                        </div>
+                        <div class="sortlist">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck5">
+                            <span class="geekmark"></span>
+                            <label class="form-check-label" for="exampleCheck5">Sort By Time to Reach</label>
+
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- sidebar Sort end -->
+
     <header>
         <nav class="navbar navbar-expand-lg ">
             <img class="navbar-toggler togglerimg" type="button" data-toggle="collapse" data-target="#"
@@ -323,12 +375,12 @@
 
     <!-- filter -->
     <div class="filtercard">
-        <div class="sort">
+        <div class="sort" onclick="sortsidebar_open()">
             <div class="sorticon">
                 <img src="assets/images/sort.svg" alt="">
             </div>
             <div class="sorttxt">
-                <p>Sort</p>
+                <p> <strong>Sort</strong></p>
             </div>
         </div>
         <div class="filter">
@@ -336,7 +388,7 @@
                 <img src="assets/images/filter.svg" alt="">
             </div>
             <div class="sorttxt">
-                <p>Filter</p>
+                <p><strong>Filter</strong></p>
             </div>
         </div>
     </div>
@@ -347,6 +399,8 @@
 
     <div class="vego-overlay" onclick="sidebar_close()" style="cursor:pointer" id="myOverlay"></div>
     <div class="vego-overlay" onclick="addLocationsidebar_close()" style="cursor:pointer" id="myOverlay2"></div>
+    <div class="vego-overlay" onclick="sortsidebar_close()" style="cursor:pointer" id="myOverlay3"></div>
+
 
 
 

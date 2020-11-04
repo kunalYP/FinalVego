@@ -24,6 +24,19 @@ function addLocationsidebar_close() {
     document.getElementById("myOverlay2").style.display = "none";
 
 }
+function sortsidebar_open() {
+
+  document.getElementById("sortsidebar").style.display = "block";
+  document.getElementById("myOverlay3").style.display = "block";
+
+
+}
+
+function sortsidebar_close() {
+  document.getElementById("sortsidebar").style.display = "none";
+  document.getElementById("myOverlay3").style.display = "none";
+
+}
 
 window.onscroll = function() {myFunction()};
 
