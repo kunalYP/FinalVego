@@ -264,6 +264,9 @@ hr {
         width: 100%;
         padding: 0;
     }
+    #sortsidebar,#filtersidebar{
+        height:40%;
+    }
     .indexcarousel {
         display: none;
     }
@@ -527,27 +530,30 @@ hr {
         color: grey;
     }
     .sortlist {
-        margin-top: 10px;
+        margin-top: 12px;
         font-size: 14px;
+    }
+    .sortlist label {
+        margin-top: 1px;
     }
     .filteroptions {
         display: flex;
         width: 100%;
     }
     #leftoption {
-        width: 53%;
+        width: 59%;
     }
     #rightoption {
-        width: 47%;
+        width: 41%;
     }
     .apply {
         float: right;
     }
     .apply button {
-        background-color: #f0233e;
+        background-color: #209586;
         color: white;
         font-size: 14px;
-        padding: 10px 12px 10px 12px;
+        padding: 9px 12px 9px 12px;
         margin-top: -11px;
     }
 }
