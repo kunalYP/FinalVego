@@ -583,7 +583,7 @@ hr {
         width: 98%;
     }
     .garageratings img {
-        height: 0.54rem;
+        height: 0.62rem;
     }
     .garagename p {
         margin-bottom: 0;
@@ -596,9 +596,10 @@ hr {
         font-size: 12px;
         word-wrap: break-word;
         padding-top:6px;
+        margin-bottom: 0;
     }
     .garageaddress img{
-        height: 0.54rem;
+        height: 0.6rem;
     }
     .secondrow{
         width: 100%;
