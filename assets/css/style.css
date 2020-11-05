@@ -262,7 +262,7 @@ hr {
     .firstrow {
         display: flex;
     }
-    .secondrow {
+    .secondrow1 {
         display: flex;
     }
     .serviceicon {
@@ -729,6 +729,7 @@ hr {
         width: 2rem;
         padding: 0px;
         margin-left: 5px;
+        border: none;
     }
     .pricebtn img {
         height: 0.7rem;
@@ -741,6 +742,7 @@ hr {
         color: white;
         width: 6rem;
         font-size: 14px;
+        border: none;
     }
 }
 
@@ -830,7 +832,7 @@ hr {
     .firstrow {
         display: flex;
     }
-    .secondrow {
+    .secondrow1 {
         display: flex;
     }
     .serviceicon {
@@ -1301,7 +1303,7 @@ hr {
     .firstrow {
         display: flex;
     }
-    .secondrow {
+    .secondrow1 {
         display: flex;
     }
     .serviceicon {
@@ -1335,8 +1337,9 @@ hr {
     }
     .indexcarousel {
         width: 60%;
-        margin-top: 13px;
+        margin-top: 10px;
         margin-left: 1%;
+        margin-bottom: 13px;
     }
     .vegoservices4 {
         width: 40%;
