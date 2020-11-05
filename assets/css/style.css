@@ -650,6 +650,9 @@ hr {
     #brand p{
         font-weight:600;
     }
+    #third{
+        border-bottom:1px dashed lightgrey;
+    }
   
 }
 
