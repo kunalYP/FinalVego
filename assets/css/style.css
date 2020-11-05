@@ -165,23 +165,23 @@ hr {
     width: 100%;
     padding: 0;
 }
+
 .showroomcard:hover {
-    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.1), 0 5px 15px 0 rgba(0,0,0,0.1);
-
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1), 0 5px 15px 0 rgba(0, 0, 0, 0.1);
     /*border: 1px solid #f5f3f3;*/
     transition: all 0.4s ease;
 }
+
 .garage:hover {
-
-    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.1), 0 5px 15px 0 rgba(0,0,0,0.1);
-
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1), 0 5px 15px 0 rgba(0, 0, 0, 0.1);
     /*border: 1px solid #f5f3f3;*/
     transition: all 0.4s ease;
 }
+
 /* Extra small devices (phones, 0px to 550px) */
 
 @media only screen and (max-width: 550px) {
-    #desksearch{
+    #desksearch {
         display: none;
     }
     .stickyfilter {
@@ -672,12 +672,18 @@ hr {
     #brand p {
         font-weight: 600;
     }
+    .infopageimgs img{
+        height: 3rem;
+        width:20%;
+        margin-top: 4px;
+        border-radius: 5px;
+    }
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
 
 @media only screen and (min-width: 550px) and (max-width: 991px) {
-    #desksearch{
+    #desksearch {
         display: none;
     }
     .stickyfilter {
@@ -1266,7 +1272,7 @@ hr {
     .indexcarousel {
         width: 60%;
         margin-top: 13px;
-        margin-left:1%;
+        margin-left: 1%;
     }
     .vegoservices4 {
         width: 40%;
@@ -1308,7 +1314,7 @@ hr {
         width: 96%;
         margin-left: 2%;
     }
-    .searchicon {
+    .locationicon {
         position: absolute;
         height: 1.4rem;
         margin: -33px 0px 0px 18px;
@@ -1604,5 +1610,4 @@ hr {
     .garage:hover {
         transform: scale(1.02);
     }
-
 }
