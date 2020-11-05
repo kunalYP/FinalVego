@@ -720,6 +720,28 @@ hr {
         font-size: 12px;
         margin-bottom: 0;
     }
+    .pricebtn {
+        display: flex;
+        padding: 0px 0px 10px 10px;
+    }
+    .pricebtn a {
+        background-color: #209586;
+        width:2rem;
+        padding: 0px;
+        margin-left:5px;
+    }
+    .pricebtn img {
+        height: 0.7rem;
+        margin-top: 0.64rem;
+        padding: 0px;
+        margin-bottom: 5px;
+    }
+    .pricebtn button {
+        background-color: #209586;
+        color: white;
+        width:6rem;
+        font-size: 14px;
+    }
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
