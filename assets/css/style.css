@@ -130,7 +130,7 @@ hr {
 }
 
 #sortsidebar, #filtersidebar {
-    height: 40%;
+    height: 38%;
 }
 
 /* Extra small devices (phones, 0px to 550px) */
@@ -643,12 +643,12 @@ hr {
         font-size: 12.3px;
         font-weight: 500;
     }
-    .garagetype img{
-        height:1.8rem;
-        margin-top:-10px;
-    }
+   
     #thirdrow p{
         color:black;
+    }
+    #brand p{
+        font-weight:600;
     }
   
 }
