@@ -730,10 +730,7 @@ hr {
         padding: 0px;
         margin-left: 5px;
     }
-    .pricebtn a:hover{
-        background-color: #f3324c;
-    }
-   
+
     .pricebtn img {
         margin-top: 0.45rem;
         height: 1rem;
