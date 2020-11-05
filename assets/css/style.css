@@ -165,7 +165,19 @@ hr {
     width: 100%;
     padding: 0;
 }
+.showroomcard:hover {
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.1), 0 5px 15px 0 rgba(0,0,0,0.1);
 
+    /*border: 1px solid #f5f3f3;*/
+    transition: all 0.4s ease;
+}
+.garage:hover {
+
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.1), 0 5px 15px 0 rgba(0,0,0,0.1);
+
+    /*border: 1px solid #f5f3f3;*/
+    transition: all 0.4s ease;
+}
 /* Extra small devices (phones, 0px to 550px) */
 
 @media only screen and (max-width: 550px) {
@@ -1586,4 +1598,11 @@ hr {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    .showroomcard :hover {
+        transform: scale(1.03);
+    }
+    .garage:hover {
+        transform: scale(1.02);
+    }
+
 }
