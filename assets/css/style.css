@@ -750,17 +750,17 @@ hr {
     }
     .garagetxthead {
         padding: 0.8rem;
-        padding-top: 1rem;
+        padding-top: 1.1rem;
         padding-bottom: 1rem;
     }
     .garagetxthead h5 {
         font-size: 20px;
         margin-bottom: 0;
-        font-weight: 680;
+        font-weight: 600;
     }
     .garagetxthead p {
-        margin-top: 0.5rem;
-        font-size: 15px;
+        margin-top: 0.6rem;
+        font-size: 14.7px;
         margin-bottom: 0;
         color: grey;
     }
