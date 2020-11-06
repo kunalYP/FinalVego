@@ -588,7 +588,7 @@ hr {
         margin-top: -11px;
     }
     /* garages card */
-    .garage {
+    .defaultcard{
         background-color: white;
         width: 98%;
         margin-left: 1%;
@@ -597,6 +597,7 @@ hr {
         border-radius: 3px;
         box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
     }
+   
     .firstrow {
         display: flex;
         width: 100%;
@@ -734,6 +735,11 @@ hr {
         font-size: 14px;
         border: none;
     }
+    /* register garage */
+    .topgarage{
+        margin-top:5px;
+    }
+
     .garagevector {
         background-color: white;
     }
@@ -760,7 +766,7 @@ hr {
         background-color: #209586;
         color:white;
         margin-top:10px;
-        font-size:14px;
+        font-size:15px;
     }
 }
 
