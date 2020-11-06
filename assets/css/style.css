@@ -725,15 +725,15 @@ hr {
         padding: 0px 0px 10px 10px;
     }
     .pricebtn a {
-        border: 1px solid rgb(197, 197, 197);
+        background-color: #209586;
         width: 2rem;
         padding: 0px;
         margin-left: 5px;
+        border: none;
     }
-
     .pricebtn img {
-        margin-top: 0.45rem;
-        height: 1rem;
+        height: 0.7rem;
+        margin-top: 0.64rem;
         padding: 0px;
         margin-bottom: 5px;
     }
