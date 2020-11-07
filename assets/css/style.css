@@ -745,6 +745,108 @@ hr {
         font-size: 14px;
         border: none;
     }
+    .grgservices{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: center;
+    }
+    .grgservice{
+        width: 30%;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        margin: 1.6%;
+    }
+    .grgserviceimg{
+        padding-top: 2px;
+        text-align: center;
+        height: 2.8rem;
+    }
+    .grgserviceimg img{
+        height: 2.6rem;
+    }
+    .grgservicetxt{
+        text-align: center;
+    }
+    .grgsername p{
+        font-size: 10px;
+        margin-bottom: 0px;
+        font-weight: 550;
+    }
+    .grgsername{
+        margin-top: 0.5rem;
+        border-bottom: 1px dashed lightgrey;
+    }
+    .grgserprice p{
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+
+    /* ratings */
+
+    .grgrating-cont{
+        display: flex;
+        padding-left: 20px;
+    }
+    .grgratings-c{
+        width: 30%;
+    }
+    .grgratings{
+        width: 70%;
+    }
+    .grg1{
+        margin-top: 2rem;
+    }
+    .grg1 h2{
+        margin-bottom: 0px;
+    }
+    .grg2 img{
+        height: 0.5rem;
+    }
+       .middle {
+        margin-top:10px;
+        float: left;
+        width: 80%;
+        }
+        .col-r{
+        width:13% ;
+        }
+        .col-r img{
+        height: 0.7rem;
+        margin-top: -2.1px;
+        }
+        .col-r span{
+            font-size: 13px;
+            font-weight: 550;
+        }
+        .row-c{
+        width: 100%;
+        margin-bottom: 0rem;
+        }
+        .rowc{
+        margin-top: 0px;
+        display: flex;
+        
+        }
+        
+        /* reviews bar graph */
+        .bar-container {
+        width: 90%;
+        background-color: #f1f1f1;
+        text-align: center;
+        color: white;
+        margin-bottom: 0px;
+        border-radius: 30px;
+        }
+        
+        .bar-5 {width: 60%; height: 5px; background-color: #e3324a; border-radius: 30px;}
+        .bar-4 {width: 30%; height: 5px; background-color: #e3324a; border-radius: 30px;}
+        .bar-3 {width: 10%; height: 5px; background-color: #e3324a; border-radius: 30px;}
+        .bar-2 {width: 7%; height: 5px; background-color: #e3324a; border-radius: 30px;}
+        .bar-1 {width: 15%; height: 5px; background-color: #e3324a; border-radius: 30px;}
+        
+        
     /* register garage */
     .topgarage {
         margin-top: 5px;
@@ -1350,6 +1452,7 @@ hr {
         font-size: 14px;
         font-weight: 500;
     }
+    
     /* register garage */
     .topgarage {
         margin-top: 5px;
