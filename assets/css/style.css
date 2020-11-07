@@ -860,6 +860,9 @@ hr {
         color: grey;
         font-size: 14px;
     }
+    .vegow{
+        padding-bottom: 15px;
+    }
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
