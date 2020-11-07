@@ -684,6 +684,7 @@ hr {
         font-weight: 600;
     }
     /* garage info page */
+   
     .infopageimgs img {
         height: 3rem;
         width: 20%;
@@ -745,6 +746,11 @@ hr {
         font-size: 14px;
         border: none;
     }
+    .stick-t{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
     .grgservices{
         display: flex;
         width: 100%;
@@ -784,6 +790,9 @@ hr {
         margin-bottom: 0px;
     }
 
+    /* about garage */
+
+   
     /* ratings */
 
     .grgrating-cont{
@@ -823,7 +832,7 @@ hr {
         font-size: 13px;
         border-radius: 3px;
         padding: 0.2rem;
-        background-color:#c4ff85;
+        background-color:#A2FBA2;
         font-weight: 550;
     }
        .middle {
@@ -868,7 +877,47 @@ hr {
         .bar-2 {width: 7%; height: 5px; background-color: #e3324a; border-radius: 30px;}
         .bar-1 {width: 15%; height: 5px; background-color: #e3324a; border-radius: 30px;}
         
-        
+
+        /* tap to rate */
+        .rating-grg {
+            unicode-bidi: bidi-override;
+            direction: rtl;
+        }
+
+        .rating-grg>span {
+            display: inline-block;
+            position: relative;
+            width: 1em;
+        }
+
+        .rating-grg span {
+            font-size: 2rem;
+            color: rgb(175, 175, 175);
+        }
+
+        .rating-grg>span:hover:before,
+        .rating-grg>span:hover~span:before {
+            content: "\2605";
+            position: absolute;
+            color: #e3324a;
+        }
+
+        .rate-cust{
+            padding: 10px;
+            border-top: 1px dashed lightgrey;
+        }
+        .tap-rate p{
+            margin-bottom: 0px;
+            font-size: 15px;
+            font-weight: 550;
+        }
+        .rating-grg p{
+            color: #e3324a;
+            float: right;
+            margin-right: 20px;
+            font-size: 14px;
+            margin-top: 0.8rem;
+        }
     /* register garage */
     .topgarage {
         margin-top: 5px;
@@ -914,6 +963,7 @@ hr {
         padding-top: 1rem;
         padding-bottom: 1rem;
         border-top: 1px solid rgb(228, 228, 228);
+        
     }
     .proserviceimg img {
         height: 2.5rem;
@@ -922,12 +972,14 @@ hr {
     }
     .proservicetxt {
         height: 2.5rem;
-        text-align: center;
+        width: 100%;
     }
     .proservicetxt p {
         line-height: 2.5rem;
         font-size: 14px;
+        
     }
+
     /* timeline */
     .vectorcol {
         float: left;
