@@ -804,7 +804,7 @@ hr {
     }
     .vectorcol {
         float: left;
-        padding: 20px 25px 10px 15px;
+        padding: 17px 25px 10px 15px;
     }
     .vectorcol img {
         height: 3.7rem;
@@ -830,7 +830,8 @@ hr {
         color: rgb(255, 255, 255);
         text-align: center;
         font-size: 11px;
-        margin: 35px 0px 0px -9.6px;
+        margin: 35px 0px 0px -9.9px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
 
