@@ -751,6 +751,7 @@ hr {
         flex-wrap: wrap;
         padding: 0px;
         justify-content: center;
+        margin-top: 1rem;
     }
     .grgservice{
         width: 31.2%;
@@ -788,6 +789,8 @@ hr {
     .grgrating-cont{
         display: flex;
         padding-left: 20px;
+        padding-top: 1rem;
+        padding-bottom: 1.2rem;
     }
     .grgratings-c{
         width: 30%;
@@ -796,7 +799,7 @@ hr {
         width: 70%;
     }
     .grg1{
-        margin-top: 2rem;
+        margin-top: 1rem;
         padding-right: 20px;
         text-align: center;
     }
@@ -809,6 +812,18 @@ hr {
     }
     .grg2 img{
         height: 0.5rem;
+    }
+    .grg3{
+        padding-right: 20px;
+        text-align: center;
+    }
+    .grg3 p{
+        margin-top: 0.5rem;
+        font-size: 13px;
+        border-radius: 3px;
+        background-color: #ffeaed;
+        color: rgb(49, 49, 49);
+        font-weight: 550;
     }
        .middle {
         margin-top:10px;
