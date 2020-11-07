@@ -751,7 +751,7 @@ hr {
         flex-wrap: wrap;
         padding: 0px;
         justify-content: center;
-        margin-top: 1rem;
+        margin-top: 0.3rem;
     }
     .grgservice{
         width: 31.2%;
@@ -817,12 +817,13 @@ hr {
         padding-right: 20px;
         text-align: center;
     }
+    
     .grg3 p{
         margin-top: 0.5rem;
         font-size: 13px;
         border-radius: 3px;
-        background-color: #ffeaed;
-        color: rgb(49, 49, 49);
+        background-color: #76c7bc;
+        color: rgb(0, 0, 0);
         font-weight: 550;
     }
        .middle {
