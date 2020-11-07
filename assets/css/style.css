@@ -754,7 +754,6 @@ hr {
     }
     .grgservice{
         width: 30%;
-       
         border-radius: 5px;
         margin: 1.6%;
     }
@@ -776,7 +775,7 @@ hr {
     }
     .grgsername{
         margin-top: 0.5rem;
-        border-bottom: 1px dashed lightgrey;
+        /* border-bottom: 1px dashed lightgrey; */
     }
     .grgserprice p{
         font-size: 12px;
@@ -797,9 +796,15 @@ hr {
     }
     .grg1{
         margin-top: 2rem;
+        padding-right: 20px;
+        text-align: center;
     }
     .grg1 h2{
         margin-bottom: 0px;
+    }
+    .grg2{
+        text-align: center;
+        padding-right: 20px;
     }
     .grg2 img{
         height: 0.5rem;
