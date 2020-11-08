@@ -604,7 +604,6 @@ hr {
         margin-top: -11px;
     }
     /* garages card */
-
     .serv-c {
         margin-top: 0px;
         margin-bottom: 5px;
@@ -685,10 +684,10 @@ hr {
         font-weight: 600;
     }
     /* garage info page */
-    #hstype{
-         margin-left:14px;
-         font-size: 550;
-         color: grey;
+    #hstype {
+        margin-left: 14px;
+        font-size: 550;
+        color: grey;
     }
     .infopageimgs img {
         height: 3rem;
@@ -793,6 +792,35 @@ hr {
     .grgserprice p {
         font-size: 12px;
         margin-bottom: 0px;
+    }
+    .garageabt {
+        padding-bottom: 10px;
+
+    }
+    .cellabt {
+        display: flex;
+        width: 100%;
+        word-wrap: break-word;
+        border: none;
+        border-bottom:1px solid rgb(197, 197, 197);
+    }
+    .cellabt p {
+        margin-bottom: 0px;
+    }
+    .cell1 {
+        border-right: 1px solid rgb(197, 197, 197);
+        width: 33%;
+        padding: 12px;
+        font-size: 14px;
+    }
+    .cell2 {
+        width: 67%;
+        font-size: 14px;
+        padding: 10px;
+        font-weight: 550;
+    }
+    .clr {
+        background-color: rgb(230, 224, 224);
     }
     /* about garage */
     /* ratings */
