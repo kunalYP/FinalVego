@@ -604,6 +604,7 @@ hr {
         margin-top: -11px;
     }
     /* garages card */
+
     .serv-c {
         margin-top: 0px;
         margin-bottom: 5px;
@@ -684,7 +685,11 @@ hr {
         font-weight: 600;
     }
     /* garage info page */
-   
+    #hstype{
+         margin-left:14px;
+         font-size: 550;
+         color: grey;
+    }
     .infopageimgs img {
         height: 3rem;
         width: 20%;
@@ -746,12 +751,12 @@ hr {
         font-size: 14px;
         border: none;
     }
-    .stick-t{
+    .stick-t {
         position: -webkit-sticky;
         position: sticky;
         top: 0;
     }
-    .grgservices{
+    .grgservices {
         display: flex;
         width: 100%;
         flex-wrap: wrap;
@@ -759,167 +764,177 @@ hr {
         justify-content: center;
         margin-top: 0.3rem;
     }
-    .grgservice{
+    .grgservice {
         width: 31.2%;
         border-radius: 5px;
         margin: 1%;
         margin-bottom: 1.2rem;
     }
-    .grgserviceimg{
+    .grgserviceimg {
         padding-top: 2px;
         text-align: center;
         height: 2.6rem;
     }
-    .grgserviceimg img{
+    .grgserviceimg img {
         height: 2.6rem;
     }
-    .grgservicetxt{
+    .grgservicetxt {
         text-align: center;
     }
-    .grgsername p{
+    .grgsername p {
         font-size: 10px;
         margin-bottom: 0px;
         font-weight: 550;
     }
-    .grgsername{
+    .grgsername {
         margin-top: 0.2rem;
         /* border-bottom: 1px dashed lightgrey; */
     }
-    .grgserprice p{
+    .grgserprice p {
         font-size: 12px;
         margin-bottom: 0px;
     }
-
     /* about garage */
-
-   
     /* ratings */
-
-    .grgrating-cont{
+    .grgrating-cont {
         display: flex;
         padding-left: 20px;
         padding-top: 1rem;
         padding-bottom: 1.2rem;
     }
-    .grgratings-c{
+    .grgratings-c {
         width: 30%;
     }
-    .grgratings{
+    .grgratings {
         width: 70%;
     }
-    .grg1{
+    .grg1 {
         margin-top: 1rem;
         padding-right: 20px;
         text-align: center;
     }
-    .grg1 h3{
+    .grg1 h3 {
         margin-bottom: 0px;
     }
-    .grg2{
+    .grg2 {
         text-align: center;
         padding-right: 20px;
     }
-    .grg2 img{
+    .grg2 img {
         height: 0.5rem;
     }
-    .grg3{
+    .grg3 {
         padding-right: 20px;
         text-align: center;
     }
-    
-    .grg3 p{
+    .grg3 p {
         margin-top: 0.5rem;
         font-size: 13px;
         border-radius: 3px;
         padding: 0.2rem;
-        /* background-color:#A2FBA2; */  
+        /* background-color:#A2FBA2; */
         background-color: #209586;
         color: white;
         font-weight: 550;
     }
-       .middle {
-        margin-top:10px;
+    .middle {
+        margin-top: 10px;
         float: left;
         width: 80%;
-        }
-        .col-r{
-        width:13% ;
-        }
-        .col-r img{
+    }
+    .col-r {
+        width: 13%;
+    }
+    .col-r img {
         height: 0.7rem;
         margin-top: -2.1px;
-        }
-        .col-r span{
-            font-size: 13px;
-            font-weight: 550;
-        }
-        .row-c{
+    }
+    .col-r span {
+        font-size: 13px;
+        font-weight: 550;
+    }
+    .row-c {
         width: 100%;
         margin-bottom: 0rem;
-        }
-        .rowc{
+    }
+    .rowc {
         margin-top: 0px;
         display: flex;
-        
-        }
-        
-        /* reviews bar graph */
-        .bar-container {
+    }
+    /* reviews bar graph */
+    .bar-container {
         width: 90%;
         background-color: #f1f1f1;
         text-align: center;
         color: white;
         margin-bottom: 0px;
         border-radius: 30px;
-        }
-        
-        .bar-5 {width: 60%; height: 5px; background-color: #e3324a; border-radius: 30px;}
-        .bar-4 {width: 30%; height: 5px; background-color: #e3324a; border-radius: 30px;}
-        .bar-3 {width: 10%; height: 5px; background-color: #e3324a; border-radius: 30px;}
-        .bar-2 {width: 7%; height: 5px; background-color: #e3324a; border-radius: 30px;}
-        .bar-1 {width: 15%; height: 5px; background-color: #e3324a; border-radius: 30px;}
-        
-
-        /* tap to rate */
-        .rating-grg {
-            unicode-bidi: bidi-override;
-            direction: rtl;
-        }
-
-        .rating-grg>span {
-            display: inline-block;
-            position: relative;
-            width: 1em;
-        }
-
-        .rating-grg span {
-            font-size: 2rem;
-            color: rgb(175, 175, 175);
-        }
-
-        .rating-grg>span:hover:before,
-        .rating-grg>span:hover~span:before {
-            content: "\2605";
-            position: absolute;
-            color: #e3324a;
-        }
-
-        .rate-cust{
-            padding: 10px;
-            border-top: 1px dashed lightgrey;
-        }
-        .tap-rate p{
-            margin-bottom: 0px;
-            font-size: 15px;
-            font-weight: 550;
-        }
-        .rating-grg p{
-            color: #e3324a;
-            float: right;
-            margin-right: 20px;
-            font-size: 14px;
-            margin-top: 0.8rem;
-        }
+    }
+    .bar-5 {
+        width: 60%;
+        height: 5px;
+        background-color: #e3324a;
+        border-radius: 30px;
+    }
+    .bar-4 {
+        width: 30%;
+        height: 5px;
+        background-color: #e3324a;
+        border-radius: 30px;
+    }
+    .bar-3 {
+        width: 10%;
+        height: 5px;
+        background-color: #e3324a;
+        border-radius: 30px;
+    }
+    .bar-2 {
+        width: 7%;
+        height: 5px;
+        background-color: #e3324a;
+        border-radius: 30px;
+    }
+    .bar-1 {
+        width: 15%;
+        height: 5px;
+        background-color: #e3324a;
+        border-radius: 30px;
+    }
+    /* tap to rate */
+    .rating-grg {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+    }
+    .rating-grg>span {
+        display: inline-block;
+        position: relative;
+        width: 1em;
+    }
+    .rating-grg span {
+        font-size: 2rem;
+        color: rgb(175, 175, 175);
+    }
+    .rating-grg>span:hover:before, .rating-grg>span:hover~span:before {
+        content: "\2605";
+        position: absolute;
+        color: #e3324a;
+    }
+    .rate-cust {
+        padding: 10px;
+        border-top: 1px dashed lightgrey;
+    }
+    .tap-rate p {
+        margin-bottom: 0px;
+        font-size: 15px;
+        font-weight: 550;
+    }
+    .rating-grg p {
+        color: #e3324a;
+        float: right;
+        margin-right: 20px;
+        font-size: 14px;
+        margin-top: 0.8rem;
+    }
     /* register garage */
     .topgarage {
         margin-top: 5px;
@@ -965,7 +980,6 @@ hr {
         padding-top: 1rem;
         padding-bottom: 1rem;
         border-top: 1px solid rgb(228, 228, 228);
-        
     }
     .proserviceimg img {
         height: 2.5rem;
@@ -979,9 +993,7 @@ hr {
     .proservicetxt p {
         line-height: 2.5rem;
         font-size: 14px;
-        
     }
-
     /* timeline */
     .vectorcol {
         float: left;
@@ -997,7 +1009,7 @@ hr {
         float: right;
         padding: 10px 15px 10px 15px;
         height: 50%;
-        margin-top: 15px;     
+        margin-top: 15px;
     }
     .textcol p {
         font-size: 12px;
@@ -1015,7 +1027,7 @@ hr {
         margin: 35px 0px 0px -9px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-    .regbtn{
+    .regbtn {
         padding-bottom: 20px;
     }
     .regbtn button {
@@ -1023,22 +1035,22 @@ hr {
         color: white;
         font-size: 15px;
         width: 86%;
-        margin-top:0.6rem;
+        margin-top: 0.6rem;
         margin-left: 7%;
     }
-    .regtxt{
+    .regtxt {
         margin-left: 12px;
         margin-right: 12px;
     }
-    .regtxt p{
+    .regtxt p {
         margin-bottom: 0px;
         font-size: 12px;
     }
-    #regtxt1{
+    #regtxt1 {
         color: grey;
         font-size: 14px;
     }
-    .vegow{
+    .vegow {
         padding-bottom: 15px;
     }
 }
@@ -1528,7 +1540,6 @@ hr {
         font-size: 14px;
         font-weight: 500;
     }
-    
     /* register garage */
     .topgarage {
         margin-top: 5px;
