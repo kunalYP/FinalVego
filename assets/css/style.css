@@ -810,13 +810,26 @@ hr {
     .cell1 {
         border-right: 1px solid rgb(197, 197, 197);
         width: 33%;
-        padding: 12px;
+        padding: 14px 14px 13px 11px;
         font-size: 14px;
+    }
+    .scmd{
+        display: flex;
+    }
+    .scmd img{
+        height:1rem;
+        margin-top:4px;
+        margin-left:4px;
+    }
+    .scmd2 img{
+        height:0.7rem;
+        margin-top:5px;
+        margin-left:4px;
     }
     .cell2 {
         width: 67%;
         font-size: 14px;
-        padding: 10px;
+        padding: 14px 14px 13px 12px;
         font-weight: 550;
     }
     .clr {
@@ -1067,8 +1080,9 @@ hr {
         margin-left: 7%;
     }
     .regtxt {
-        margin-left: 12px;
-        margin-right: 12px;
+       float: center;
+       padding:10px;
+       padding-bottom:0px;
     }
     .regtxt p {
         margin-bottom: 0px;
