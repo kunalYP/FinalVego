@@ -962,7 +962,7 @@ hr {
     }
     .rate-cust {
         padding: 10px;
-        border-top: 1px dashed lightgrey;
+        border-bottom: 1px dashed lightgrey;
     }
     .tap-rate p {
         margin-bottom: 0px;
@@ -1095,6 +1095,86 @@ hr {
     .vegow {
         padding-bottom: 15px;
     }
+    /* showroom info page */
+    .topdealsvehicle{
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+        justify-content: space-around;
+    }
+    .vehiclecard{
+        width:45%;
+        margin-bottom:20px;
+        border:1px solid rgb(228, 228, 228);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+    }
+    .vehiclecard img{
+        height:4rem;
+        float: center;
+        padding-left:20px;
+    }
+    .vehiclecard p{
+        margin-bottom: 0;
+    }
+    .vehname p{
+        font-size:13px;
+    }
+    .vehinfo1{
+        display: flex;
+        width:100%;
+        padding:1px 0px 1px 8px;
+        border-top:1px solid rgb(228, 228, 228);
+        border-bottom: 1px solid rgb(228, 228, 228);
+    }
+    .vehinfo1 p{
+        font-size:13px;
+    }
+    .vehinfo2{
+        display: flex;
+        width:100%;
+        padding:1px 0px 1px 8px;
+        border-bottom: 1px solid rgb(228, 228, 228);
+    }
+    .vehinfo2 p{
+        font-size:13px;
+    }
+    .vehratings img{
+        height:0.7rem;
+        padding:0;
+    }
+    .vehprice p{
+        font-size: 14px;
+    }
+    .vehprice{
+        padding:1px 0px 1px 8px;
+    }
+    .vehname{
+        padding:1px 0px 1px 8px;
+        border-top:1px solid rgb(228, 228, 228);
+ 
+    }
+    .year{
+        width:25%;
+        border-right:1px solid rgb(228, 228, 228);
+    }
+    .modelveh{
+        width:75%;
+        padding-left:10px;
+    }
+    .engine{
+        width:50%;
+        border-right: 1px solid rgb(228, 228, 228);
+    }
+    .fueltype{
+        width:50%;
+        padding-left:10px;
+    }
+    .vehratings{
+        padding-left:10px;
+        border-bottom: 1px solid rgb(228, 228, 228);
+        margin-top:-3px;
+    }
+
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
