@@ -197,6 +197,10 @@ hr {
 /* Extra small devices (phones, 0px to 550px) */
 
 @media only screen and (max-width: 550px) {
+    .carousel-item img{
+        width:100%;
+        height:173.86px;
+    }
     #desksearch {
         display: none;
     }
@@ -1101,6 +1105,7 @@ hr {
         flex-wrap: wrap;
         width:100%;
         justify-content: space-around;
+        margin-top:5px;
     }
     .vehiclecard{
         width:45%;
@@ -1761,6 +1766,10 @@ hr {
 /* Medium devices (Desktop, 850px and up) */
 
 @media only screen and (min-width: 992px) {
+    .carousel-item img{
+        height:380px;
+        width:100%;
+    }
     .navbar-brand {
         margin: 0px 0px 0px 50px;
     }
