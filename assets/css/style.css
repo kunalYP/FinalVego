@@ -1229,11 +1229,11 @@ hr {
         justify-content: center;
     }
     .wheeler {
-        width: 30%;
+        width:50%;
         border: 1px solid rgb(228, 228, 228);
-        padding: 20px 0px 20px 0px;
+        padding: 20px 20px 20px 20px;
         text-align: center;
-        margin: 20px 30px 20px 30px;
+        margin: 20px 20px 20px 20px;
     }
     .wheeler img {
         height: 3.5rem;
@@ -1295,7 +1295,7 @@ hr {
         width: 9px;
         height: 9px;
         background: #ffffff;
-        border: 2px solid #A60523;
+        border: 2px solid #209586;
         border-radius: 30%;
         margin: 0 5px;
     }
@@ -1336,10 +1336,10 @@ hr {
             transform: translate(20px, 10px);
         }
         30% {
-            transform: translate(30px, -90px);
+            transform: translate(30px, -60px);
         }
         70% {
-            transform: translate(-110px, -90px);
+            transform: translate(-110px, -60px);
         }
         80% {
             transform: translate(-100px, 10px);
@@ -1352,8 +1352,8 @@ hr {
         }
     }
     #loader2 img {
-        height: 4.2rem;
-        width: 7rem;
+        height: auto;
+        width: 5rem;
         margin: 8px 0px 0px 10px;
     }
     .loader {
