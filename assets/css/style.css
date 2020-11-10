@@ -199,7 +199,7 @@ hr {
 @media only screen and (max-width: 550px) {
     .carousel-item img {
         width: 100%;
-        height: 173.86px;
+        height: 190px;
     }
     #desksearch {
         display: none;
@@ -696,7 +696,7 @@ hr {
     .infopageimgs img {
         height: 3rem;
         width: 20%;
-        margin-top: 4px;
+        margin-top: 8px;
         border-radius: 5px;
     }
     .headtext {
