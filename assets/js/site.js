@@ -53,7 +53,8 @@ function showTab(n) {
 
   }
   if (n == (x.length - 1)) {
-    document.getElementById("nextBtn").innerHTML = "Submit";
+    document.getElementById("prevBtn").innerHTML = "Cancel";
+    document.getElementById("nextBtn").style.display = "none";
   } else {
     document.getElementById("nextBtn").innerHTML = "Next";
   }

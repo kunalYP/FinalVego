@@ -1205,7 +1205,7 @@ hr {
         display: inline-block;
     }
     .step.active {
-       opacity: 0.5;
+        opacity: 0.5;
     }
     /* Mark the steps that are finished and valid: */
     .step.finish {
@@ -1234,7 +1234,10 @@ hr {
     }
     .steps {
         text-align: center;
-        margin-top: 20px;
+        margin-top: 0px;
+    }
+    #regForm{
+        padding-top:20px;
     }
     #option:hover {
         background-color: #209586;
@@ -1261,8 +1264,99 @@ hr {
         height: 400px;
         margin-bottom: 10px;
     }
-    .locbtn{
-        margin-top:10px;
+    .locbtn {
+        margin-top: 10px;
+    }
+    /* 2nd preloader */
+    #loader2 img {
+        height: 4.5rem;
+        width: 7.3rem;
+    }
+    #loader1 {
+        text-align: center;
+        vertical-align: middle;
+        position: relative;
+        display: flex;
+        background: white;
+    }
+    #loader1 span {
+        display: block;
+        width: 9px;
+        height: 9px;
+        background: #ffffff;
+        border: 2px solid #A60523;
+        border-radius: 30%;
+        margin: 0 5px;
+    }
+    #loader1 span:nth-child(2) {
+        border: 2px solid #06192D;
+        background: white;
+    }
+    #loader1 span:nth-child(3) {
+        background: #ffffff;
+        border: 2px solid #06192D;
+    }
+    #loader1 span:nth-child(4) {
+        background: #ffffff;
+        border: 2px solid #06192D;
+    }
+    #loader1 span:not(:last-child) {
+        animation: animate 2s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(30px);
+        }
+    }
+    #loader1 span:last-child {
+        animation: jump 2s ease-in-out infinite;
+    }
+    @keyframes jump {
+        0% {
+            transform: translate(0, 0);
+        }
+        10% {
+            transform: translate(10px, -10px);
+        }
+        20% {
+            transform: translate(20px, 10px);
+        }
+        30% {
+            transform: translate(30px, -90px);
+        }
+        70% {
+            transform: translate(-110px, -90px);
+        }
+        80% {
+            transform: translate(-100px, 10px);
+        }
+        90% {
+            transform: translate(-90px, -10px);
+        }
+        100% {
+            transform: translate(-80px, 0);
+        }
+    }
+    #loader2 img {
+        height: 4.2rem;
+        width: 7rem;
+        margin: 8px 0px 0px 10px;
+    }
+    .loader {
+        text-align: center;
+        margin-top: 30px;
+        padding-bottom:100px;
+    }
+    #loader1 {
+        justify-content: center;
+    }
+    .msg p{
+        font-size:14px;
+        font-weight:560;
+        padding-bottom:20px;
     }
 }
 
