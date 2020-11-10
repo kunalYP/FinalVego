@@ -197,6 +197,17 @@ hr {
 /* Extra small devices (phones, 0px to 550px) */
 
 @media only screen and (max-width: 550px) {
+    .seeall{
+        text-align: end;
+        margin-right:10px;
+        font-size: 13px;
+        padding:0px 0px 3px 0px;
+    }
+    .seeall p{
+        margin-bottom: 0;
+        font-weight: 500;
+        color:blue;
+    }
     .carousel-item img {
         width: 100%;
         height: 190px;
