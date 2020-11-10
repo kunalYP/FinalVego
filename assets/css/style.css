@@ -1295,21 +1295,21 @@ hr {
         width: 9px;
         height: 9px;
         background: #ffffff;
-        border: 2px solid #209586;
+        border: 2px solid grey;
         border-radius: 30%;
         margin: 0 5px;
     }
     #loader1 span:nth-child(2) {
-        border: 2px solid #06192D;
+        border: 2px solid lightgrey;
         background: white;
     }
     #loader1 span:nth-child(3) {
         background: #ffffff;
-        border: 2px solid #06192D;
+        border: 2px solid grey;
     }
     #loader1 span:nth-child(4) {
         background: #ffffff;
-        border: 2px solid #06192D;
+        border: 2px solid lightgrey;
     }
     #loader1 span:not(:last-child) {
         animation: animate 2s linear infinite;
@@ -1336,10 +1336,10 @@ hr {
             transform: translate(20px, 10px);
         }
         30% {
-            transform: translate(30px, -60px);
+            transform: translate(30px, -80px);
         }
         70% {
-            transform: translate(-110px, -60px);
+            transform: translate(-110px, -80px);
         }
         80% {
             transform: translate(-100px, 10px);
@@ -1353,7 +1353,7 @@ hr {
     }
     #loader2 img {
         height: auto;
-        width: 5rem;
+        width: 4rem;
         margin: 8px 0px 0px 10px;
     }
     .loader {
