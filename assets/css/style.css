@@ -123,6 +123,10 @@ hr {
     top: 0;
     width: 100%;
 }
+.sticky1{
+    position: sticky;
+    top: 60px;
+}
 
 #sortsidebar, #filtersidebar {
     height: 38%;
