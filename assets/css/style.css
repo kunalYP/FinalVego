@@ -197,16 +197,16 @@ hr {
 /* Extra small devices (phones, 0px to 550px) */
 
 @media only screen and (max-width: 550px) {
-    .seeall{
+    .seeall {
         text-align: end;
-        margin-right:10px;
+        margin-right: 10px;
         font-size: 13px;
-        padding:0px 0px 3px 0px;
+        padding: 0px 0px 3px 0px;
     }
-    .seeall p{
+    .seeall p {
         margin-bottom: 0;
         font-weight: 500;
-        color:blue;
+        color: blue;
     }
     .carousel-item img {
         width: 100%;
@@ -1229,7 +1229,7 @@ hr {
         justify-content: center;
     }
     .wheeler {
-        width:50%;
+        width: 50%;
         border: 1px solid rgb(228, 228, 228);
         padding: 20px 20px 20px 20px;
         text-align: center;
@@ -1247,8 +1247,8 @@ hr {
         text-align: center;
         margin-top: 0px;
     }
-    #regForm{
-        padding-top:20px;
+    #regForm {
+        padding-top: 20px;
     }
     #option:hover {
         background-color: #209586;
@@ -1279,90 +1279,116 @@ hr {
         margin-top: 10px;
     }
     /* 2nd preloader */
-   
-    .msg p{
-        font-size:14px;
-        font-weight:560;
-        padding-bottom:20px;
-        margin-top:20px;
+    .msg p {
+        font-size: 14px;
+        font-weight: 560;
+        padding-bottom: 20px;
+        margin-top: 20px;
         text-align: center;
         color: grey;
         width: 60%;
         margin-left: 20%;
     }
-    .loader-pic{
+    .loader-pic {
         margin-top: 4rem;
-        text-align: center;
         display: flex;
-        justify-content: center;
+        width:100%;
     }
-    .loader-img1 img{
-        height: 3.5rem;
+    .loader-img1 {
+        margin: 0px 0px 0px 20px;
+        width:20%;
     }
-    .loader-img2 img{
-        height: 3rem;
+    .loader-img2 {
+        margin: 0px 0px 0px 30px;
+        width:20%;
     }
-    .loader-img1{
-        margin-right: 1rem;
+    .loader-img4 {
+        width:20%;
     }
-    .loader-img2{
-        margin-top: 5px;
-        margin-left: 1.5rem;
+    .loader{
+      width:40%;
+      margin-left:29px;
     }
-    .loader-dots{
-        margin-top: 20px;
-        padding: 10px;
+    .loader-img1 img {
+        height: 4.8rem;
     }
-    .dot-flashing {
+    .loader-img2 img {
+        height: 4.8rem;
+    }
+    .loader-img4 img {
+        height: 3.3rem;
+        margin: 15px 0px 0px 0px;
+    }
+    .loaderdot {
+        text-align: center;
+        vertical-align: middle;
         position: relative;
-        width: 7px;
-        height: 7px;
-        border-radius: 5px;
-        background-color: #e3324a;
-        color: #e3324a;
-        animation: dotFlashing 1s infinite linear alternate;
-        animation-delay: .5s;
-      }
-      
-      .dot-flashing::before, .dot-flashing::after {
-        content: '';
-        display: inline-block;
-        position: absolute;
-        top: 0;
-      }
-      
-      .dot-flashing::before {
-        left: -15px;
-        width: 7px;
-        height: 7px;
-        border-radius: 5px;
-        background-color: #e3324a;
-        color: #e3324a;
-        animation: dotFlashing 1s infinite alternate;
-        animation-delay: 0s;
-      }
-      
-      .dot-flashing::after {
-        left: 15px;
-        width: 7px;
-        height: 7px;
-        border-radius: 5px;
-        background-color: #e3324a;
-        color: #e3324a;
-        animation: dotFlashing 1s infinite alternate;
-        animation-delay: 1s;
-      }
-      
-      @keyframes dotFlashing {
+        display: flex;
+        background: white;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        float: center;
+        margin-left:0px;
+    }
+  
+    .loaderdot span {
+        display: block;
+        width: 10px;
+        height: 10px;
+        background: #A60523;
+        border-radius: 50%;
+        margin: 0 3px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    }
+    .loaderdot span:nth-child(2) {
+        background: grey;
+    }
+    .loaderdot span:nth-child(3) {
+        background: #c2c2c2;
+    }
+    .loaderdot span:nth-child(4) {
+        background: #06192D;
+    }
+    .loaderdot span:not(:last-child) {
+        animation: animate1 1.5s linear infinite;
+    }
+    @keyframes animate1 {
         0% {
-          background-color: #e3324a;
+            transform: translateX(0);
         }
-        50%,
         100% {
-          background-color: lightgrey;
+            transform: translateX(10px);
         }
-      }
-      
+    }
+    .loaderdot span:last-child {
+        animation: jump1 1.5s ease-in-out infinite;
+    }
+    @keyframes jump1 {
+        0% {
+            transform: translate(0, 0);
+        }
+        10% {
+            transform: translate(10px, -10px);
+        }
+        20% {
+            transform: translate(20px, 10px);
+        }
+        30% {
+            transform: translate(30px, -50px);
+        }
+        70% {
+            transform: translate(-150px, -50px);
+        }
+        80% {
+            transform: translate(-140px, 10px);
+        }
+        90% {
+            transform: translate(-130px, -10px);
+        }
+        100% {
+            transform: translate(-120px, 0);
+        }
+    }
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
