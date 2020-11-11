@@ -53,10 +53,13 @@ function showTab(n) {
 
   }
   if (n == (x.length - 1)) {
-    document.getElementById("prevBtn").innerHTML = "Cancel";
+    document.getElementById("sbtBtn").style.display = "inline";
     document.getElementById("nextBtn").style.display = "none";
   } else {
+    document.getElementById("nextBtn").style.display = "inline";
     document.getElementById("nextBtn").innerHTML = "Next";
+    document.getElementById("sbtBtn").style.display = "none";
+
   }
   //... and run a function that will display the correct step indicator:
   fixStepIndicator(n)
