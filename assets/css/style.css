@@ -1283,19 +1283,20 @@ hr {
         font-size: 14px;
         font-weight: 560;
         padding-bottom: 20px;
-        margin-top: 20px;
+        margin-top: 30px;
         text-align: center;
         color: grey;
         width: 60%;
         margin-left: 20%;
+        margin-bottom:60px;
     }
     .loader-pic {
-        margin-top: 4rem;
+        margin-top: 5.4rem;
         display: flex;
         width:100%;
     }
     .loader-img1 {
-        margin: 0px 0px 0px 20px;
+        margin: 0px 0px 0px 10px;
         width:20%;
     }
     .loader-img2 {
@@ -1316,8 +1317,8 @@ hr {
         height: 4.8rem;
     }
     .loader-img4 img {
-        height: 3.3rem;
-        margin: 15px 0px 0px 0px;
+        height: 3.2rem;
+        margin: 19px 0px 0px 0px;
     }
     .loaderdot {
         text-align: center;
@@ -1389,6 +1390,7 @@ hr {
             transform: translate(-120px, 0);
         }
     }
+ 
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
