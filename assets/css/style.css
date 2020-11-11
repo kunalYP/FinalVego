@@ -1300,7 +1300,7 @@ hr {
         width:20%;
     }
     .loader-img2 {
-        margin: 0px 0px 0px 30px;
+        margin: -5px 0px 0px 30px;
         width:20%;
     }
     .loader-img4 {
@@ -1314,11 +1314,11 @@ hr {
         height: 4.8rem;
     }
     .loader-img2 img {
-        height: 4.8rem;
+        height: 5rem;
     }
     .loader-img4 img {
-        height: 3.2rem;
-        margin: 19px 0px 0px 0px;
+        height: 3rem;
+        margin: 19px 0px 0px 2px;
     }
     .loaderdot {
         text-align: center;
