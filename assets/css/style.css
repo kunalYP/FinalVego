@@ -1431,7 +1431,11 @@ hr {
          width: 96%;
          margin-left: 2%;
          background-color: #e3fbff;
-         background-image: linear-gradient(90deg,#ecf3ff,#fbffff);
+         background-image: linear-gradient(90deg,#e3edff,#fbffff);
+     }
+     .vehrepaired-em-cont1{
+        background-color: #ffe9ec;
+        background-image: linear-gradient(90deg,#ffebee,#fdfafa);
      }
      .vehrepaired-em{
         display: flex;
