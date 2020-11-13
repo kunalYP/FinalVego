@@ -1361,6 +1361,7 @@ hr {
           display: flex;
           padding:10px 10px 10px 10px;
           margin:5px 0px 0px 1%;
+          border-bottom: 1px solid rgb(228, 228, 228);
       }
       .workicon{
           width:26%;
@@ -1371,11 +1372,12 @@ hr {
       .workicon img{
           height:3rem;
       }
-      .worktxt h5{
-          font-size:17px;
+      .worktxt p{
+          font-size:15px;
           margin-top:13px;
           font-weight:550;
       }
+    
     
     
 }
