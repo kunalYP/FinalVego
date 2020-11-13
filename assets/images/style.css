@@ -1,0 +1,2412 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0;
+    background: rgb(245, 245, 245);
+}
+
+html {
+    box-sizing: border-box;
+    overflow-x: hidden
+}
+
+*, *:before, *:after {
+    box-sizing: inherit
+}
+
+html, body {
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: inherit;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+/* Searchbar text center */
+
+.searchbar::-webkit-input-placeholder {
+    text-align: start;
+    font-size: 15px;
+}
+
+.searchbar:-moz-placeholder {
+    text-align: start;
+}
+
+.searchbar::-moz-placeholder {
+    text-align: start;
+}
+
+.searchbar:-ms-input-placeholder {
+    text-align: start;
+}
+
+.vego-overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.vego-animate-left {
+    position: relative;
+    animation: animateleft 0.4s
+}
+
+.vego-animate-bottom {
+    position: relative;
+    animation: animatebottom 0.4s
+}
+
+#searchbox {
+    background: #e3324a linear-gradient(180deg, #f0233e, #f3324c);
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+.scroll {
+    margin: auto;
+}
+
+.horizontal-scroll {
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+    box-sizing: border-box;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.sticky1 {
+    position: sticky;
+    top: 60px;
+}
+
+.bgc-s {
+    background-color: white;
+}
+
+#sortsidebar, #filtersidebar {
+    height: 38%;
+}
+
+/* sidebar */
+
+.vego-sidebar {
+    width: 200px;
+    background-color: #fff;
+    position: fixed!important;
+    z-index: 1;
+    overflow: auto;
+    bottom: 0;
+}
+
+.vego-bar-block {
+    width: 100%;
+    text-align: left;
+    padding: 8px 16px;
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+
+#mySidebar {
+    position: fixed;
+    left: 0;
+    height: 100%;
+    z-index: 1000;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.showroomcard:hover {
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1), 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+    /*border: 1px solid #f5f3f3;*/
+    transition: all 0.4s ease;
+}
+
+.garage:hover {
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1), 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+    /*border: 1px solid #f5f3f3;*/
+    transition: all 0.4s ease;
+}
+
+.timeline {
+    display: flex;
+    width: 100%;
+}
+
+.defaultcard {
+    background-color: white;
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+}
+
+/* Extra small devices (phones, 0px to 550px) */
+
+@media only screen and (max-width: 550px) {
+    .seeall {
+        text-align: end;
+        margin-right: 10px;
+        font-size: 13px;
+        padding: 0px 0px 3px 0px;
+    }
+    .seeall p {
+        margin-bottom: 0;
+        font-weight: 500;
+        color: blue;
+    }
+    .carousel-item img {
+        width: 100%;
+        height: 190px;
+    }
+    #desksearch {
+        display: none;
+    }
+    .stickyfilter {
+        position: fixed;
+        top: 60.8px;
+        width: 100%;
+    }
+    .navbar-brand img {
+        height: 2.2rem;
+        width: auto;
+        margin: 0px 0px 0px 0px;
+    }
+    .togglerimg {
+        height: 1.7rem;
+        border: none;
+    }
+    .searchicon {
+        position: absolute;
+        height: 1.2rem;
+        margin: -32px 0px 0px 20px;
+    }
+    .searchbar {
+        padding: 0px 0px 0px 40px;
+        height: 2.8rem;
+        width: 96%;
+        margin-left: 2%;
+    }
+    .locationimg img {
+        height: 1.2rem;
+        margin: 0px 5px 0px 8px;
+    }
+    .locationcard {
+        display: flex;
+        padding-left: 0.3rem;
+        padding-bottom: 13px;
+        padding-top: 0.8rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+        border-top: none;
+        background-color: white;
+    }
+    .locationtxt {
+        display: flex;
+    }
+    .locationtxt p {
+        font-size: 14px;
+        margin-bottom: 0px;
+        margin-top: 3px;
+    }
+    .locationtxt img {
+        height: 0.5rem;
+        margin-left: 5px;
+        margin-top: 2.5px;
+    }
+    .navbar {
+        padding-top: 8px;
+    }
+    header {
+        /* background:#e3324a linear-gradient(90deg,#fd3752,#fd3752); */
+        /* background:#e3324a linear-gradient(90deg,#ee1f3a,#cc041f); */
+        background: #e3324a linear-gradient(180deg, #f0233e, #f3324c);
+    }
+    .services {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin-top: 4px;
+        width: 96%;
+        margin-left: 2%;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+    }
+    .service {
+        width: 50%;
+        text-align: center;
+        padding: 1.5rem;
+        padding-bottom: 0;
+    }
+    .firstrow {
+        display: flex;
+    }
+    .secondrow1 {
+        display: flex;
+    }
+    .serviceicon {
+        text-align: center;
+    }
+    .serviceicon img {
+        height: 3.6rem;
+        margin-bottom: 1.2rem;
+    }
+    .servicename p {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    #service1 {
+        border-right: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
+    #service2 {
+        border-bottom: 1px solid lightgray;
+    }
+    #service3 {
+        border-right: 1px solid lightgray;
+    }
+    .service:hover .servicename p {
+        font-weight: 550;
+        color: #f0233e;
+    }
+    /* sidebar */
+    .vego-sidebar {
+        height: 35%;
+    }
+    .vego-bar-block {
+        min-width: 85%;
+    }
+    .indexcarousel {
+        display: none;
+    }
+    /* offers vego */
+    .offer-sc {
+        padding-top: 0.5rem;
+        padding-bottom: 0.3rem;
+        padding-right: 0.3rem;
+    }
+    .scroll-container {
+        display: block;
+        white-space: nowrap;
+        width: 90%;
+        margin-left: 5px;
+    }
+    .offers img {
+        height: 6.3rem;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .userprofile {
+        height: 10rem;
+        background: #209586;
+    }
+    .usericon img {
+        height: 3.6rem;
+        margin-top: 1.2rem;
+        margin-left: 1rem;
+    }
+    .username p {
+        color: rgb(255, 255, 255);
+        margin-top: 1.7rem;
+        margin-left: 1rem;
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    .username {
+        display: flex;
+    }
+    .username img {
+        height: 0.8rem;
+        margin-top: 1.9rem;
+        margin-left: 7px;
+    }
+    .usernumber p {
+        color: rgb(218, 218, 218);
+        font-size: 14px;
+        margin-left: 1rem;
+    }
+    .sidebarlink {
+        display: flex;
+        width: 100%;
+        padding: 0.7rem;
+        border-bottom: 1px solid lightgray;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .sblinkicon img {
+        height: 1.3rem;
+    }
+    .sblinknav img {
+        height: 0.5rem;
+    }
+    .sblinkicon {
+        width: 10%;
+    }
+    .sblinktxt {
+        width: 80%;
+        padding-left: 0.5rem;
+    }
+    .sblinktxt p {
+        font-size: 15px;
+        margin-top: 3px;
+        margin-bottom: 0;
+        color: black;
+    }
+    .sblinktxt p:hover {
+        font-weight: 550;
+        color: #f0233e;
+    }
+    .sidebarlink:hover .sblinknav img {
+        transform: rotate(90deg);
+        transition: 0s;
+    }
+    .cutsidebar img {
+        height: 1.2rem;
+        float: right;
+        margin: 20px;
+    }
+    /* Detect Location */
+    .detect img {
+        height: 1.5rem;
+    }
+    .loctxt p {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    #headloc {
+        font-size: 17px;
+        font-weight: 500;
+        padding-top: 1rem;
+    }
+    #loc2 {
+        color: grey;
+        margin-bottom: 15px;
+    }
+    .dtbtn {
+        background-color: #209586;
+        color: white;
+        font-size: 15px;
+        padding: 7px;
+    }
+    .addlocationdesk {
+        display: none;
+    }
+    /* top showrooms */
+    .topshowrooms {
+        background-color: white;
+        width: 96%;
+        margin-left: 2%;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .heading {
+        padding: 14px 12px 12px 12px;
+    }
+    .heading h5 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .headingunderline {
+        width: 10%;
+        text-align: left;
+        margin: 0;
+        background-color: #f0233e;
+        height: 1px;
+    }
+    .showroomcard {
+        display: inline-block;
+        width: 13rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+        border-radius: 3px;
+        margin-bottom: 10px;
+        margin-left: 6px;
+    }
+    .showroomcard img {
+        width: 100%;
+        height: 6.2rem;
+    }
+    .showroomcard p {
+        margin: 0;
+        white-space: pre-line;
+    }
+    .showroomname p {
+        font-size: 0.74rem;
+        font-weight: 550;
+        padding: 2px 0px 3px 5px;
+    }
+    .showroomtype {
+        display: flex;
+        width: 100%;
+        border-top: 1px solid #e9e9eb;
+    }
+    .showroomtype p {
+        font-size: 0.6rem;
+        padding: 4px 0px 0px 0px;
+    }
+    .address {
+        border-top: 1px solid #e9e9eb;
+    }
+    .address p {
+        font-size: 0.6rem;
+        padding: 2px 0px 3px 5px;
+    }
+    .type {
+        width: 50%;
+        border-right: 1px solid #e9e9eb;
+        padding: 2px 0px 3px 5px;
+    }
+    .ratings {
+        width: 50%;
+        text-align: center;
+    }
+    .ratings img {
+        height: 0.5rem;
+        width: 10%;
+        margin-top: -1px;
+    }
+    .emergencyservice {
+        width: 100%;
+        display: flex;
+        margin-top: 1rem;
+    }
+    .emergencyimg {
+        width: 40%;
+    }
+    .emergencyimg img {
+        height: 4rem;
+    }
+    .emergencyinfo {
+        width: 60%;
+    }
+    .emergencyinfo h5 {
+        font-size: 0.85rem;
+        font-weight: 570;
+    }
+    .emergencyinfo p {
+        font-size: 0.7rem;
+        color: rgb(223, 223, 223);
+    }
+    .emgserv {
+        background-color: #209586;
+        color: white;
+        padding: 15px 0px 10px 0px;
+        border-radius: 4px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+    }
+    .workwithus {
+        background: #e3324a linear-gradient(180deg, #f0233e, #f3324c);
+        color: white;
+        padding: 15px 0px 10px 0px;
+        margin: 0;
+        border-radius: 4px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+    }
+    /* filter and sort */
+    .filtercard {
+        display: flex;
+        padding-left: 0.3rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+        background-color: white;
+        width: 100%;
+        border-top: 1px solid #e9e9eb;
+        height: 3rem;
+    }
+    .filtercard img {
+        height: 1.2rem;
+        margin: 0px 5px 0px 8px;
+    }
+    .filtercard p {
+        font-size: 15px;
+        margin-top: 3px;
+        margin-left: 2px;
+        font-weight: 580;
+    }
+    .sort {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        border-right: 1px solid #e9e9eb;
+        margin-top: 0.6rem;
+    }
+    .filter {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        margin-top: 0.6rem;
+    }
+    .sorthead p {
+        margin-top: 4px;
+        margin-bottom: 7px;
+        color: grey;
+    }
+    .sortlist {
+        margin-top: 12px;
+        font-size: 14px;
+    }
+    .sortlist label {
+        margin-top: 1px;
+    }
+    .filteroptions {
+        display: flex;
+        width: 100%;
+    }
+    #leftoption {
+        width: 59%;
+    }
+    #rightoption {
+        width: 41%;
+    }
+    .apply {
+        float: right;
+    }
+    .apply button {
+        background-color: #209586;
+        color: white;
+        font-size: 14px;
+        padding: 9px 12px 9px 12px;
+        margin-top: -11px;
+    }
+    /* garages card */
+    .serv-c {
+        margin-top: 0px;
+        margin-bottom: 5px;
+        padding-top:10px;
+    }
+    .firstrow {
+        display: flex;
+        width: 100%;
+        border-bottom: 1px solid #e9e9eb;
+    }
+    .garageimg {
+        width: 50%;
+        padding: 10px;
+    }
+    .garageinfo {
+        width: 50%;
+    }
+    .garageimg img {
+        height: 7rem;
+        width: 98%;
+    }
+    .garageratings img {
+        height: 0.62rem;
+    }
+    .garagename p {
+        margin-bottom: 0;
+        font-size: 14px;
+        padding-top: 8px;
+        word-wrap: break-word;
+        font-weight: 590;
+    }
+    .garageaddress p {
+        font-size: 12px;
+        word-wrap: break-word;
+        padding-top: 6px;
+        margin-bottom: 0;
+    }
+    .garageaddress img {
+        height: 0.6rem;
+    }
+    .secondrow {
+        width: 100%;
+        display: flex;
+        padding: 7px;
+    }
+    .garagestatus {
+        width: 33.3%;
+        text-align: center;
+    }
+    .garagedistance {
+        width: 33.3%;
+        text-align: center;
+    }
+    .garagetype {
+        width: 33.3%;
+        text-align: center;
+    }
+    .garagestatus p {
+        margin-bottom: 0;
+        font-size: 12.3px;
+        color: green;
+        font-weight: 500;
+    }
+    .garagedistance p {
+        margin-bottom: 0;
+        font-size: 12.3px;
+        font-weight: 600;
+        color: #f0233e;
+    }
+    .garagetype p {
+        margin-bottom: 0;
+        font-size: 12.3px;
+        font-weight: 500;
+    }
+    #thirdrow p {
+        color: black;
+    }
+    #brand p {
+        font-weight: 600;
+    }
+    /* garage info page */
+    #hstype {
+        margin-left: 14px;
+        font-size: 550;
+        color: grey;
+    }
+    .infopageimgs img {
+        height: 3rem;
+        width: 20%;
+        margin-top: 8px;
+        border-radius: 5px;
+    }
+    .headtext {
+        padding: 10px 0px 0px 10px;
+    }
+    .headtext h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    .headratings {
+        padding: 1px 0px 0px 10px;
+    }
+    .headratings img {
+        height: 0.7rem;
+    }
+    .headstatus {
+        padding: 5px 0px 0px 10px;
+    }
+    .headadress {
+        padding: 5px 0px 10px 10px;
+    }
+    .headstatus p {
+        font-size: 12px;
+        color: green;
+        margin-bottom: 0;
+    }
+    .headstatus span {
+        color: black;
+    }
+    .headadress p {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .pricebtn {
+        display: flex;
+        padding: 0px 0px 10px 10px;
+    }
+    .pricebtn a {
+        border: 1px solid rgb(197, 197, 197);
+        width: 2rem;
+        padding: 0px;
+        margin-left: 5px;
+    }
+    .pricebtn img {
+        margin-top: 0.45rem;
+        height: 1rem;
+        padding: 0px;
+        margin-bottom: 5px;
+    }
+    .pricebtn button {
+        background-color: #209586;
+        color: white;
+        width: 6rem;
+        font-size: 14px;
+        border: none;
+    }
+    .stick-t {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+    .grgservices {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0px;
+        justify-content: center;
+        margin-top: 0.3rem;
+    }
+    .grgservice {
+        width: 31.2%;
+        border-radius: 5px;
+        margin: 1%;
+        margin-bottom: 1.2rem;
+    }
+    .grgserviceimg {
+        padding-top: 2px;
+        text-align: center;
+        height: 2.6rem;
+    }
+    .grgserviceimg img {
+        height: 2.6rem;
+    }
+    .grgservicetxt {
+        text-align: center;
+    }
+    .grgsername p {
+        font-size: 10px;
+        margin-bottom: 0px;
+        font-weight: 550;
+    }
+    .grgsername {
+        margin-top: 0.2rem;
+        /* border-bottom: 1px dashed lightgrey; */
+    }
+    .grgserprice p {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .garageabt {
+        padding-bottom: 10px;
+    }
+    .cellabt {
+        display: flex;
+        width: 100%;
+        word-wrap: break-word;
+        border: none;
+        border-bottom: 1px solid rgb(197, 197, 197);
+    }
+    .cellabt p {
+        margin-bottom: 0px;
+    }
+    .cell1 {
+        border-right: 1px solid rgb(197, 197, 197);
+        width: 33%;
+        padding: 14px 14px 13px 11px;
+        font-size: 14px;
+    }
+    .scmd {
+        display: flex;
+    }
+    .scmd img {
+        height: 1rem;
+        margin-top: 4px;
+        margin-left: 4px;
+    }
+    .scmd2 img {
+        height: 0.7rem;
+        margin-top: 5px;
+        margin-left: 4px;
+    }
+    .cell2 {
+        width: 67%;
+        font-size: 14px;
+        padding: 14px 14px 13px 12px;
+        font-weight: 550;
+    }
+    .clr {
+        background-color: rgb(230, 224, 224);
+    }
+    /* about garage */
+    /* ratings */
+    .grgrating-cont {
+        display: flex;
+        padding-left: 20px;
+        padding-top: 1rem;
+        padding-bottom: 1.2rem;
+    }
+    .grgratings-c {
+        width: 30%;
+    }
+    .grgratings {
+        width: 70%;
+    }
+    .grg1 {
+        margin-top: 1rem;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .grg1 h3 {
+        margin-bottom: 0px;
+    }
+    .grg2 {
+        text-align: center;
+        padding-right: 20px;
+    }
+    .grg2 img {
+        height: 0.5rem;
+    }
+    .grg3 {
+        padding-right: 20px;
+        text-align: center;
+    }
+    .grg3 p {
+        margin-top: 0.5rem;
+        font-size: 13px;
+        border-radius: 3px;
+        padding: 0.2rem;
+        /* background-color:#A2FBA2; */
+        background-color: #209586;
+        color: white;
+        font-weight: 550;
+    }
+    .middle {
+        margin-top: 10px;
+        float: left;
+        width: 80%;
+    }
+    .col-r {
+        width: 13%;
+    }
+    .col-r img {
+        height: 0.7rem;
+        margin-top: -2.1px;
+    }
+    .col-r span {
+        font-size: 13px;
+        font-weight: 550;
+    }
+    .row-c {
+        width: 100%;
+        margin-bottom: 0rem;
+    }
+    .rowc {
+        margin-top: 0px;
+        display: flex;
+    }
+    /* reviews bar graph */
+    .bar-container {
+        width: 90%;
+        background-color: #f1f1f1;
+        text-align: center;
+        color: white;
+        margin-bottom: 0px;
+        border-radius: 30px;
+    }
+    .bar-5 {
+        width: 60%;
+        height: 5px;
+        background-color: #e3324a;
+        border-radius: 30px;
+    }
+    .bar-4 {
+        width: 30%;
+        height: 5px;
+        background-color: #e3324a;
+        border-radius: 30px;
+    }
+    .bar-3 {
+        width: 10%;
+        height: 5px;
+        background-color: #e3324a;
+        border-radius: 30px;
+    }
+    .bar-2 {
+        width: 7%;
+        height: 5px;
+        background-color: #e3324a;
+        border-radius: 30px;
+    }
+    .bar-1 {
+        width: 15%;
+        height: 5px;
+        background-color: #e3324a;
+        border-radius: 30px;
+    }
+    /* tap to rate */
+    .rating-grg {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+    }
+    .rating-grg>span {
+        display: inline-block;
+        position: relative;
+        width: 1em;
+    }
+    .rating-grg span {
+        font-size: 2rem;
+        color: rgb(175, 175, 175);
+    }
+    .rating-grg>span:hover:before, .rating-grg>span:hover~span:before {
+        content: "\2605";
+        position: absolute;
+        color: #e3324a;
+    }
+    .rate-cust {
+        padding: 10px;
+        border-bottom: 1px dashed lightgrey;
+    }
+    .tap-rate p {
+        margin-bottom: 0px;
+        font-size: 15px;
+        font-weight: 550;
+    }
+    .rating-grg p {
+        color: #e3324a;
+        float: right;
+        margin-right: 20px;
+        font-size: 14px;
+        margin-top: 0.8rem;
+    }
+    /* register garage */
+    .topgarage {
+        margin-top: 5px;
+    }
+    .garagevector {
+        background-color: white;
+    }
+    .garagevector img {
+        width: 100%;
+    }
+    .garagetxthead {
+        padding: 0.8rem;
+        padding-top: 1.1rem;
+        padding-bottom: 1rem;
+    }
+    .garagetxthead h5 {
+        font-size: 20px;
+        margin-bottom: 0;
+        font-weight: 600;
+    }
+    .garagetxthead p {
+        margin-top: 0.6rem;
+        font-size: 14.7px;
+        margin-bottom: 0;
+        color: grey;
+    }
+    .garagetxthead a {
+        background-color: #209586;
+        color: white;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .garagetxthead .enbtn {
+        background-color: #e3324a;
+    }
+    .ourservices {
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+    }
+    .pro-service {
+        display: flex;
+        padding: 0.3rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-top: 1px solid rgb(228, 228, 228);
+    }
+    .proserviceimg img {
+        height: 2.5rem;
+        margin-right: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .proservicetxt {
+        height: 2.5rem;
+        width: 100%;
+    }
+    .proservicetxt p {
+        line-height: 2.5rem;
+        font-size: 14px;
+    }
+    /* timeline */
+    .vectorcol {
+        float: left;
+        padding: 17px 25px 10px 15px;
+    }
+    .vectorcol img {
+        height: 3.7rem;
+    }
+    .verticalline {
+        border-left: 3px solid #f3324c;
+    }
+    .textcol {
+        float: right;
+        padding: 10px 15px 10px 15px;
+        height: 50%;
+        margin-top: 15px;
+    }
+    .textcol p {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .number {
+        width: 8px;
+        height: 8px;
+        padding: 0px 8px 15px 1px;
+        background: rgb(10, 10, 10);
+        border: 3px solid #000;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 11px;
+        margin: 35px 0px 0px -9px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .regbtn {
+        padding-bottom: 20px;
+    }
+    .regbtn button {
+        background-color: #209586;
+        color: white;
+        font-size: 15px;
+        width: 86%;
+        margin-top: .6rem;
+        margin-left: 7%;
+    }
+ 
+    .vegow {
+        padding-bottom: 15px;
+    }
+    /* showroom info page */
+    .topdealsvehicle {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 5px;
+    }
+    .vehiclecard {
+        width: 45%;
+        margin-bottom: 20px;
+        border: 1px solid rgb(228, 228, 228);
+        /* box-shadow: 0 2px 10px rgba(0, 0, 0, .105882); */
+    }
+    .vehiclecard img {
+        height: 4rem;
+        float: center;
+        padding-left: 20px;
+    }
+    .vehiclecard p {
+        margin-bottom: 0;
+    }
+    .vehname p {
+        font-size: 12px;
+    }
+    .vehinfo1 {
+        display: flex;
+        width: 100%;
+        padding: 2px 0px 2px 8px;
+        border-top: 1px solid rgb(228, 228, 228);
+        border-bottom: 1px solid rgb(228, 228, 228);
+    }
+    .vehinfo1 p {
+        font-size: 12px;
+    }
+    .vehinfo2 {
+        display: flex;
+        width: 100%;
+        padding: 2px 0px 2px 8px;
+        border-bottom: 1px solid rgb(228, 228, 228);
+    }
+    .vehinfo2 p {
+        font-size: 12px;
+    }
+    .vehratings img {
+        height: 0.7rem;
+        padding: 0;
+    }
+    .vehprice p {
+        font-size: 14px;
+    }
+    .vehprice {
+        padding: 2px 0px 2px 8px;
+    }
+    .vehname {
+        padding: 2px 0px 2px 8px;
+        border-top: 1px solid rgb(228, 228, 228);
+    }
+    .year {
+        width: 25%;
+        border-right: 1px solid rgb(228, 228, 228);
+    }
+    .modelveh {
+        width: 75%;
+        padding-left: 10px;
+    }
+    .engine {
+        width: 50%;
+        border-right: 1px solid rgb(228, 228, 228);
+    }
+    .fueltype {
+        width: 50%;
+        padding-left: 10px;
+    }
+    .vehratings {
+        padding-left: 10px;
+        border-bottom: 1px solid rgb(228, 228, 228);
+        margin-top: -3px;
+    }
+    /* emergency service page */
+    .emerg {
+        text-align: center;
+        margin: auto;
+    }
+    /* Hide all steps by default: */
+    .tab {
+        display: none;
+    }
+    /* Make circles that indicate the steps of the form: */
+    .steps {
+        border: 1px solid rgb(228, 228, 228);
+        width: 32%;
+        margin: auto;
+        border-radius: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+    .step {
+        height: 25px;
+        width: 25px;
+        margin: 0 2px;
+        border: 1px solid rgb(228, 228, 228);
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .step.active {
+        opacity: 0.5;
+    }
+    /* Mark the steps that are finished and valid: */
+    .step.finish {
+        background-color: #209586;
+        color: white;
+    }
+    .typevehicle {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .wheeler {
+        width: 50%;
+        border: 1px solid rgb(228, 228, 228);
+        padding: 20px 20px 20px 20px;
+        text-align: center;
+        margin: 20px 20px 20px 20px;
+    }
+    .wheeler img {
+        height: 3.5rem;
+    }
+    .emgtxt p {
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .steps {
+        text-align: center;
+        margin-top: 0px;
+    }
+    #regForm {
+        padding-top: 20px;
+    }
+    #option:hover {
+        background-color: #209586;
+        color: white;
+    }
+    #nextBtn {
+        background-color: #209586;
+        color: white;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    #sbtBtn {
+        background-color: #209586;
+        color: white;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    #prevBtn {
+        background-color: #f0233e;
+        color: white;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .locemg {
+        margin-top: 20px;
+    }
+    #googlemap {
+        margin-top: 20px;
+        width: 100%;
+        height: 400px;
+        margin-bottom: 10px;
+    }
+    .locbtn {
+        margin-top: 10px;
+    }
+    /* preloader - connecting garage */
+    .loader-cont {
+        display: flex;
+        justify-content: center;
+        margin-top: 36%;
+    }
+    .loaderimg1 img {
+        height: 4.7rem;
+        margin: 1rem;
+        margin-right: 5px;
+    }
+    .loaderimg2 img {
+        height: 4.4rem;
+        margin: 1rem;
+    }
+    .dot-typing {
+        position: relative;
+        left: -9999px;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        background-color: #9880ff;
+        color: #9880ff;
+        box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;
+        animation: dotTyping 1.5s infinite linear;
+        margin: 1.5rem;
+        margin-top: 3.5rem;
+    }
+    @keyframes dotTyping {
+        0% {
+            box-shadow: 9984px 0 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px 0 0 0 #e3324a;
+        }
+        16.667% {
+            box-shadow: 9984px -10px 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px 0 0 0 #e3324a;
+        }
+        33.333% {
+            box-shadow: 9984px 0 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px 0 0 0 #e3324a;
+        }
+        50% {
+            box-shadow: 9984px 0 0 0 #e3324a, 9999px -10px 0 0 #e3324a, 10014px 0 0 0 #e3324a;
+        }
+        66.667% {
+            box-shadow: 9984px 0 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px 0 0 0 #e3324a;
+        }
+        83.333% {
+            box-shadow: 9984px 0 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px -10px 0 0 #e3324a;
+        }
+        100% {
+            box-shadow: 9984px 0 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px 0 0 0 #e3324a;
+        }
+    }
+    .msg-load {
+        width: 60%;
+        margin: 2rem;
+        margin-left: 20%;
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }
+    .msg-load p {
+        font-size: 13px;
+        color: grey;
+    }
+    /* work with us */
+    .work {
+        padding-bottom: 15px;
+    }
+    .worklist {
+        display: flex;
+        padding: 10px 10px 10px 10px;
+        margin: 5px 0px 0px 1%;
+        border-top: 1px solid rgb(228, 228, 228);
+    }
+    #last {
+        border-bottom: 1px solid rgb(228, 228, 228);
+    }
+    .workicon {
+        width: 26%;
+    }
+    .worktxt {
+        width: 74%;
+    }
+    .workicon img {
+        height: 3rem;
+    }
+    .worktxt p {
+        font-size: 15px;
+        margin-top: 13px;
+        font-weight: 550;
+    }
+    .workoffer {
+        margin-top: 10px;
+    }
+    .worklist:hover .worktxt p{
+        color:#f0233e;
+    }
+      
+}
+
+/* Medium devices (landscape tablets, 550px to 850) */
+
+@media only screen and (min-width: 550px) and (max-width: 991px) {
+    #desksearch {
+        display: none;
+    }
+    .stickyfilter {
+        position: fixed;
+        top: 60.8px;
+        width: 100%;
+    }
+    .addlocationdesk {
+        display: none;
+    }
+    .navbar-brand img {
+        height: 3rem;
+        width: auto;
+    }
+    .togglerimg {
+        height: 2.2rem;
+        border: none;
+    }
+    .searchicon {
+        position: absolute;
+        height: 1.2rem;
+        margin: -31px 0px 0px 15px;
+    }
+    .searchbar {
+        padding: 0px 0px 0px 40px;
+        height: 2.8rem;
+        border: 1px solid lightgray;
+    }
+    .locationimg img {
+        height: 1.2rem;
+        margin: 0px 5px 0px 8px;
+    }
+    .locationcard {
+        display: flex;
+        padding-left: 1rem;
+        padding-bottom: 15px;
+        padding-top: 0.8rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+        border-top: none;
+        background-color: white;
+    }
+    .locationtxt {
+        display: flex;
+    }
+    .locationtxt p {
+        font-size: 15.4px;
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+    .locationtxt img {
+        height: 0.5rem;
+        margin-left: 5px;
+        margin-top: 2.5px;
+    }
+    .navbar {
+        padding-top: 8px;
+    }
+    header {
+        /* background:#e3324a linear-gradient(90deg,#fd3752,#fd3752); */
+        /* background:#e3324a linear-gradient(90deg,#ee1f3a,#cc041f); */
+        background: #e3324a linear-gradient(180deg, #f0233e, #f3324c);
+    }
+    /* Vego Services 4 */
+    .services {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin-top: 10px;
+        width: 98%;
+        margin-left: 1%;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+    }
+    .service {
+        width: 50%;
+        text-align: center;
+        padding: 1.5rem;
+        padding-bottom: 0;
+    }
+    .firstrow {
+        display: flex;
+    }
+    .secondrow1 {
+        display: flex;
+    }
+    .serviceicon {
+        text-align: center;
+    }
+    .serviceicon img {
+        height: 3.6rem;
+        margin-bottom: 1.2rem;
+    }
+    .servicename p {
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    #service1 {
+        border-right: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
+    #service2 {
+        border-bottom: 1px solid lightgray;
+    }
+    #service3 {
+        border-right: 1px solid lightgray;
+    }
+    .service:hover .servicename p {
+        font-weight: 550;
+        color: #f0233e;
+    }
+    /* sidebar */
+    .vego-sidebar {
+        height: 32%;
+    }
+    .vego-bar-block {
+        min-width: 80%;
+    }
+    .indexcarousel {
+        display: none;
+    }
+    /* offers vego */
+    .offer-sc {
+        padding-top: 0.7rem;
+        padding-bottom: 0.1rem;
+        padding-right: 0.9rem;
+    }
+    .scroll-container {
+        display: block;
+        white-space: nowrap;
+        width: 90%;
+        margin-left: 15px;
+    }
+    .offers img {
+        height: 12rem;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .indexcarousel {
+        display: none;
+    }
+    /* sidebar vego tablet */
+    .userprofile {
+        height: 10rem;
+        background: #209586;
+    }
+    .usericon img {
+        height: 3.5rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    .username p {
+        color: rgb(255, 255, 255);
+        margin-top: 1.7rem;
+        margin-left: 1rem;
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    .username {
+        display: flex;
+    }
+    .username img {
+        height: 0.8rem;
+        margin-top: 1.9rem;
+        margin-left: 7px;
+    }
+    .usernumber p {
+        color: rgb(218, 218, 218);
+        font-size: 14px;
+        margin-left: 1rem;
+    }
+    .sidebarlink {
+        display: flex;
+        width: 100%;
+        padding: 0.7rem;
+        border-bottom: 1px solid lightgray;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .sblinkicon img {
+        height: 1.3rem;
+    }
+    .sblinknav img {
+        height: 0.5rem;
+    }
+    .sblinkicon {
+        width: 10%;
+    }
+    .sblinktxt {
+        width: 80%;
+        padding-left: 0.5rem;
+    }
+    .sblinktxt p {
+        font-size: 15px;
+        margin-top: 3px;
+        margin-bottom: 0;
+        color: black;
+    }
+    .sblinktxt p:hover {
+        font-weight: 550;
+        color: #f0233e;
+    }
+    .cutsidebar img {
+        height: 1.2rem;
+        float: right;
+        margin: 20px;
+    }
+    /* Detect Location */
+    .detect img {
+        height: 1.5rem;
+    }
+    .loctxt p {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    #headloc {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .dtbtn {
+        background-color: #209586;
+        color: white;
+        font-size: 15px;
+        padding: 7px;
+    }
+    /* top Showorom cards  */
+    /* top showrooms */
+    .topshowrooms {
+        background-color: white;
+        width: 98%;
+        margin-left: 1%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .heading {
+        padding: 16px 14px 14px 14px;
+    }
+    .heading h5 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .headingunderline {
+        width: 10%;
+        text-align: left;
+        margin: 0;
+        background-color: #f0233e;
+        height: 1px;
+    }
+    .showroomcard {
+        display: inline-block;
+        width: 14rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+        border-radius: 3px;
+        margin-bottom: 12px;
+        margin-left: 8px;
+    }
+    .showroomcard img {
+        width: 100%;
+        height: 6.4rem;
+    }
+    .showroomcard p {
+        margin: 0;
+        white-space: pre-line;
+    }
+    .showroomname p {
+        font-size: 0.8rem;
+        font-weight: 550;
+        padding: 4px 0px 5px 7px;
+    }
+    .showroomtype {
+        display: flex;
+        width: 100%;
+        border-top: 1px solid #e9e9eb;
+    }
+    .showroomtype p {
+        font-size: 0.65rem;
+        padding: 5px 0px 4px 2px;
+    }
+    .address {
+        border-top: 1px solid #e9e9eb;
+    }
+    .address p {
+        font-size: 0.65rem;
+        padding: 4px 0px 5px 7px;
+    }
+    .type {
+        width: 50%;
+        border-right: 1px solid #e9e9eb;
+        padding: 2px 0px 3px 5px;
+    }
+    .ratings {
+        width: 50%;
+        text-align: center;
+    }
+    .ratings img {
+        height: 0.56rem;
+        width: 10%;
+        margin-top: -1px;
+    }
+    .emergencyservice {
+        width: 100%;
+        display: flex;
+        margin-top: 1rem;
+    }
+    .emergencyimg {
+        width: 40%;
+    }
+    .emergencyimg img {
+        height: 5rem;
+    }
+    .emergencyinfo {
+        width: 60%;
+    }
+    .emergencyinfo h5 {
+        font-size: 1rem;
+        font-weight: 570;
+        margin-top: 1rem;
+    }
+    .emergencyinfo p {
+        font-size: 0.8rem;
+        color: rgb(223, 223, 223);
+    }
+    .emgserv {
+        background-color: #209586;
+        color: white;
+        padding: 15px 0px 15px 0px;
+        border-radius: 4px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+    }
+    .workwithus {
+        background: #e3324a linear-gradient(180deg, #f0233e, #f3324c);
+        color: white;
+        padding: 15px 0px 15px 0px;
+        margin: 0;
+        border-radius: 4px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+    }
+    /* filter and sort */
+    .filtercard {
+        display: flex;
+        padding-left: 0.3rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+        background-color: white;
+        width: 100%;
+        border-top: 1px solid #e9e9eb;
+        height: 3rem;
+    }
+    .filtercard img {
+        height: 1.2rem;
+        margin: 0px 5px 0px 8px;
+    }
+    .filtercard p {
+        font-size: 15px;
+        margin-top: 3px;
+        margin-left: 2px;
+        font-weight: 580;
+    }
+    .sort {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        border-right: 1px solid #e9e9eb;
+        margin-top: 0.6rem;
+    }
+    .filter {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        margin-top: 0.6rem;
+    }
+    .sorthead p {
+        margin-top: 4px;
+        margin-bottom: 7px;
+        color: grey;
+    }
+    .sortlist {
+        margin-top: 12px;
+        font-size: 14px;
+    }
+    .sortlist label {
+        margin-top: 1px;
+    }
+    .filteroptions {
+        display: flex;
+        width: 100%;
+    }
+    #leftoption {
+        width: 59%;
+    }
+    #rightoption {
+        width: 41%;
+    }
+    .apply {
+        float: right;
+    }
+    .apply button {
+        background-color: #209586;
+        color: white;
+        font-size: 14px;
+        padding: 9px 12px 9px 12px;
+        margin-top: -11px;
+    }
+    /* garages card */
+    .garage {
+        background-color: white;
+        width: 98%;
+        margin-left: 1%;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        border-radius: 3px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+    }
+    .firstrow {
+        display: flex;
+        width: 100%;
+        border-bottom: 1px solid #e9e9eb;
+    }
+    .garageimg {
+        width: 50%;
+        padding: 20px;
+    }
+    .garageinfo {
+        width: 50%;
+    }
+    .garageimg img {
+        height: 10rem;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .garageratings img {
+        height: 0.8rem;
+    }
+    .garagename p {
+        margin-bottom: 0;
+        font-size: 16px;
+        padding-top: 20px;
+        word-wrap: break-word;
+        font-weight: 590;
+    }
+    .garageaddress p {
+        font-size: 14px;
+        word-wrap: break-word;
+        padding-top: 8px;
+        margin-bottom: 0;
+    }
+    .garageaddress img {
+        height: 0.8rem;
+    }
+    .secondrow {
+        width: 100%;
+        display: flex;
+        padding: 8px;
+    }
+    .garagestatus {
+        width: 33.3%;
+        text-align: center;
+    }
+    .garagedistance {
+        width: 33.3%;
+        text-align: center;
+    }
+    .garagetype {
+        width: 33.3%;
+        text-align: center;
+    }
+    .garagestatus p {
+        margin-bottom: 0;
+        font-size: 14px;
+        color: green;
+        font-weight: 500;
+    }
+    .garagedistance p {
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 600;
+        color: #f0233e;
+    }
+    .garagetype p {
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    /* register garage */
+    .topgarage {
+        margin-top: 5px;
+    }
+    .garagevector {
+        background-color: white;
+    }
+    .garagevector img {
+        width: 100%;
+    }
+    .garagetxthead {
+        padding: 0.8rem;
+        padding-top: 1.1rem;
+        padding-bottom: 1rem;
+    }
+    .garagetxthead h5 {
+        font-size: 20px;
+        margin-bottom: 0;
+        font-weight: 600;
+    }
+    .garagetxthead p {
+        margin-top: 0.6rem;
+        font-size: 14.7px;
+        margin-bottom: 0;
+        color: grey;
+    }
+    .garagetxthead a {
+        background-color: #209586;
+        color: white;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .garagetxthead .enbtn {
+        background-color: #e3324a;
+    }
+    .ourservices {
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+    }
+    .pro-service {
+        display: flex;
+        padding: 0.3rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-top: 1px solid rgb(228, 228, 228);
+    }
+    .proserviceimg img {
+        height: 2.5rem;
+        margin-right: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .proservicetxt {
+        height: 2.5rem;
+        text-align: center;
+    }
+    .proservicetxt p {
+        line-height: 2.5rem;
+        font-size: 14px;
+    }
+    /* tomeline */
+    .vectorcol {
+        float: left;
+        padding: 17px 25px 10px 15px;
+    }
+    .vectorcol img {
+        height: 3.7rem;
+    }
+    .verticalline {
+        border-left: 6px solid #f3324c;
+    }
+    .textcol {
+        float: right;
+        padding: 10px 10px 10px 15px;
+        height: 50%;
+        border-bottom: 1px solid rgb(228, 228, 228);
+    }
+    .textcol p {
+        font-size: 14px;
+        margin-bottom: 0;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .number {
+        width: 8px;
+        height: 8px;
+        padding: 0px 8px 15px 1px;
+        background: rgb(10, 10, 10);
+        border: 3px solid #000;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 11px;
+        margin: 35px 0px 0px -10.2px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+/* Medium devices (Desktop, 850px and up) */
+
+@media only screen and (min-width: 992px) {
+    .carousel-item img {
+        height: 380px;
+        width: 100%;
+    }
+    .navbar-brand {
+        margin: 0px 0px 0px 50px;
+    }
+    .navbar-brand img {
+        height: 3rem;
+        width: auto;
+    }
+    .dropdown-menu {
+        display: none;
+        font-size: 15px;
+    }
+    .dropdown-menu a {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .dropdown-menu a:hover {
+        background-color: #e3324a;
+        color: white;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .navLinks {
+        margin: 0px 120px 0px 0px;
+    }
+    .searchbar-cont {
+        display: none;
+    }
+    .navbar {
+        padding-top: 8px;
+    }
+    header {
+        /* background:#e3324a linear-gradient(90deg,#fd3752,#fd3752); */
+        /* background:#e3324a linear-gradient(90deg,#ee1f3a,#cc041f); */
+        background: #209586;
+    }
+    .locationcard {
+        display: none;
+    }
+    .nav-link {
+        color: white;
+        font-size: 15px;
+    }
+    .nav-link:hover {
+        color: lightgrey;
+    }
+    /* services vego */
+    .services {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin-top: 15px;
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+        margin-bottom: 20px;
+    }
+    .service {
+        width: 50%;
+        text-align: center;
+        padding: 3.5rem;
+        padding-bottom: 0;
+    }
+    .firstrow {
+        display: flex;
+    }
+    .secondrow1 {
+        display: flex;
+    }
+    .serviceicon {
+        text-align: center;
+    }
+    .serviceicon img {
+        height: 4rem;
+        margin-bottom: 1.5rem;
+    }
+    .servicename p {
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    #service1 {
+        border-right: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
+    #service2 {
+        border-bottom: 1px solid lightgray;
+    }
+    #service3 {
+        border-right: 1px solid lightgray;
+    }
+    .service:hover .servicename p {
+        font-weight: 550;
+        color: #f0233e;
+    }
+    .desktopservices {
+        display: flex;
+        background: #e3324a linear-gradient(180deg, #f0233e, #f3324c);
+    }
+    .indexcarousel {
+        width: 60%;
+        margin-top: 10px;
+        margin-left: 1%;
+        margin-bottom: 13px;
+    }
+    .vegoservices4 {
+        width: 40%;
+    }
+    .vegooffers {
+        display: none;
+    }
+    .addlocationdesk input {
+        font-size: 15px;
+        border: none;
+    }
+    /* Location detect model */
+    /* Detect Location */
+    .detect img {
+        height: 1.5rem;
+    }
+    .loctxt p {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    #headloc {
+        font-size: 17px;
+        font-weight: 500;
+        padding-top: 1rem;
+    }
+    #loc2 {
+        color: grey;
+        margin-bottom: 15px;
+    }
+    .dtbtn {
+        background-color: #209586;
+        color: white;
+        font-size: 15px;
+        padding: 7px;
+    }
+    .detectlocationbox {
+        padding: 0px 0px 0px 40px;
+        height: 2.8rem;
+        width: 96%;
+        margin-left: 2%;
+    }
+    .locationicon {
+        position: absolute;
+        height: 1.4rem;
+        margin: -33px 0px 0px 18px;
+    }
+    /* top Showorom cards  */
+    /* top showrooms */
+    .scroll-container {
+        display: block;
+        white-space: nowrap;
+        width: 90%;
+        margin-left: 5px;
+    }
+    .topshowrooms {
+        background-color: white;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .heading {
+        padding: 19px 14px 14px 14px;
+        text-align: center;
+    }
+    .heading h5 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .headingunderline {
+        width: 50px;
+        text-align: left;
+        margin: 0;
+        background-color: #f0233e;
+        height: 2px;
+        margin: auto;
+    }
+    .showroomcard {
+        display: inline-block;
+        width: 16rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+        border-radius: 3px;
+        margin-bottom: 30px;
+        margin-left: 8px;
+        margin-top: 30px;
+    }
+    .showroomcard img {
+        width: 100%;
+        height: 7rem;
+    }
+    .showroomcard p {
+        margin: 0;
+        white-space: pre-line;
+    }
+    .showroomname p {
+        font-size: 1rem;
+        font-weight: 550;
+        padding: 6px 0px 7px 7px;
+    }
+    .showroomtype {
+        display: flex;
+        width: 100%;
+        border-top: 1px solid #e9e9eb;
+    }
+    .showroomtype p {
+        font-size: 0.8rem;
+        padding: 6px 0px 4px 2px;
+    }
+    .address {
+        border-top: 1px solid #e9e9eb;
+    }
+    .address p {
+        font-size: 0.75rem;
+        padding: 6px 0px 7px 7px;
+    }
+    .type {
+        width: 50%;
+        border-right: 1px solid #e9e9eb;
+        padding: 2px 0px 3px 5px;
+    }
+    .ratings {
+        width: 50%;
+        text-align: center;
+    }
+    .ratings img {
+        height: 0.6rem;
+        width: 10%;
+        margin-top: 3px;
+    }
+    .emergencyservice {
+        width: 100%;
+        display: flex;
+        margin-top: 1rem;
+    }
+    .emergencyimg {
+        width: 40%;
+    }
+    .emergencyimg img {
+        height: 5rem;
+    }
+    .emergencyinfo {
+        width: 60%;
+    }
+    .emergencyinfo h5 {
+        font-size: 1rem;
+        font-weight: 570;
+        margin-top: 1rem;
+    }
+    .emergencyinfo p {
+        font-size: 0.8rem;
+        color: rgb(223, 223, 223);
+    }
+    .emgserv {
+        background-color: #209586;
+        color: white;
+        padding: 15px 0px 15px 0px;
+        border-radius: 4px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+    }
+    .workwithus {
+        background: #e3324a linear-gradient(180deg, #f0233e, #f3324c);
+        color: white;
+        padding: 15px 0px 15px 0px;
+        margin: 0;
+        border-radius: 4px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+    }
+    /* filter and sort */
+    .filtercard {
+        display: flex;
+        padding-left: 0.3rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+        background-color: white;
+        width: 100%;
+        border-top: 1px solid #e9e9eb;
+        height: 3rem;
+    }
+    .filtercard img {
+        height: 1.2rem;
+        margin: 0px 5px 0px 8px;
+    }
+    .filtercard p {
+        font-size: 15px;
+        margin-top: 3px;
+        margin-left: 2px;
+        font-weight: 580;
+    }
+    .sort {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        border-right: 1px solid #e9e9eb;
+        margin-top: 0.6rem;
+    }
+    .filter {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        margin-top: 0.6rem;
+    }
+    .sorthead p {
+        margin-top: 4px;
+        margin-bottom: 7px;
+        color: grey;
+    }
+    .sortlist {
+        margin-top: 12px;
+        font-size: 14px;
+    }
+    .sortlist label {
+        margin-top: 1px;
+    }
+    .filteroptions {
+        display: flex;
+        width: 100%;
+    }
+    #leftoption {
+        width: 59%;
+    }
+    #rightoption {
+        width: 41%;
+    }
+    .apply {
+        float: right;
+    }
+    .apply button {
+        background-color: #209586;
+        color: white;
+        font-size: 14px;
+        padding: 9px 12px 9px 12px;
+        margin-top: -11px;
+    }
+    /* garages card */
+    .garagescards {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    .garage {
+        background-color: white;
+        width: 32%;
+        margin-left: 1%;
+        margin-top: 10px;
+        margin-bottom: 8px;
+        border-radius: 3px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+    }
+    .firstrow {
+        display: flex;
+        width: 100%;
+        border-bottom: 1px solid #e9e9eb;
+    }
+    .garageimg {
+        width: 50%;
+        padding: 20px;
+    }
+    .garageinfo {
+        width: 50%;
+    }
+    .garageimg img {
+        height: 10rem;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .garageratings img {
+        height: 0.8rem;
+    }
+    .garagename p {
+        margin-bottom: 0;
+        font-size: 16px;
+        padding-top: 20px;
+        word-wrap: break-word;
+        font-weight: 590;
+    }
+    .garageaddress p {
+        font-size: 14px;
+        word-wrap: break-word;
+        padding-top: 8px;
+        margin-bottom: 0;
+    }
+    .garageaddress img {
+        height: 0.8rem;
+    }
+    .secondrow {
+        width: 100%;
+        display: flex;
+        padding: 8px;
+    }
+    .garagestatus {
+        width: 33.3%;
+        text-align: center;
+    }
+    .garagedistance {
+        width: 33.3%;
+        text-align: center;
+    }
+    .garagetype {
+        width: 33.3%;
+        text-align: center;
+    }
+    .garagestatus p {
+        margin-bottom: 0;
+        font-size: 14px;
+        color: green;
+        font-weight: 500;
+    }
+    .garagedistance p {
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 600;
+        color: #f0233e;
+    }
+    .garagetype p {
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    /* searchbar */
+    .searchicon {
+        position: absolute;
+        height: 1.2rem;
+        margin: -51px 0px 0px 28.3%;
+    }
+    .searchbar {
+        padding: 0px 0px 0px 40px;
+        height: 2.8rem;
+        border: 1px solid lightgray;
+        width: 45%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .showroomcard:hover {
+        transform: scale(1.03);
+    }
+    .garage:hover {
+        transform: scale(1.02);
+    }
+}
