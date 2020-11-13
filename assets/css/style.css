@@ -1299,7 +1299,7 @@ hr {
         margin: 1rem;
         margin-right: 5px;
         margin-left: 1.5rem;
-        margin-top: 2.5rem;
+        margin-top: 2rem;
     }
     #loader1 {
         position: relative;
@@ -1336,7 +1336,7 @@ hr {
       
       
       #loader1 span:not(:last-child) {
-        animation: animate 2s linear infinite;
+        animation: animate 1.5s linear infinite;
       }
       
       @keyframes animate {
@@ -1350,7 +1350,7 @@ hr {
       }
       
       #loader1 span:last-child {
-        animation: jump 2s ease-in-out infinite;
+        animation: jump 1.5s ease-in-out infinite;
       }
       
       @keyframes jump {
@@ -1388,7 +1388,7 @@ hr {
         padding-bottom: 1.5rem;
     }
     .msg-load p {
-        font-size: 13px;
+        font-size: 14px;
         color: grey;
     }
     /* work with us */
