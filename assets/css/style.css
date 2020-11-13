@@ -314,7 +314,7 @@ hr {
     }
     .servicename p {
         margin-bottom: 5px;
-        font-size: 14px;
+        font-size: 13px;
     }
     #service1 {
         border-right: 1px solid lightgray;
@@ -435,11 +435,13 @@ hr {
         margin-bottom: 5px;
     }
     #headloc {
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 500;
         padding-top: 1rem;
+        font-weight: 600;
     }
     #loc2 {
+        font-size: 14px;
         color: grey;
         margin-bottom: 15px;
     }
@@ -491,8 +493,8 @@ hr {
         white-space: pre-line;
     }
     .showroomname p {
-        font-size: 0.74rem;
-        font-weight: 550;
+        font-size:13px;
+        font-weight: 600;
         padding: 2px 0px 3px 5px;
     }
     .showroomtype {
@@ -501,14 +503,14 @@ hr {
         border-top: 1px solid #e9e9eb;
     }
     .showroomtype p {
-        font-size: 0.6rem;
+        font-size: 12px;
         padding: 4px 0px 0px 0px;
     }
     .address {
         border-top: 1px solid #e9e9eb;
     }
     .address p {
-        font-size: 0.6rem;
+        font-size: 11px;
         padding: 2px 0px 3px 5px;
     }
     .type {
@@ -521,7 +523,7 @@ hr {
         text-align: center;
     }
     .ratings img {
-        height: 0.5rem;
+        height: 0.6rem;
         width: 10%;
         margin-top: -1px;
     }
@@ -1458,7 +1460,7 @@ hr {
         display: flex;
     }
     .vehrepaired-explore p{
-        font-size: 12px;
+        font-size: 13px;
         margin-top: 9px;
         margin-bottom: 0px;
         color: #e3324a;
@@ -1466,7 +1468,7 @@ hr {
     }
     .vehrepaired-explore img{
         height: 1rem;
-        margin-top: 0.6rem;
+        margin-top: 0.7rem;
         margin-left: 0.5rem;
     }
 }
