@@ -2,7 +2,7 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
- 
+
 body {
     margin: 0;
     background: rgb(245, 245, 245);
@@ -123,12 +123,14 @@ hr {
     top: 0;
     width: 100%;
 }
-.sticky1{
+
+.sticky1 {
     position: sticky;
     top: 60px;
 }
-.bgc-s{
-    background-color:white;
+
+.bgc-s {
+    background-color: white;
 }
 
 #sortsidebar, #filtersidebar {
@@ -1291,20 +1293,18 @@ hr {
     .locbtn {
         margin-top: 10px;
     }
-
     /* preloader - connecting garage */
-   
-    .loader-cont{
+    .loader-cont {
         display: flex;
         justify-content: center;
         margin-top: 36%;
     }
-    .loaderimg1 img{
+    .loaderimg1 img {
         height: 4.7rem;
         margin: 1rem;
         margin-right: 5px;
     }
-    .loaderimg2 img{
+    .loaderimg2 img {
         height: 4.4rem;
         margin: 1rem;
     }
@@ -1320,66 +1320,71 @@ hr {
         animation: dotTyping 1.5s infinite linear;
         margin: 1.5rem;
         margin-top: 3.5rem;
-      }
-      
-      @keyframes dotTyping {
+    }
+    @keyframes dotTyping {
         0% {
-          box-shadow: 9984px 0 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px 0 0 0 #e3324a;
+            box-shadow: 9984px 0 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px 0 0 0 #e3324a;
         }
         16.667% {
-          box-shadow: 9984px -10px 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px 0 0 0 #e3324a;
+            box-shadow: 9984px -10px 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px 0 0 0 #e3324a;
         }
         33.333% {
-          box-shadow: 9984px 0 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px 0 0 0 #e3324a;
+            box-shadow: 9984px 0 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px 0 0 0 #e3324a;
         }
         50% {
-          box-shadow: 9984px 0 0 0 #e3324a, 9999px -10px 0 0 #e3324a, 10014px 0 0 0 #e3324a;
+            box-shadow: 9984px 0 0 0 #e3324a, 9999px -10px 0 0 #e3324a, 10014px 0 0 0 #e3324a;
         }
         66.667% {
-          box-shadow: 9984px 0 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px 0 0 0 #e3324a;
+            box-shadow: 9984px 0 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px 0 0 0 #e3324a;
         }
         83.333% {
-          box-shadow: 9984px 0 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px -10px 0 0 #e3324a;
+            box-shadow: 9984px 0 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px -10px 0 0 #e3324a;
         }
         100% {
-          box-shadow: 9984px 0 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px 0 0 0 #e3324a;
+            box-shadow: 9984px 0 0 0 #e3324a, 9999px 0 0 0 #e3324a, 10014px 0 0 0 #e3324a;
         }
-      }
-      .msg-load{
-          width: 60%;
-          margin: 2rem;
-          margin-left: 20%;
-          text-align: center;
-          padding-bottom: 1.5rem;
-      }
-      .msg-load p{
-          font-size: 13px;
-          color: grey;
-      }
-      /* work with us */
-      .worklist{
-          display: flex;
-          padding:10px 10px 10px 10px;
-          margin:5px 0px 0px 1%;
-          border-bottom: 1px solid rgb(228, 228, 228);
-      }
-      .workicon{
-          width:26%;
-      }
-      .worktxt{
-          width:74%;
-      }
-      .workicon img{
-          height:3rem;
-      }
-      .worktxt p{
-          font-size:15px;
-          margin-top:13px;
-          font-weight:550;
-      }
-    
-    
-    
+    }
+    .msg-load {
+        width: 60%;
+        margin: 2rem;
+        margin-left: 20%;
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }
+    .msg-load p {
+        font-size: 13px;
+        color: grey;
+    }
+    /* work with us */
+    .work {
+        padding-bottom: 15px;
+    }
+    .worklist {
+        display: flex;
+        padding: 10px 10px 10px 10px;
+        margin: 5px 0px 0px 1%;
+        border-top: 1px solid rgb(228, 228, 228);
+    }
+    #last {
+        border-bottom: 1px solid rgb(228, 228, 228);
+    }
+    .workicon {
+        width: 26%;
+    }
+    .worktxt {
+        width: 74%;
+    }
+    .workicon img {
+        height: 3rem;
+    }
+    .worktxt p {
+        font-size: 15px;
+        margin-top: 13px;
+        font-weight: 550;
+    }
+    .workoffer {
+        margin-top: 10px;
+    }
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
