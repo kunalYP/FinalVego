@@ -1393,40 +1393,55 @@ hr {
         color: grey;
     }
     /* work with us */
-    .work {
-        padding-bottom: 15px;
+    .work-cont{
+        background-color: #fff;
+        width: 96%;
+        margin: 2%;
+        padding: 20px;
+        padding-bottom: 0px;
     }
     .worklist {
         display: flex;
-        padding: 10px 10px 10px 10px;
-        margin: 5px 0px 0px 1%;
-        border-top: 1px solid rgb(228, 228, 228);
-    }
-    #last {
-        border-bottom: 1px solid rgb(228, 228, 228);
-    }
-    .workicon {
-        width: 26%;
-    }
-    .worktxt {
-        width: 74%;
+        margin: 0px;
+        border-bottom: 1px solid rgb(235, 235, 235);
     }
     .workicon img {
-        height: 3rem;
+        height: 3.8rem;
+        margin-top: 1rem;
+        margin-right: 2rem;
     }
-    .worktxt p {
+   
+    .worktxt1 p{
         font-size: 15px;
-        margin-top: 13px;
-        font-weight: 550;
+        font-weight: 600;
+        margin-bottom: 7px;
     }
-    .workoffer {
-        margin-top: 10px;
+    
+    .worktxt2 p{
+        font-size: 13px;
+        color: grey;
     }
-    .worklist:hover .worktxt p{
-        color:#f0233e;
+    .work-explore{
+        margin-top: 0px;
+        text-align: right;
+        padding-bottom: 8px;
+        display: flex;
+        margin-top: 7px;
+        width: 25%;
+        margin-left: 75%;
     }
+    .work-explore p{
       
-
+        margin-bottom:0px;
+        color: #209586;
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .work-explore img{
+        margin-left: 0.3rem;
+        margin-top: 0.4rem;
+        height: 0.5rem;
+    }
      /* bottom cards - emergency service and work with us */
      .vehrepaired-em-cont{
          padding: 1.4rem;
