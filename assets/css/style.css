@@ -631,6 +631,7 @@ hr {
     .serv-c {
         margin-top: 0px;
         margin-bottom: 5px;
+        padding-top:10px;
     }
     .firstrow {
         display: flex;
@@ -1099,22 +1100,10 @@ hr {
         color: white;
         font-size: 15px;
         width: 86%;
-        margin-top: 0.6rem;
+        margin-top: .6rem;
         margin-left: 7%;
     }
-    .regtxt {
-        float: center;
-        padding: 10px;
-        padding-bottom: 0px;
-    }
-    .regtxt p {
-        margin-bottom: 0px;
-        font-size: 12px;
-    }
-    #regtxt1 {
-        color: grey;
-        font-size: 14px;
-    }
+ 
     .vegow {
         padding-bottom: 15px;
     }
@@ -1385,6 +1374,10 @@ hr {
     .workoffer {
         margin-top: 10px;
     }
+    .worklist:hover .worktxt p{
+        color:#f0233e;
+    }
+      
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
