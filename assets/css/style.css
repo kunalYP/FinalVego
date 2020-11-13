@@ -652,14 +652,14 @@ hr {
         width: 98%;
     }
     .garageratings img {
-        height: 0.62rem;
+        height: 0.65rem;
     }
     .garagename p {
         margin-bottom: 0;
         font-size: 14px;
         padding-top: 8px;
         word-wrap: break-word;
-        font-weight: 590;
+        font-weight: 600;
     }
     .garageaddress p {
         font-size: 12px;
@@ -689,19 +689,19 @@ hr {
     }
     .garagestatus p {
         margin-bottom: 0;
-        font-size: 12.3px;
+        font-size: 12px;
         color: green;
         font-weight: 500;
     }
     .garagedistance p {
         margin-bottom: 0;
-        font-size: 12.3px;
+        font-size: 12px;
         font-weight: 600;
         color: #f0233e;
     }
     .garagetype p {
         margin-bottom: 0;
-        font-size: 12.3px;
+        font-size: 12px;
         font-weight: 500;
     }
     #thirdrow p {
@@ -1014,17 +1014,17 @@ hr {
     }
     .garagetxthead {
         padding: 0.8rem;
-        padding-top: 1.1rem;
+        padding-top: 1rem;
         padding-bottom: 1rem;
     }
     .garagetxthead h5 {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 0;
         font-weight: 600;
     }
     .garagetxthead p {
         margin-top: 0.6rem;
-        font-size: 14.7px;
+        font-size: 14px;
         margin-bottom: 0;
         color: grey;
     }
@@ -1032,7 +1032,7 @@ hr {
         background-color: #209586;
         color: white;
         margin-top: 10px;
-        font-size: 15px;
+        font-size: 14px;
     }
     .garagetxthead .enbtn {
         background-color: #e3324a;
@@ -1079,7 +1079,7 @@ hr {
         margin-top: 15px;
     }
     .textcol p {
-        font-size: 12px;
+        font-size: 13px;
         margin-bottom: 0;
     }
     .number {
