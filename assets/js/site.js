@@ -102,24 +102,3 @@ function fixStepIndicator(n) {
 
 
 
-
-
-
-
-window.onscroll = function () {
-  myFunction()
-};
-
-var navbar = document.getElementById("searchbox");
-var filters = document.getElementById("filtersection");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
-    filters.classList.add("stickyfilter")
-  } else {
-    navbar.classList.remove("sticky");
-    filters.classList.remove("stickyfilter");
-  }
-}
