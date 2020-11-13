@@ -1430,6 +1430,8 @@ hr {
          padding: 0.8rem;
          width: 96%;
          margin-left: 2%;
+         background-color: #e3fbff;
+         background-image: linear-gradient(90deg,#ecf3ff,#fbffff);
      }
      .vehrepaired-em{
         display: flex;
@@ -1441,10 +1443,11 @@ hr {
     }
     .vehrepaired-txt{
         margin-right: 1.5rem;
+       
     }
     .vehrtxt1 p{
-        font-size: 13px;
-        font-weight: 550;
+        font-size: 14px;
+        font-weight: 600;
         margin-bottom: 7px;
     }
     .vehrtxt2 p{
@@ -1458,8 +1461,8 @@ hr {
         font-size: 12px;
         margin-top: 9px;
         margin-bottom: 0px;
-        color: #209586;
-        font-weight: 550;
+        color: #e3324a;
+        font-weight: 600;
     }
     .vehrepaired-explore img{
         height: 1rem;
