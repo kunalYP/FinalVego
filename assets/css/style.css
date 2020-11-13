@@ -1431,11 +1431,13 @@ hr {
         margin-left: 75%;
     }
     .work-explore p{
-      
         margin-bottom:0px;
         color: #209586;
         font-weight: 600;
         font-size: 13px;
+    }
+    .work-explore p:hover{
+        text-decoration: underline #209586;
     }
     .work-explore img{
         margin-left: 0.3rem;
