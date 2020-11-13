@@ -2,7 +2,7 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
-
+ 
 body {
     margin: 0;
     background: rgb(245, 245, 245);
@@ -1356,6 +1356,27 @@ hr {
           font-size: 13px;
           color: grey;
       }
+      /* work with us */
+      .worklist{
+          display: flex;
+          padding:10px 10px 10px 10px;
+          margin:5px 0px 0px 1%;
+      }
+      .workicon{
+          width:26%;
+      }
+      .worktxt{
+          width:74%;
+      }
+      .workicon img{
+          height:3rem;
+      }
+      .worktxt h5{
+          font-size:17px;
+          margin-top:13px;
+          font-weight:550;
+      }
+    
     
 }
 
