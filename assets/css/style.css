@@ -1287,25 +1287,24 @@ hr {
         display: flex;
         justify-content: center;
         margin-top: 36%;
+        padding: 0.3rem;
     }
     .loaderimg1 img {
-        height: 5.3rem;
-        margin-top: 1rem;
-        margin-right: 5px;
-        margin-left: 7px;
+        height: 75px;
+        margin-top: 10px;
+        margin-right: 2px;
+       
     }
     .loaderimg2 img {
-        height: 3.8rem;
-        margin: 1rem;
-        margin-right: 5px;
-        margin-left: 1.5rem;
-        margin-top: 2rem;
+        height: 55px;
+        margin-left: 17px;
+        margin-top: 20px;
     }
     #loader1 {
         position: relative;
         display: flex;
         margin: 1rem;
-        margin-top: 3.5rem;
+        margin-top: 3rem;
         }
       
       #loader1 span {
@@ -1388,7 +1387,7 @@ hr {
         padding-bottom: 1.5rem;
     }
     .msg-load p {
-        font-size: 14px;
+        font-size: 13px;
         color: grey;
     }
     /* work with us */
