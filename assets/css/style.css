@@ -1730,7 +1730,7 @@ hr {
     .fg1 input{
         font-size: 15px;
         border: 1px solid lightgrey;
-        padding: 0.6rem;
+        padding: 1rem;
         width: 100%;
         border-radius: 5px;
     }
