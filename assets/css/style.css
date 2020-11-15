@@ -1661,6 +1661,13 @@ hr {
         border-radius: 0px;
     }
     .reviewcard-c{
+      padding: 0.5rem;
+      
+    }
+    .revcont{
+        padding-bottom: 1rem;
+    }
+    .reviewcard-c1{
         border: 1px solid rgb(235, 235, 235);
         width: 80%;
         margin: 5%;
@@ -1677,6 +1684,7 @@ hr {
     }
     .reviewdate p{
         font-size: 12px;
+        margin-top: 2px;
     }
     .ratings1 img{
         width: 0.6rem;
@@ -1687,7 +1695,7 @@ hr {
         font-size: 13px;
     }
     .reviewtxt p{
-        font-size: 12px;
+        font-size: 11px;
         margin-bottom: 0px;
     }
     .nav-review1{
