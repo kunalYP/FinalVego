@@ -1757,6 +1757,51 @@ hr {
         text-align: center;
     }
 
+    /* login page */
+
+    .loginform{
+        padding: 1rem;
+        text-align: center;
+    }
+    .reg-link{
+        margin-top: 0px;
+        font-size: 13px;
+    }
+    .reg-link:hover{
+        text-decoration: underline black;
+    }
+    .fg-log1 a{
+        background-color: #209586;
+        color: white;
+        width: 100%;
+        font-size: 14px;
+    }
+    .fg-log input{
+        font-size: 14px;
+        height: 2.5rem;
+    }
+    .fg-log2 img{
+        height: 1rem;
+    }
+    .fg-log2 a{
+        font-size: 14px;
+    }
+    .fg-log3 img{
+        height: 1rem;
+    }
+    .fg-log3 a{
+        font-size: 14px;
+    }
+    .fg-log2{
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .fg-log3{
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        
+    }
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
