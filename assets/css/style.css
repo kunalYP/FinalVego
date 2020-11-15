@@ -656,7 +656,7 @@ hr {
     }
     .garagename p {
         margin-bottom: 0;
-        font-size: 14px;
+        font-size: 13px;
         padding-top: 8px;
         word-wrap: break-word;
         font-weight: 600;
@@ -1259,18 +1259,21 @@ hr {
         color: white;
         margin-bottom: 10px;
         margin-right: 10px;
+        font-size: 14px;
     }
     #sbtBtn {
         background-color: #209586;
         color: white;
         margin-bottom: 10px;
         margin-right: 10px;
+        font-size: 14px;
     }
     #prevBtn {
         background-color: #f0233e;
         color: white;
         margin-bottom: 10px;
         margin-right: 10px;
+        font-size: 14px;
     }
     .locemg {
         margin-top: 20px;
@@ -1715,6 +1718,45 @@ hr {
         margin-right: 1.3rem;
         border-radius: 50%;
     }
+
+    /* registration form */
+  
+    .regform-cont{
+        padding: 0.8rem; 
+    }
+    .fg1 label{
+        font-size: 14px;
+    }
+    .fg1 input{
+        font-size: 14px;
+        border: 1px solid lightgrey;
+        padding: 7px;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .fg1 textarea{
+        font-size: 14px;
+    }
+    .fg2{
+        font-size: 14px;
+    }
+    .fi1{
+        width: 27%;
+        margin: 2%;
+    }
+    .fi1 label{
+        font-size: 14px;
+        margin-left: 3px;
+    }
+    .locationbtn a{
+        background-color: #e3324a;
+        color: white;
+        font-size: 14px;
+    }
+    .locationbtn{
+        text-align: center;
+    }
+
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
