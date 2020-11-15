@@ -1259,21 +1259,21 @@ hr {
         color: white;
         margin-bottom: 10px;
         margin-right: 10px;
-        font-size: 14px;
+        font-size: 15px;
     }
     #sbtBtn {
         background-color: #209586;
         color: white;
         margin-bottom: 10px;
         margin-right: 10px;
-        font-size: 14px;
+        font-size: 15px;
     }
     #prevBtn {
         background-color: #f0233e;
         color: white;
         margin-bottom: 10px;
         margin-right: 10px;
-        font-size: 14px;
+        font-size: 15px;
     }
     .locemg {
         margin-top: 20px;
@@ -1725,33 +1725,33 @@ hr {
         padding: 0.8rem; 
     }
     .fg1 label{
-        font-size: 14px;
+        font-size: 15px;
     }
     .fg1 input{
-        font-size: 14px;
+        font-size: 15px;
         border: 1px solid lightgrey;
-        padding: 7px;
+        padding: 0.6rem;
         width: 100%;
         border-radius: 5px;
     }
     .fg1 textarea{
-        font-size: 14px;
+        font-size: 15px;
     }
     .fg2{
-        font-size: 14px;
+        font-size: 15px;
     }
     .fi1{
         width: 27%;
         margin: 2%;
     }
     .fi1 label{
-        font-size: 14px;
+        font-size: 15px;
         margin-left: 3px;
     }
     .locationbtn a{
         background-color: #e3324a;
         color: white;
-        font-size: 14px;
+        font-size: 15px;
     }
     .locationbtn{
         text-align: center;
