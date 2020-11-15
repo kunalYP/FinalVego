@@ -1497,6 +1497,7 @@ hr {
     .con-info{
         margin-top: 3rem;
         padding: 1rem;
+        margin-bottom: 5px;
     }
     .con-heading h5{
         color: white;
@@ -1546,8 +1547,11 @@ hr {
         margin-top: 5px;
     }
     .cont-form{
-        margin-top: 3px;
+        margin-top: 0px;
         padding: 1rem;
+    }
+    .cont-form1{
+        margin-top: 0px;
     }
     .inp-cont::-webkit-input-placeholder {
         font-size: 14px;
@@ -1578,11 +1582,130 @@ hr {
     .sociallinks-c{
         display: flex;
         margin-left: 0px;
+        color: #209586;
     }
     .socialitem img{
         height: 1.7rem;
         margin-right: 1rem;
         margin-top: 1rem;
+    }
+
+    /* about us */
+    .values-cont{
+        margin-top: 3rem;
+    }
+    .values-list{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 1rem;
+        justify-content: center;
+    }
+    .valueitem{
+        width: 48%;
+        margin: 1%;
+        text-align: center;
+        padding: 0.4rem;
+    }
+    .valueicon img{
+        height: 2.5rem;
+    }
+    .valuetxt1 p{
+        font-size: 14px;
+        margin-top: 0.5rem;
+        margin-bottom: 6px;
+        font-weight: 600;
+    }
+    .valuetxt2 p{
+        font-size: 12px;
+    }
+    .team-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .team-item{
+        width: 80%;
+        text-align: center;
+        border: 1px solid rgb(235, 235, 235);
+        margin: 5%;
+    }
+    .teamiconbg img{
+        height: 5rem;
+        width: 100%;
+    }
+    .teamiconper img{
+        height: 6rem;
+        border-radius: 50%;
+        margin-top: -2.9rem;
+    }
+    .teamname p{
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .teamdes p{
+        font-size: 13px;
+        color: grey;
+    }
+    .teammail p{
+        font-size: 13px;
+    }
+    .teambtn a{
+        background-color: #e3324a;
+        color: white;
+        font-size: 14px;
+    }
+    .teambtn1{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .reviewcard-c{
+        border: 1px solid rgb(235, 235, 235);
+        width: 80%;
+        margin: 5%;
+        margin-left: 10%;
+    }
+    .reviewcard{
+         text-align: center;
+         padding: 1rem;
+    }
+    .reviewname p{
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+    .reviewdate p{
+        font-size: 12px;
+    }
+    .ratings1 img{
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+    
+    .reviewdate p{
+        font-size: 13px;
+    }
+    .reviewtxt p{
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .nav-review1{
+        background-color: #209586;
+        height: 1.8rem;
+        margin-top: 5.5rem;
+        width: 1.8rem;
+        margin-left: 1.3rem;
+        border-radius: 50%;
+    
+    }
+    .nav-review2{
+        background-color: #209586;
+        height: 1.8rem;
+        margin-top: 5.5rem;
+        width: 1.8rem;
+        margin-right: 1.3rem;
+        border-radius: 50%;
     }
 }
 
