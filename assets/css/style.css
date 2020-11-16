@@ -1852,6 +1852,14 @@ hr {
         border: 2px solid #209586;
         color: #209586;
     }
+    .us-gender{
+        padding-left: 0.5rem;
+        padding-top: 5px;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+
+    }
+    
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
