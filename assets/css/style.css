@@ -1802,6 +1802,56 @@ hr {
         border-radius: 5px;
         
     }
+    /* userprofile edit */
+    .usereditform{
+        padding: 1rem;
+    }
+    .fg-log label{
+        font-size: 14px;
+    }
+    .userprofile-in{
+        display: flex;
+        border: 1px solid rgb(235, 235, 235);
+        margin: 1rem;
+        padding-bottom: 1rem;
+    }
+    .un1 p{
+        color: black;
+        font-size: 14px;
+        margin-top: 3px;
+    }
+    .un1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.4rem;
+    }
+    .fg-us{
+        display: flex;
+        width: 100%;
+        background-color: #fff;
+        padding: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        position: fixed;
+        bottom: 0;
+        justify-content: center;
+    }
+    .fg-space{
+        margin-bottom: 2.5rem;
+    }
+    .fg-us a{
+        background-color: #209586;
+        color: white;
+        width: 40%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 14px;
+    }
+    .fg-us .rst{
+        background-color: white;
+        border: 2px solid #209586;
+        color: #209586;
+    }
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
