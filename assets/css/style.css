@@ -1095,25 +1095,27 @@ hr {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .regbtn-cont {
-       text-align: center;
+       display: flex;
+       justify-content: center;
        position: fixed;
        bottom: 0;
-       width: 100%;
+       width: 98%;
        background-color: #fff;
        padding: 0.5rem;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .enbtn{
         background-color: #e3324a;
         color: white;
         font-size: 14px;
-        width: 45%;
+        width: 39%;
+        margin-left: 2.5rem;
     }
     .regbtn { 
         background-color: #209586;
         color: white;       
         font-size: 14px;
-        width: 45%;
-       
+        width: 39%;
     }
  
     .vegow {
@@ -1747,11 +1749,7 @@ hr {
     .fg1 textarea{
         font-size: 15px;
     }
-    .fg1 #exampleFormControlInput5{
-        text-align: center;
-        line-height: 2.5rem;
-        height: 2.5rem;
-    }
+    
     .fg2{
         font-size: 15px;
     }
