@@ -1759,6 +1759,7 @@ hr {
         font-size: 20px;
         color: #e3324a;
         margin-left: -12px;
+        margin-bottom: -20px;
      }
     #midtxt{
         font-size: 14px;
@@ -1831,7 +1832,7 @@ hr {
     /* login page */
 
     .loginform{
-        padding: 1rem;
+        padding: 2.3rem;
         text-align: center;
     }
     .reg-link{
@@ -1846,6 +1847,8 @@ hr {
         color: white;
         width: 100%;
         font-size: 14px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
     }
     .fg-log input{
         font-size: 14px;
@@ -1866,12 +1869,12 @@ hr {
     .fg-log2{
         border: 1px solid lightgrey;
         border-radius: 5px;
-        margin-top: 10px;
+        margin-top: 15px;
     }
     .fg-log3{
         border: 1px solid lightgrey;
         border-radius: 5px;
-        
+        margin-top: 15px;
     }
     /* userprofile edit */
     .usereditform{
