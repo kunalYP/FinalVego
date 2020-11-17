@@ -1753,11 +1753,12 @@ hr {
     #leftq{
         font-size: 20px;
         color: #e3324a;
+        margin-right: -1rem;
     }
     #rightq{
         font-size: 20px;
         color: #e3324a;
-        
+        margin-left: -12px;
      }
     #midtxt{
         font-size: 14px;
@@ -1770,20 +1771,20 @@ hr {
     }
     .brands-list{
         display: flex;
-        padding: 1rem;
+        padding: 0.5rem;
         width: 100%;
         flex-wrap: wrap;
         margin-top: 0.3rem;
     }
     .brand-item{
         width: 25%;
-        padding: 1rem;
+        padding: 1.2rem;
         border: 1px solid rgb(236, 236, 236);
         text-align: center;
     }
     .brand-item img{
-        height: 3rem;
-        width: 3rem;
+        height: 2.7rem;
+        width: 2.7rem;
     }
     
     /* registration form */
