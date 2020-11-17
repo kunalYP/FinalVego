@@ -2007,6 +2007,7 @@ hr {
     }
     .emerstepicon img{
         height: 15rem;
+        margin: 0.5rem;
     }
     .emergencyservicego{
         text-align: center;
