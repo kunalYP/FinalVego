@@ -1730,22 +1730,44 @@ hr {
     }
     .txt-abt{
         margin-top: 3rem;
-        padding: 1rem;
+        padding: 2rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
         margin-bottom: 0px;
-        display: flex;
-        
-    }
+        text-align: center;
+        }
+        .txt-abt p{
+            color: grey;
+            font-size: 13px;
+            text-align: end;
+            margin-top: 0.5rem;
+            margin-right: 1.2rem;
+            margin-bottom: 0px;
+        }
     .abttxt p{
         margin-bottom: 0px;
         font-size: 13px;
-        text-align: center;
+       
         color: rgb(75, 75, 75);
         font-weight: 600;
     }
-    .quotedtxt1{
-        height: 1.2rem;
-        width: 1.2rem;
-        margin-top: -13px;
+    #leftq{
+        font-size: 20px;
+        color: #e3324a;
+    }
+    #rightq{
+        font-size: 20px;
+        color: #e3324a;
+        margin-top:-1rem;
+     }
+    #midtxt{
+        font-size: 14px;
+        
+        color: rgb(75, 75, 75);
+        font-weight: 600;
+        margin: 1rem;
+        line-height: 14px;
+        text-align: center;
     }
     .brands-list{
         display: flex;
@@ -1756,7 +1778,7 @@ hr {
     }
     .brand-item{
         width: 25%;
-        padding: 2%;
+        padding: 1rem;
         border: 1px solid rgb(236, 236, 236);
         text-align: center;
     }
@@ -1776,9 +1798,11 @@ hr {
     .fg1 input{
         font-size: 15px;
         border: 1px solid lightgrey;
-        
         width: 100%;
         border-radius: 5px;
+    }
+    .fg-browse input{
+        padding: 1rem;
     }
     .fg1 textarea{
         font-size: 15px;
