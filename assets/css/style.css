@@ -495,7 +495,7 @@ hr {
     .showroomname p {
         font-size:13px;
         font-weight: 600;
-        padding: 2px 0px 3px 5px;
+        padding: 5px 0px 5px 7px;
     }
     .showroomtype {
         display: flex;
@@ -504,14 +504,14 @@ hr {
     }
     .showroomtype p {
         font-size: 12px;
-        padding: 4px 0px 0px 0px;
+        padding: 3px 0px 0px 0px;
     }
     .address {
         border-top: 1px solid #e9e9eb;
     }
     .address p {
         font-size: 11px;
-        padding: 2px 0px 3px 5px;
+        padding: 4px 0px 2px 5px;
     }
     .type {
         width: 50%;
@@ -1747,7 +1747,6 @@ hr {
     .abttxt p{
         margin-bottom: 0px;
         font-size: 13px;
-       
         color: rgb(75, 75, 75);
         font-weight: 600;
     }
@@ -1758,7 +1757,7 @@ hr {
     #rightq{
         font-size: 20px;
         color: #e3324a;
-        margin-top:-1rem;
+        
      }
     #midtxt{
         font-size: 14px;
