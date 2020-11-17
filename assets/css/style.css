@@ -605,10 +605,10 @@ hr {
     }
     .sortlist {
         margin-top: 12px;
-        font-size: 14px;
+        font-size: 13px;
     }
     .sortlist label {
-        margin-top: 0px;
+        margin-top: 2px;
     }
     .filteroptions {
         display: flex;
