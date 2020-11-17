@@ -408,7 +408,7 @@ hr {
         padding-left: 0.5rem;
     }
     .sblinktxt p {
-        font-size: 15px;
+        font-size: 14px;
         margin-top: 3px;
         margin-bottom: 0;
         color: black;
@@ -483,6 +483,7 @@ hr {
         border-radius: 3px;
         margin-bottom: 10px;
         margin-left: 6px;
+        margin-top: 1rem;
     }
     .showroomcard img {
         width: 100%;
@@ -504,7 +505,7 @@ hr {
     }
     .showroomtype p {
         font-size: 12px;
-        padding: 3px 0px 0px 0px;
+        padding: 2px 0px 0px 0px;
     }
     .address {
         border-top: 1px solid #e9e9eb;
@@ -604,10 +605,10 @@ hr {
     }
     .sortlist {
         margin-top: 12px;
-        font-size: 14px;
+        font-size: 13px;
     }
     .sortlist label {
-        margin-top: 1px;
+        margin-top: 2px;
     }
     .filteroptions {
         display: flex;
@@ -726,7 +727,7 @@ hr {
         padding: 10px 0px 0px 10px;
     }
     .headtext h5 {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 600;
         margin-bottom: 0;
     }
@@ -743,7 +744,7 @@ hr {
         padding: 5px 0px 10px 10px;
     }
     .headstatus p {
-        font-size: 12px;
+        font-size: 13px;
         color: green;
         margin-bottom: 0;
     }
@@ -808,13 +809,11 @@ hr {
         text-align: center;
     }
     .grgsername p {
-        font-size: 10px;
+        font-size: 11px;
         margin-bottom: 0px;
-        font-weight: 550;
     }
     .grgsername {
         margin-top: 0.2rem;
-        /* border-bottom: 1px dashed lightgrey; */
     }
     .grgserprice p {
         font-size: 12px;
@@ -1155,6 +1154,7 @@ hr {
     }
     .vehinfo1 p {
         font-size: 12px;
+        
     }
     .vehinfo2 {
         display: flex;
@@ -1170,7 +1170,7 @@ hr {
         padding: 0;
     }
     .vehprice p {
-        font-size: 14px;
+        font-size: 13px;
     }
     .vehprice {
         padding: 2px 0px 2px 8px;
@@ -1178,6 +1178,10 @@ hr {
     .vehname {
         padding: 2px 0px 2px 8px;
         border-top: 1px solid rgb(228, 228, 228);
+    }
+    .vehname p{
+        font-size:13px ;
+        font-weight: 600;
     }
     .year {
         width: 25%;
@@ -1464,7 +1468,7 @@ hr {
          padding: 1.4rem;
          width: 100%;
          background-color: #fff;
-         margin-bottom: 5px;
+         margin-bottom: 7px;
      }
    
      .vehrepaired-em{
