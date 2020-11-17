@@ -1025,7 +1025,7 @@ hr {
     .garagetxthead p {
         margin-top: 0.6rem;
         font-size: 14px;
-        margin-bottom: 0;
+        margin-bottom: 0px;
         color: grey;
     }
     .garagetxthead a {
@@ -1037,6 +1037,14 @@ hr {
     .garagetxthead .enbtn {
         background-color: #e3324a;
     }
+    #garagetxthead1{
+        color: #209586;
+    }
+    #garagetxthead2{
+        font-weight: 600;
+        color: black;
+    }
+    
     .ourservices {
         padding-left: 0.7rem;
         padding-right: 0.7rem;
@@ -1105,14 +1113,15 @@ hr {
        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .enbtn{
-        background-color: #e3324a;
+        
+        background-color: #209586;
         color: white;
         font-size: 14px;
         width: 39%;
         margin-left: 2.5rem;
     }
     .regbtn { 
-        background-color: #209586;
+        background-color: #e3324a;
         color: white;       
         font-size: 14px;
         width: 39%;
@@ -1950,11 +1959,11 @@ hr {
     .offerinfo-item img{
         width: 96%;
         margin: 2%;
-        margin-top: 0.7rem;
+        margin-top: 1rem;
         border-radius: 5px;
     }
     .offerinfo-itemtxt p{
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 600;
         margin: 0.5rem;
         margin-bottom: 0px;
@@ -1962,6 +1971,7 @@ hr {
     .offerinfo-txt{
         padding: 0.5rem;
         padding-top: 0px;
+        border-bottom: 1px solid rgb(233, 233, 233);
     }
     .offerinfo-txt a{
         font-size: 13px;
@@ -1975,6 +1985,9 @@ hr {
     }
     .moretxt-offer p{
         font-size: 14px;
+    }
+    .offerinfo-cont{
+        padding: 0.5rem;
     }
     /* emergency info */
     
