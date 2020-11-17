@@ -1761,7 +1761,7 @@ hr {
      }
     #midtxt{
         font-size: 14px;
-        
+        font-style: italic;
         color: rgb(75, 75, 75);
         font-weight: 600;
         margin: 1rem;
