@@ -2018,6 +2018,50 @@ hr {
         background-color: #209586;
         color: white;
     }
+
+    /* price card */
+    .pricetable-c{
+        padding-bottom: 1rem;
+    }
+    .price-table{
+        width: 94%;
+        margin: 3%;
+        margin-top: 1rem;
+        border-bottom: 1px solid lightgrey;
+    }
+    .price-item{
+        width: 100%;
+        display: flex;
+        border: 1px solid lightgrey;
+        border-bottom: none;
+    }
+    .price-item1{
+        width: 100%;
+        display: flex;
+        border: 1px solid rgb(236, 236, 236);
+        border-bottom: none;
+        background-color: rgb(230, 224, 224);
+    }
+    .price-cat{
+        width: 70%;
+        padding: 0.7rem;
+        padding-left: 1rem;
+        border-right: 1px solid rgb(233, 233, 233);
+    }
+    .price-rs{
+        width: 30%;
+        padding: 0.7rem;
+        text-align: center;
+    }
+    .price-cat p{
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    .price-rs p{
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: 600;
+    }
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
