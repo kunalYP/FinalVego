@@ -494,7 +494,7 @@ hr {
         white-space: pre-line;
     }
     .showroomname p {
-        font-size:13px;
+        font-size: 13px;
         font-weight: 600;
         padding: 5px 0px 5px 7px;
     }
@@ -634,7 +634,7 @@ hr {
     .serv-c {
         margin-top: 0px;
         margin-bottom: 5px;
-        padding-top:10px;
+        padding-top: 10px;
     }
     .firstrow {
         display: flex;
@@ -755,7 +755,7 @@ hr {
         font-size: 12px;
         margin-bottom: 0;
     }
-    .headprice p{
+    .headprice p {
         font-size: 14px;
         font-weight: 600;
         margin-bottom: 0px;
@@ -1045,14 +1045,13 @@ hr {
     .garagetxthead .enbtn {
         background-color: #e3324a;
     }
-    #garagetxthead1{
+    #garagetxthead1 {
         color: #209586;
     }
-    #garagetxthead2{
+    #garagetxthead2 {
         font-weight: 600;
         color: black;
     }
-    
     .ourservices {
         padding-left: 0.7rem;
         padding-right: 0.7rem;
@@ -1111,30 +1110,28 @@ hr {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .regbtn-cont {
-       display: flex;
-       justify-content: center;
-       position: fixed;
-       bottom: 0;
-       width: 98%;
-       background-color: #fff;
-       padding: 0.5rem;
-       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        width: 98%;
+        background-color: #fff;
+        padding: 0.5rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-    .enbtn{
-        
+    .enbtn {
         background-color: #209586;
         color: white;
         font-size: 14px;
         width: 39%;
         margin-left: 2.5rem;
     }
-    .regbtn { 
+    .regbtn {
         background-color: #e3324a;
-        color: white;       
+        color: white;
         font-size: 14px;
         width: 39%;
     }
- 
     .vegow {
         padding-bottom: 15px;
     }
@@ -1152,7 +1149,7 @@ hr {
         border: 1px solid rgb(228, 228, 228);
         /* box-shadow: 0 2px 10px rgba(0, 0, 0, .105882); */
     }
-    .vehiclecard:hover{
+    .vehiclecard:hover {
         transform: scale(1.03);
     }
     .vehiclecard img {
@@ -1175,7 +1172,6 @@ hr {
     }
     .vehinfo1 p {
         font-size: 12px;
-        
     }
     .vehinfo2 {
         display: flex;
@@ -1200,8 +1196,8 @@ hr {
         padding: 2px 0px 2px 8px;
         border-top: 1px solid rgb(228, 228, 228);
     }
-    .vehname p{
-        font-size:13px ;
+    .vehname p {
+        font-size: 13px;
         font-weight: 600;
     }
     .year {
@@ -1335,7 +1331,6 @@ hr {
         height: 75px;
         margin-top: 10px;
         margin-right: 2px;
-       
     }
     .loaderimg2 img {
         height: 55px;
@@ -1347,80 +1342,68 @@ hr {
         display: flex;
         margin: 1rem;
         margin-top: 3rem;
-        }
-      
-      #loader1 span {
+    }
+    #loader1 span {
         display: block;
-        width:7px;
+        width: 7px;
         height: 7px;
         background: #ffffff;
         border: 2px solid #e3324a;
         border-radius: 30%;
         margin: 0 4px;
-      }
-      
-      #loader1 span:nth-child(2) {
+    }
+    #loader1 span:nth-child(2) {
         border: 2px solid #209586;
-        background:white;
-      
-      }
-      
-      #loader1 span:nth-child(3) {
+        background: white;
+    }
+    #loader1 span:nth-child(3) {
         background: #ffffff;
         border: 2px solid #209586;
-      }
-      
-      #loader1 span:nth-child(4) {
+    }
+    #loader1 span:nth-child(4) {
         background: #ffffff;
         border: 2px solid #209586;
-      }
-      
-      
-      #loader1 span:not(:last-child) {
+    }
+    #loader1 span:not(:last-child) {
         animation: animate 1.5s linear infinite;
-      }
-      
-      @keyframes animate {
+    }
+    @keyframes animate {
         0% {
-          transform: translateX(0);
+            transform: translateX(0);
         }
-      
         100% {
-          transform: translateX(30px);
+            transform: translateX(30px);
         }
-      }
-      
-      #loader1 span:last-child {
+    }
+    #loader1 span:last-child {
         animation: jump 1.5s ease-in-out infinite;
-      }
-      
-      @keyframes jump {
+    }
+    @keyframes jump {
         0% {
-          transform: translate(0, 0);
+            transform: translate(0, 0);
         }
         10% {
-          transform: translate(10px, -10px);
+            transform: translate(10px, -10px);
         }
         20% {
-          transform: translate(20px, 10px);
+            transform: translate(20px, 10px);
         }
         30% {
-          transform: translate(30px, -20px);
+            transform: translate(30px, -20px);
         }
         70% {
-          transform: translate(-70px, -20px);
+            transform: translate(-70px, -20px);
         }
         80% {
-          transform: translate(-60px, 10px);
+            transform: translate(-60px, 10px);
         }
         90% {
-          transform: translate(-50px, -10px);
+            transform: translate(-50px, -10px);
         }
         100% {
-          transform: translate(-40px, 0);
+            transform: translate(-40px, 0);
         }
-      }
-      
+    }
     .msg-load {
         width: 60%;
         margin: 2rem;
@@ -1433,7 +1416,7 @@ hr {
         color: grey;
     }
     /* work with us */
-    .work-cont{
+    .work-cont {
         background-color: #fff;
         width: 96%;
         margin: 2%;
@@ -1450,18 +1433,16 @@ hr {
         margin-top: 1rem;
         margin-right: 2rem;
     }
-   
-    .worktxt1 p{
+    .worktxt1 p {
         font-size: 15px;
         font-weight: 600;
         margin-bottom: 7px;
     }
-    
-    .worktxt2 p{
+    .worktxt2 p {
         font-size: 13px;
         color: grey;
     }
-    .work-explore{
+    .work-explore {
         margin-top: 0px;
         text-align: right;
         padding-bottom: 8px;
@@ -1470,200 +1451,192 @@ hr {
         width: 25%;
         margin-left: 75%;
     }
-    .work-explore p{
-        margin-bottom:0px;
+    .work-explore p {
+        margin-bottom: 0px;
         color: #209586;
         font-weight: 600;
         font-size: 13px;
     }
-    .work-explore p:hover{
+    .work-explore p:hover {
         text-decoration: underline #209586;
     }
-    .work-explore img{
+    .work-explore img {
         margin-left: 0.3rem;
         margin-top: 0.4rem;
         height: 0.5rem;
     }
-     /* bottom cards - emergency service and work with us */
-     .vehrepaired-em-cont{
-         padding: 1.4rem;
-         width: 100%;
-         background-color: #fff;
-         margin-bottom: 7px;
-     }
-   
-     .vehrepaired-em{
+    /* bottom cards - emergency service and work with us */
+    .vehrepaired-em-cont {
+        padding: 1.4rem;
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 7px;
+    }
+    .vehrepaired-em {
         display: flex;
         border-bottom: 1px solid rgb(226, 226, 226);
     }
-     .vehrepaired-img img{
+    .vehrepaired-img img {
         height: 4rem;
         margin-top: 0.8rem;
     }
-    .vehrepaired-txt{
+    .vehrepaired-txt {
         margin-right: 1.5rem;
-       
     }
-    .vehrtxt1 p{
+    .vehrtxt1 p {
         font-size: 14px;
         font-weight: 600;
         margin-bottom: 7px;
     }
-    .vehrtxt2 p{
+    .vehrtxt2 p {
         font-size: 12px;
         color: grey;
     }
-    .vehrepaired-explore{
+    .vehrepaired-explore {
         display: flex;
     }
-    .vehrepaired-explore p{
+    .vehrepaired-explore p {
         font-size: 13px;
         margin-top: 9px;
         margin-bottom: 0px;
         color: #e3324a;
         font-weight: 600;
     }
-    .vehrepaired-explore img{
+    .vehrepaired-explore img {
         height: 1rem;
         margin-top: 0.7rem;
         margin-left: 0.5rem;
     }
-
     /* contact us */
-    .blackbg img{
+    .blackbg img {
         width: 100%;
         height: 7rem;
     }
-    .con-info{
+    .con-info {
         margin-top: 3rem;
         padding: 1rem;
         margin-bottom: 5px;
     }
-    .con-heading h5{
+    .con-heading h5 {
         color: white;
         margin-top: -4.3rem;
-        font-size:22px;
+        font-size: 22px;
         text-align: center;
     }
-    .con-info span{
+    .con-info span {
         font-size: 16px;
         font-weight: 600;
     }
-    .con-mob1{
+    .con-mob1 {
         display: flex;
         margin-top: 1rem;
     }
-    .con-mob1 img{
+    .con-mob1 img {
         height: 0.7rem;
         margin-right: 0.6rem;
         margin-top: 5px;
     }
-    .con-mob2 p{
+    .con-mob2 p {
         font-size: 14px;
     }
-    .con-mob2{
+    .con-mob2 {
         display: flex;
         margin-bottom: 1rem;
     }
-    .con-mob2 img{
+    .con-mob2 img {
         height: 0.7rem;
         margin-right: 0.6rem;
         margin-top: 5px;
     }
-    .con-mob1 p{
+    .con-mob1 p {
         font-size: 14px;
     }
-    .con-address{
+    .con-address {
         display: flex;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-    .con-address p{
+    .con-address p {
         font-size: 14px;
     }
-    .con-address img{
+    .con-address img {
         height: 0.9rem;
         margin-right: 0.6rem;
         margin-top: 5px;
     }
-    .cont-form{
+    .cont-form {
         margin-top: 0px;
         padding: 1.5rem;
     }
-    .cont-form1{
+    .cont-form1 {
         margin-top: 0px;
     }
     .inp-cont::-webkit-input-placeholder {
         font-size: 14px;
     }
-    
     .inp-cont:-moz-placeholder {
         font-size: 14px;
     }
-    
     .inp-cont::-moz-placeholder {
         font-size: 14px;
     }
-    
     .inp-cont:-ms-input-placeholder {
         font-size: 14px;
     }
-    .inp-cont{
+    .inp-cont {
         font-size: 14px;
     }
-    .cont-submit{
+    .cont-submit {
         text-align: center;
     }
-    .cont-sub{
+    .cont-sub {
         background-color: #e3324a;
         color: white;
         font-size: 14px;
         width: 100%;
     }
-    .sociallinks-c{
+    .sociallinks-c {
         display: flex;
         margin-left: 0px;
         color: #209586;
     }
-    .socialitem img{
+    .socialitem img {
         height: 1.7rem;
         margin-right: 1rem;
         margin-top: 1rem;
     }
-
     /* about us */
-    
-    .values-list{
+    .values-list {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         padding: 1rem;
         justify-content: center;
     }
-    .valueitem{
+    .valueitem {
         width: 48%;
         margin: 1%;
         text-align: center;
         padding: 0.4rem;
     }
-    .valueicon img{
+    .valueicon img {
         height: 2.5rem;
     }
-    .valuetxt1 p{
+    .valuetxt1 p {
         font-size: 14px;
         margin-top: 0.5rem;
         margin-bottom: 6px;
         font-weight: 600;
     }
-    .valuetxt2 p{
+    .valuetxt2 p {
         font-size: 12px;
     }
-    .team-list{
+    .team-list {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .team-item{
+    .team-item {
         width: 80%;
         text-align: center;
         border: 1px solid rgb(235, 235, 235);
@@ -1677,24 +1650,24 @@ hr {
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
     } */
-    .teamiconper img{
+    .teamiconper img {
         height: 7rem;
         border-radius: 50%;
         margin-top: -3.5rem;
     }
-    .teamname p{
+    .teamname p {
         font-weight: 600;
         font-size: 14px;
         margin-top: 5px;
     }
-    .teamdes p{
+    .teamdes p {
         font-size: 13px;
         color: grey;
     }
-    .teammail p{
+    .teammail p {
         font-size: 13px;
     }
-    .teambtn a{
+    .teambtn a {
         background-color: #e3324a;
         color: white;
         font-size: 14px;
@@ -1702,58 +1675,55 @@ hr {
         width: 94%;
         border-radius: 5px;
     }
-    .teambtn1{
+    .teambtn1 {
         width: 100%;
         border-radius: 0px;
     }
-    .reviewcard-c{
-      padding: 0.5rem;
-      
+    .reviewcard-c {
+        padding: 0.5rem;
     }
-    .revcont{
+    .revcont {
         padding-bottom: 1rem;
     }
-    .reviewcard-c1{
+    .reviewcard-c1 {
         border: 1px solid rgb(235, 235, 235);
         width: 80%;
         margin: 5%;
         margin-left: 10%;
     }
-    .reviewcard{
-         text-align: center;
-         padding: 1rem;
+    .reviewcard {
+        text-align: center;
+        padding: 1rem;
     }
-    .reviewname p{
+    .reviewname p {
         font-size: 14px;
         font-weight: 600;
         margin-bottom: 0px;
     }
-    .reviewdate p{
+    .reviewdate p {
         font-size: 12px;
         margin-top: 2px;
     }
-    .ratings1 img{
+    .ratings1 img {
         width: 0.6rem;
         height: 0.6rem;
     }
-    
-    .reviewdate p{
+    .reviewdate p {
         font-size: 13px;
     }
-    .reviewtxt p{
+    .reviewtxt p {
         font-size: 11px;
         margin-bottom: 0px;
     }
-    .nav-review1{
+    .nav-review1 {
         background-color: #209586;
         height: 1.8rem;
         margin-top: 5.5rem;
         width: 1.8rem;
         margin-left: 1.3rem;
         border-radius: 50%;
-    
     }
-    .nav-review2{
+    .nav-review2 {
         background-color: #209586;
         height: 1.8rem;
         margin-top: 5.5rem;
@@ -1761,40 +1731,40 @@ hr {
         margin-right: 1.3rem;
         border-radius: 50%;
     }
-    .txt-abt{
+    .txt-abt {
         margin-top: 3rem;
         padding: 2rem;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         margin-bottom: 0px;
         text-align: center;
-        }
-        .txt-abt p{
-            color: grey;
-            font-size: 13px;
-            text-align: end;
-            margin-top: 0.5rem;
-            margin-right: 1.2rem;
-            margin-bottom: 0px;
-        }
-    .abttxt p{
+    }
+    .txt-abt p {
+        color: grey;
+        font-size: 13px;
+        text-align: end;
+        margin-top: 0.5rem;
+        margin-right: 1.2rem;
+        margin-bottom: 0px;
+    }
+    .abttxt p {
         margin-bottom: 0px;
         font-size: 13px;
         color: rgb(75, 75, 75);
         font-weight: 600;
     }
-    #leftq{
+    #leftq {
         font-size: 20px;
         color: #e3324a;
         margin-right: -1rem;
     }
-    #rightq{
+    #rightq {
         font-size: 20px;
         color: #e3324a;
         margin-left: -12px;
         margin-bottom: -20px;
-     }
-    #midtxt{
+    }
+    #midtxt {
         font-size: 14px;
         font-style: italic;
         color: rgb(75, 75, 75);
@@ -1803,82 +1773,77 @@ hr {
         line-height: 14px;
         text-align: center;
     }
-    .brands-list{
+    .brands-list {
         display: flex;
         padding: 0.5rem;
         width: 100%;
         flex-wrap: wrap;
         margin-top: 0.3rem;
     }
-    .brand-item{
+    .brand-item {
         width: 25%;
         padding: 1.2rem;
         border: 1px solid rgb(236, 236, 236);
         text-align: center;
     }
-    .brand-item img{
+    .brand-item img {
         height: 2.7rem;
         width: 2.7rem;
     }
-    
     /* registration form */
-  
-    .regform-cont{
-        padding: 0.8rem; 
+    .regform-cont {
+        padding: 0.8rem;
     }
-    .fg1 label{
+    .fg1 label {
         font-size: 15px;
     }
-    .fg1 input{
+    .fg1 input {
         font-size: 15px;
         border: 1px solid lightgrey;
         width: 100%;
         border-radius: 5px;
     }
-    .fg-browse{
-        margin-bottom:0;
+    .fg-browse {
+        margin-bottom: 0;
     }
-    .fg-browse input{
+    .fg-browse input {
         padding: 1rem;
     }
-    .fg1 textarea{
+    .fg1 textarea {
         font-size: 15px;
     }
-    
-    .fg2{
+    .fg2 {
         font-size: 15px;
     }
-    .fi1{
+    .fi1 {
         width: 27%;
         margin: 2%;
     }
-    .fi1 label{
+    .fi1 label {
         font-size: 15px;
         margin-left: 3px;
     }
-    .locationbtn a{
+    .locationbtn a {
         background-color: #e3324a;
         color: white;
         font-size: 15px;
     }
-    .locationbtn{
+    .locationbtn {
         text-align: center;
     }
-
     /* login page */
-
-    .loginform{
+    .loginform {
         padding: 2.3rem;
         text-align: center;
     }
-    .reg-link{
+    .reg-link {
         margin-top: 0px;
         font-size: 13px;
     }
-    .reg-link:hover{
+    .reg-link:hover {
         text-decoration: underline black;
     }
-    .fg-log1 a{
+    .fg-log1 a {
         background-color: #209586;
         color: white;
         width: 100%;
@@ -1886,56 +1851,56 @@ hr {
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
     }
-    .fg-log input{
+    .fg-log input {
         font-size: 14px;
         height: 2.5rem;
     }
-    .fg-log2 img{
+    .fg-log2 img {
         height: 1rem;
     }
-    .fg-log2 a{
+    .fg-log2 a {
         font-size: 14px;
     }
-    .fg-log3 img{
+    .fg-log3 img {
         height: 1rem;
     }
-    .fg-log3 a{
+    .fg-log3 a {
         font-size: 14px;
     }
-    .fg-log2{
+    .fg-log2 {
         border: 1px solid lightgrey;
         border-radius: 5px;
         margin-top: 15px;
     }
-    .fg-log3{
+    .fg-log3 {
         border: 1px solid lightgrey;
         border-radius: 5px;
         margin-top: 15px;
     }
     /* userprofile edit */
-    .usereditform{
+    .usereditform {
         padding: 1rem;
     }
-    .fg-log label{
+    .fg-log label {
         font-size: 14px;
     }
-    .userprofile-in{
+    .userprofile-in {
         display: flex;
         border: 1px solid rgb(235, 235, 235);
         margin: 1rem;
         padding-bottom: 1rem;
     }
-    .un1 p{
+    .un1 p {
         color: black;
         font-size: 14px;
         margin-top: 3px;
     }
-    .un1{
+    .un1 {
         display: flex;
         flex-direction: column;
         margin-top: 1.4rem;
     }
-    .fg-us{
+    .fg-us {
         display: flex;
         width: 100%;
         background-color: #fff;
@@ -1946,10 +1911,10 @@ hr {
         bottom: 0;
         justify-content: center;
     }
-    .fg-space{
+    .fg-space {
         margin-bottom: 2.5rem;
     }
-    .fg-us a{
+    .fg-us a {
         background-color: #209586;
         color: white;
         width: 40%;
@@ -1957,164 +1922,157 @@ hr {
         margin-right: 1rem;
         font-size: 14px;
     }
-    .fg-us .rst{
+    .fg-us .rst {
         background-color: white;
         border: 2px solid #209586;
         color: #209586;
     }
-    .us-gender{
+    .us-gender {
         padding-left: 0.5rem;
         padding-top: 5px;
         border: 1px solid lightgrey;
         border-radius: 5px;
-
     }
     /* offer page */
-    .offerinfo-item img{
+    .offerinfo-item img {
         width: 96%;
         margin: 2%;
         margin-top: 1rem;
         border-radius: 5px;
     }
-    .offerinfo-itemtxt p{
+    .offerinfo-itemtxt p {
         font-size: 15px;
         font-weight: 600;
         margin: 0.5rem;
         margin-bottom: 0px;
     }
-    .offerinfo-txt{
+    .offerinfo-txt {
         padding: 0.5rem;
         padding-top: 0px;
         border-bottom: 1px solid rgb(233, 233, 233);
     }
-    .offerinfo-txt a{
+    .offerinfo-txt a {
         font-size: 13px;
         color: #209586;
     }
-    .offerinfo-txt a:hover{
+    .offerinfo-txt a:hover {
         text-decoration: underline #209586;
     }
-    .moretxt-offer{
+    .moretxt-offer {
         margin-top: 0.5rem;
     }
-    .moretxt-offer p{
+    .moretxt-offer p {
         font-size: 14px;
     }
-    .offerinfo-cont{
+    .offerinfo-cont {
         padding: 0.5rem;
     }
     /* emergency info */
-    
-    .emer-images{
+    .emer-images {
         margin-top: 1rem;
-        
     }
-    .emersteptxt p{
+    .emersteptxt p {
         font-size: 14px;
         font-weight: 600;
-        
         text-align: center;
     }
-    .emerstepicon{
+    .emerstepicon {
         text-align: center;
         margin-bottom: 2rem;
     }
-    .emerstepicon img{
+    .emerstepicon img {
         height: 15rem;
         margin: 0.5rem;
     }
-    .emergencyservicego{
+    .emergencyservicego {
         text-align: center;
         padding-bottom: 1rem;
     }
-    .emergencyservicego a{
+    .emergencyservicego a {
         font-size: 14px;
         background-color: #209586;
         color: white;
     }
-
     /* price card */
-    .pricetable-c{
+    .pricetable-c {
         padding-bottom: 1rem;
     }
-    .price-table{
+    .price-table {
         width: 94%;
         margin: 3%;
         margin-top: 1rem;
         border-bottom: 1px solid lightgrey;
     }
-    .price-item{
+    .price-item {
         width: 100%;
         display: flex;
         border: 1px solid lightgrey;
         border-bottom: none;
     }
-    .price-item1{
+    .price-item1 {
         width: 100%;
         display: flex;
         border: 1px solid lightgrey;
         border-bottom: none;
         background-color: rgb(230, 224, 224);
     }
-    .price-cat{
+    .price-cat {
         width: 70%;
         padding: 0.7rem;
         padding-left: 1rem;
         border-right: 1px solid rgb(233, 233, 233);
     }
-    .price-rs{
+    .price-rs {
         width: 30%;
         padding: 0.7rem;
         text-align: center;
     }
-    .price-cat p{
+    .price-cat p {
         margin-bottom: 0px;
         font-size: 14px;
     }
-    .price-rs p{
+    .price-rs p {
         margin-bottom: 0px;
         font-size: 14px;
         font-weight: 600;
     }
-    
     /* vehicle info */
-    .vehindicators img{
+    .vehindicators img {
         height: 2rem;
         width: 2rem;
         margin: 0.1rem;
     }
-    .vehimages{
+    .vehimages {
         padding-bottom: 0.5rem;
     }
-    .vehspecs-c{
+    .vehspecs-c {
         padding: 0.7rem;
         width: 100%;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
-    .vehspecitem{
+    .vehspecitem {
         width: 28%;
         text-align: center;
         margin: 2.6%;
         border: 1px solid rgb(231, 231, 231);
         border-radius: 5px;
     }
-    .vehspecicon img{
+    .vehspecicon img {
         height: 2.5rem;
         margin-bottom: 0.5rem;
         margin-top: 0.3rem;
     }
-    .vehspectxt1 p{
+    .vehspectxt1 p {
         font-size: 12px;
         margin-bottom: 0px;
     }
-    .vehspectxt2 p{
+    .vehspectxt2 p {
         font-size: 13px;
         margin-bottom: 3px;
         color: grey;
     }
-
     #spec-show {
         width: 96%;
         margin-left: 2%;
@@ -2126,18 +2084,16 @@ hr {
         padding-top: 16px;
         padding-bottom: 16px;
         font-size: 14px;
-      }
-      
-      .spec-tab {
+    }
+    .spec-tab {
         overflow: scroll;
         height: 25rem;
         width: 96%;
         margin-left: 2%;
         border-left: 1px solid rgb(233, 233, 233);
         border-right: 1px solid rgb(233, 233, 233);
-      }
-      
-      #spec-show2 {
+    }
+    #spec-show2 {
         width: 96%;
         margin-left: 2%;
         margin-bottom: 1rem;
@@ -2148,63 +2104,88 @@ hr {
         color: white;
         margin-top: 0px;
         font-size: 14px;
-      }
-      .plus-minus{
-          font-size: 15px;
-          font-weight: 650;
-          float: right;
-          margin-right: 1rem;
-      }
-      .vehvideos{
-          padding: 1rem;
-          display: flex;
-          width: 100%;
-          flex-wrap: wrap;
-          justify-content: center;
-      }
-      .vehvideo-item{
-          width: 90%;
-          margin-bottom: 1rem;
-      }
-      .vehvideo-item iframe{
-          width: 100%;
-          border-radius: 5px;
-      }
-      .headshrmprice p{
-          font-size: 12px;
-          color: grey;
-          margin-left: 0.6rem;
-      }
-      .headshrmprice span{
-          color: #e3324a;
-      }
-      .headshrmprice img{
-          height: 0.6rem;
-          margin-left: 0rem;
-          margin-bottom: 0.2rem;
-      }
-      .offerbtn-veh button{
-          width: 50%;
-      }
-      /* edit garage page */
-      .grimges{
-          margin-top:-15px;
-          margin-bottom: 16px;
-      }
-      .imggr1{
-          width:33%;
-          display: inline-block;
-      }
-      .cancelbtn{
-          text-align: center;
-      }
-      .cancelbtn img{
-          height:0.7rem;
-      }
-      .grimg img{
-          height:4rem;
-      }
-      
+    }
+    .plus-minus {
+        font-size: 15px;
+        font-weight: 650;
+        float: right;
+        margin-right: 1rem;
+    }
+    .vehvideos {
+        padding: 1rem;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .vehvideo-item {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+    .vehvideo-item iframe {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .headshrmprice p {
+        font-size: 12px;
+        color: grey;
+        margin-left: 0.6rem;
+    }
+    .headshrmprice span {
+        color: #e3324a;
+    }
+    .headshrmprice img {
+        height: 0.6rem;
+        margin-left: 0rem;
+        margin-bottom: 0.2rem;
+    }
+    .offerbtn-veh button {
+        width: 50%;
+    }
+    /* edit garage page */
+    .grimges {
+        margin-top: -15px;
+        margin-bottom: 16px;
+    }
+    .imggr1 {
+        width: 33%;
+        display: inline-block;
+    }
+    .cancelbtn {
+        text-align: center;
+    }
+    .cancelbtn img {
+        height: 0.7rem;
+    }
+    .grimg img {
+        height: 4rem;
+    }
+    .addvehbtn a {
+        background-color: #209586;
+        font-size: 15px;
+        color: white;
+        width: 60%;
+        margin-top: 5px;
+    }
+    .addvehbtn {
+        text-align: center;
+    }
+    .deletevehbtn a {
+        background-color: #f0233e;
+        font-size: 12px;
+        color: white;
+        padding: 0.8px;
+        margin-bottom: 5px;
+        width: 50%;
+        margin-top: 5px;
+        border: none;
+    }
+    .deletevehbtn {
+        text-align: center;
+    }
+    .editshowroomsteps {
+        width: 40%;
+    }
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
@@ -2547,9 +2528,6 @@ hr {
         border-radius: 4px;
         box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
     }
-
-
-   
     /* filter and sort */
     .filtercard {
         display: flex;
