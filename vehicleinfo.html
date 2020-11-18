@@ -283,7 +283,30 @@
     </div>
     <!-- add location modal desktop end-->
 
+    <section id="sidebar">
+        <div class="vego-sidebar vego-bar-block vego-animate-bottom " style="display:none;z-index:5;width:100%;"
+            id="addLocationSidebar">
 
+            <div class="LocationUser">
+                <div class="loctxt">
+                    <p id="headloc">Choose Your Location</p>
+                    <p id="loc2">Select a location to see exact results</p>
+                </div>
+                <div class="addcity">
+                    <form class="form p-2 searchbar-cont">
+                        <input class="form-control  searchbar" type="search" placeholder="Enter Pincode or City"
+                            aria-label="Search">
+                        <img src="assets/images/location.svg" alt="" class="searchicon">
+                    </form>
+                </div>
+                <div class="detect text-center">
+                    <a href="" class="btn dtbtn">
+                        Detect My Current Location
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- vehicle info  -->
     <section class="defaultcard vehimages">
@@ -341,12 +364,16 @@
                 <img src="assets/images/star.svg" alt="">
                 <img src="assets/images/star.svg" alt="">
             </div>
-
+      
             <div class="headprice">
                 <p>₹ 60 - 70 Lakhs </p>
             </div>
-            <div class="pricebtn">
-                <button class="btn" onclick="location.href='offers.html'">Offers</button>
+            <div class="headshrmprice" onclick="addLocationsidebar_open()">
+                <p>*Ex-showroom price in <span> Aurangabad</span>
+                        <img src="assets/images/edit2.svg" alt=""></p>
+            </div>
+            <div class="pricebtn offerbtn-veh">
+                <button class="btn" onclick="location.href='offers.html'">Our Offers</button>
                 <a href="" class="btn">
                     <img src="assets/images/call.svg" alt="">
                 </a>
