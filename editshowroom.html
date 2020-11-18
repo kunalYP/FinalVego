@@ -310,6 +310,7 @@
     </div>
     <!-- add location modal desktop end-->
 
+    <!-- user location -->
 
 
 
@@ -317,30 +318,29 @@
     <!-- edit garage -->
     <section>
         <div class="defaultcard">
-
+            <div class="heading">
+                <h5>Edit Showroom</h5>
+                <hr class="headingunderline">
+            </div>
 
             <form id="regForm" action="/action_page.php">
                 <!-- Circles which indicates the steps of the form: -->
-                <div class="steps">
+                <div class="steps editshowroomsteps">
                     <span class="step">1</span>
                     <span class="step">2</span>
                     <span class="step">3</span>
-
-                </div>
-                <div class="heading">
-                    <h5>Edit Garage</h5>
-                    <hr class="headingunderline">
+                    <span class="step">4</span>
                 </div>
                 <!-- One "tab" for each step in the form: -->
                 <div class="tab">
 
                     <div class="regform-cont">
                         <div class="form-group fg1">
-                            <label for="exampleFormControlInput1">Garage Name :</label>
+                            <label for="exampleFormControlInput1">Showroom Name :</label>
                             <input type="email" class="form-control" id="exampleFormControlInput1">
                         </div>
                         <div class="form-group fg1 fg-browse">
-                            <label for="your_email">Garage Photos : ( Min : 6 and Max: 10 )</label>
+                            <label for="your_email">Showroom Photos : ( Min : 6 and Max: 10 )</label>
                             <input type="file" name="files[]" id="files" multiple
                                 accept="image/jpeg, image/png, image/gif," class="imageupload">
                             <output id="Filelist"></output>
@@ -391,7 +391,7 @@
                             </div>
                         </div>
                         <div class="form-group fg1">
-                            <label for="exampleFormControlTextarea1">Garage Address :</label>
+                            <label for="exampleFormControlTextarea1">Showroom Address :</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div class="form-group fg1">
@@ -470,7 +470,7 @@
                     <div class="regform-cont">
 
                         <div class="form-group fg1">
-                            <label for="exampleFormControlInput1">Garage Address :</label>
+                            <label for="exampleFormControlInput1">Showroom Address :</label>
                             <input type="email" class="form-control" id="exampleFormControlInput5">
                         </div>
                         <div class="locationbtn">
@@ -484,6 +484,173 @@
                         </div>
                     </div>
                 </div>
+                <div class="tab">
+                    <div class="regform-cont">
+                        <div class="form-group fg1">
+                            <label for="exampleFormControlTextarea1">Vehicle Brand :</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="form-group fg1">
+                            <label for="exampleFormControlTextarea1"> Model :</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="form-group fg1">
+                            <label for="exampleFormControlTextarea1">Variant :</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1">
+                        </div>
+
+                        <div class="addvehbtn">
+                            <a href="" class="btn">Add Vehicle</a>
+                        </div>
+                    </div>
+                    <div class="topdealsvehicle">
+
+                        <div class="vehiclecard" onclick="location.href='vehicleinfo.html'">
+                            <img src="assets/images/car1.png" alt="">
+                            <div class="vehname">
+                                <p>Ford EcoSport 200</p>
+                            </div>
+                            <div class="vehinfo1">
+                                <div class="year">
+                                    <p>2001</p>
+                                </div>
+                                <div class="modelveh">
+                                    <p>Top Model (BS6)</p>
+                                </div>
+                            </div>
+                            <div class="vehinfo2">
+                                <div class="engine">
+                                    <p>1500cc</p>
+                                </div>
+                                <div class="fueltype">
+                                    <p>Petrol</p>
+                                </div>
+                            </div>
+                            <div class="vehratings">
+                                <img src="assets/images/star.svg" alt="">
+                                <img src="assets/images/star.svg" alt="">
+                                <img src="assets/images/star.svg" alt="">
+                                <img src="assets/images/star.svg" alt="">
+                                <img src="assets/images/star.svg" alt="">
+                            </div>
+                            <div class="vehprice">
+                                <p> <b>90.20 Lakh</b>
+                                </p>
+                            </div>
+                            <div class="deletevehbtn">
+                                <a href="" class="btn">Delete</a>
+                            </div>
+                        </div>
+                        <div class="vehiclecard" onclick="location.href='vehicleinfo.html'">
+                            <img src="assets/images/car2.png" alt="">
+                            <div class="vehname">
+                                <p>Ford EcoSport 200</p>
+                            </div>
+                            <div class="vehinfo1">
+                                <div class="year">
+                                    <p>2001</p>
+                                </div>
+                                <div class="modelveh">
+                                    <p>Top Model (BS6)</p>
+                                </div>
+                            </div>
+                            <div class="vehinfo2">
+                                <div class="engine">
+                                    <p>1500cc</p>
+                                </div>
+                                <div class="fueltype">
+                                    <p>Petrol</p>
+                                </div>
+                            </div>
+                            <div class="vehratings">
+                                <img src="assets/images/star.svg" alt="">
+                                <img src="assets/images/star.svg" alt="">
+                                <img src="assets/images/star.svg" alt="">
+                                <img src="assets/images/star.svg" alt="">
+                                <img src="assets/images/star.svg" alt="">
+                            </div>
+                            <div class="vehprice">
+                                <p> <b>90.20 Lakh</b>
+                                </p>
+                            </div>
+                            <div class="deletevehbtn">
+                                <a href="" class="btn">Delete</a>
+                            </div>
+                        </div>
+                        <div class="vehiclecard" onclick="location.href='vehicleinfo.html'">
+                            <img src="assets/images/car2.png" alt="">
+                            <div class="vehname">
+                                <p>Ford EcoSport 200</p>
+                            </div>
+                            <div class="vehinfo1">
+                                <div class="year">
+                                    <p>2001</p>
+                                </div>
+                                <div class="modelveh">
+                                    <p>Top Model (BS6)</p>
+                                </div>
+                            </div>
+                            <div class="vehinfo2">
+                                <div class="engine">
+                                    <p>1500cc</p>
+                                </div>
+                                <div class="fueltype">
+                                    <p>Petrol</p>
+                                </div>
+                            </div>
+                            <div class="vehratings">
+                                <img src="assets/images/star.svg" alt="">
+                                <img src="assets/images/star.svg" alt="">
+                                <img src="assets/images/star.svg" alt="">
+                                <img src="assets/images/star.svg" alt="">
+                                <img src="assets/images/star.svg" alt="">
+                            </div>
+                            <div class="vehprice">
+                                <p> <b>90.20 Lakh</b>
+                                </p>
+                            </div>
+                            <div class="deletevehbtn">
+                                <a href="" class="btn">Delete</a>
+                            </div>
+                        </div>
+                        <div class="vehiclecard" onclick="location.href='vehicleinfo.html'">
+                            <img src="assets/images/car3.png" alt="">
+                            <div class="vehname">
+                                <p>Ford EcoSport 200</p>
+                            </div>
+                            <div class="vehinfo1">
+                                <div class="year">
+                                    <p>2001</p>
+                                </div>
+                                <div class="modelveh">
+                                    <p>Top Model (BS6)</p>
+                                </div>
+                            </div>
+                            <div class="vehinfo2">
+                                <div class="engine">
+                                    <p>1500cc</p>
+                                </div>
+                                <div class="fueltype">
+                                    <p>Petrol</p>
+                                </div>
+                            </div>
+                            <div class="vehratings">
+                                <img src="assets/images/star.svg" alt="">
+                                <img src="assets/images/star.svg" alt="">
+                                <img src="assets/images/star.svg" alt="">
+                                <img src="assets/images/star.svg" alt="">
+                                <img src="assets/images/star.svg" alt="">
+                            </div>
+                            <div class="vehprice">
+                                <p> <b>90.20 Lakh</b>
+                                </p>
+                            </div>
+                            <div class="deletevehbtn">
+                                <a href="" class="btn">Delete</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div style="overflow:auto;">
                     <div style="float:right;">
                         <button type="button" id="prevBtn" class="btn" onclick="nextPrev(-1)">Previous</button>
@@ -493,7 +660,6 @@
                 </div>
 
             </form>
-
     </section>
     <!-- edit garage end -->
     <div class="vego-overlay" onclick="sidebar_close()" style="cursor:pointer" id="myOverlay"></div>
