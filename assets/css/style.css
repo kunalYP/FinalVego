@@ -2167,6 +2167,22 @@ hr {
           width: 100%;
           border-radius: 5px;
       }
+      .headshrmprice p{
+          font-size: 12px;
+          color: grey;
+          margin-left: 0.6rem;
+      }
+      .headshrmprice span{
+          color: #e3324a;
+      }
+      .headshrmprice img{
+          height: 0.6rem;
+          margin-left: 0.4rem;
+          margin-bottom: 0.2rem;
+      }
+      .offerbtn-veh button{
+          width: 50%;
+      }
       
 }
 
