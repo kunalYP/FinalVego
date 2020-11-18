@@ -2038,7 +2038,7 @@ hr {
     .price-item1{
         width: 100%;
         display: flex;
-        border: 1px solid rgb(236, 236, 236);
+        border: 1px solid lightgrey;
         border-bottom: none;
         background-color: rgb(230, 224, 224);
     }
