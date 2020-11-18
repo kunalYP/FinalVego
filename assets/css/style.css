@@ -1835,6 +1835,9 @@ hr {
         width: 100%;
         border-radius: 5px;
     }
+    .fg-browse{
+        margin-bottom:0;
+    }
     .fg-browse input{
         padding: 1rem;
     }
@@ -2182,6 +2185,24 @@ hr {
       }
       .offerbtn-veh button{
           width: 50%;
+      }
+      /* edit garage page */
+      .grimges{
+          margin-top:-15px;
+          margin-bottom: 16px;
+      }
+      .imggr1{
+          width:33%;
+          display: inline-block;
+      }
+      .cancelbtn{
+          text-align: center;
+      }
+      .cancelbtn img{
+          height:0.7rem;
+      }
+      .grimg img{
+          height:4rem;
       }
       
 }
