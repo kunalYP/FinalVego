@@ -755,6 +755,14 @@ hr {
         font-size: 12px;
         margin-bottom: 0;
     }
+    .headprice p{
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 0px;
+        margin-left: 0.6rem;
+        margin-top: 0.3rem;
+        margin-bottom: 0.5rem;
+    }
     .pricebtn {
         display: flex;
         padding: 0px 0px 10px 10px;
@@ -2065,6 +2073,101 @@ hr {
         font-size: 14px;
         font-weight: 600;
     }
+    
+    /* vehicle info */
+    .vehindicators img{
+        height: 2rem;
+        width: 2rem;
+        margin: 0.1rem;
+    }
+    .vehimages{
+        padding-bottom: 0.5rem;
+    }
+    .vehspecs-c{
+        padding: 0.7rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .vehspecitem{
+        width: 28%;
+        text-align: center;
+        margin: 2.6%;
+        border: 1px solid rgb(231, 231, 231);
+        border-radius: 5px;
+    }
+    .vehspecicon img{
+        height: 2.5rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.3rem;
+    }
+    .vehspectxt1 p{
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .vehspectxt2 p{
+        font-size: 13px;
+        margin-bottom: 3px;
+        color: grey;
+    }
+
+    #spec-show {
+        width: 96%;
+        margin-left: 2%;
+        margin-bottom: 1rem;
+        background-color: #209586;
+        text-align: start;
+        color: white;
+        margin-top: 20px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-size: 14px;
+      }
+      
+      .spec-tab {
+        overflow: scroll;
+        height: 25rem;
+        width: 96%;
+        margin-left: 2%;
+        border-left: 1px solid rgb(233, 233, 233);
+        border-right: 1px solid rgb(233, 233, 233);
+      }
+      
+      #spec-show2 {
+        width: 96%;
+        margin-left: 2%;
+        margin-bottom: 1rem;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        background-color: #e3324a;
+        text-align: start;
+        color: white;
+        margin-top: 0px;
+        font-size: 14px;
+      }
+      .plus-minus{
+          font-size: 15px;
+          font-weight: 650;
+          float: right;
+          margin-right: 1rem;
+      }
+      .vehvideos{
+          padding: 1rem;
+          display: flex;
+          width: 100%;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      .vehvideo-item{
+          width: 90%;
+          margin-bottom: 1rem;
+      }
+      .vehvideo-item iframe{
+          width: 100%;
+          border-radius: 5px;
+      }
+      
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
