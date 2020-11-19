@@ -1109,6 +1109,8 @@ hr {
         margin: 35px 0px 0px -9px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+
+
     .regbtn-cont {
         display: flex;
         justify-content: center;
@@ -2858,6 +2860,1178 @@ hr {
         margin: 35px 0px 0px -10.2px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+
+
+    .regbtn-cont {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        width: 98%;
+        background-color: #fff;
+        padding: 0.5rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .enbtn {
+        background-color: #209586;
+        color: white;
+        font-size: 14px;
+        width: 39%;
+        margin-left: 2.5rem;
+    }
+    .regbtn {
+        background-color: #e3324a;
+        color: white;
+        font-size: 14px;
+        width: 39%;
+    }
+    .vegow {
+        padding-bottom: 15px;
+    }
+    /* showroom info page */
+    .topdealsvehicle {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 1rem;
+    }
+    .vehiclecard {
+        width: 45%;
+        margin-bottom: 20px;
+        border: 1px solid rgb(228, 228, 228);
+        /* box-shadow: 0 2px 10px rgba(0, 0, 0, .105882); */
+    }
+    .vehiclecard:hover {
+        transform: scale(1.03);
+    }
+    .vehiclecard img {
+        height: 4rem;
+        float: center;
+        padding-left: 20px;
+    }
+    .vehiclecard p {
+        margin-bottom: 0;
+    }
+    .vehname p {
+        font-size: 12px;
+    }
+    .vehinfo1 {
+        display: flex;
+        width: 100%;
+        padding: 2px 0px 2px 8px;
+        border-top: 1px solid rgb(228, 228, 228);
+        border-bottom: 1px solid rgb(228, 228, 228);
+    }
+    .vehinfo1 p {
+        font-size: 12px;
+    }
+    .vehinfo2 {
+        display: flex;
+        width: 100%;
+        padding: 2px 0px 2px 8px;
+        border-bottom: 1px solid rgb(228, 228, 228);
+    }
+    .vehinfo2 p {
+        font-size: 12px;
+    }
+    .vehratings img {
+        height: 0.7rem;
+        padding: 0;
+    }
+    .vehprice p {
+        font-size: 13px;
+    }
+    .vehprice {
+        padding: 2px 0px 2px 8px;
+    }
+    .vehname {
+        padding: 2px 0px 2px 8px;
+        border-top: 1px solid rgb(228, 228, 228);
+    }
+    .vehname p {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .year {
+        width: 25%;
+        border-right: 1px solid rgb(228, 228, 228);
+    }
+    .modelveh {
+        width: 75%;
+        padding-left: 10px;
+    }
+    .engine {
+        width: 50%;
+        border-right: 1px solid rgb(228, 228, 228);
+    }
+    .fueltype {
+        width: 50%;
+        padding-left: 10px;
+    }
+    .vehratings {
+        padding-left: 10px;
+        border-bottom: 1px solid rgb(228, 228, 228);
+        margin-top: -3px;
+    }
+    /* emergency service page */
+    .emerg {
+        text-align: center;
+        margin: auto;
+    }
+    /* Hide all steps by default: */
+    .tab {
+        display: none;
+    }
+    /* Make circles that indicate the steps of the form: */
+    .steps {
+        border: 1px solid rgb(228, 228, 228);
+        width: 32%;
+        margin: auto;
+        border-radius: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+    .step {
+        height: 25px;
+        width: 25px;
+        margin: 0 2px;
+        border: 1px solid rgb(228, 228, 228);
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .step.active {
+        opacity: 0.5;
+    }
+    /* Mark the steps that are finished and valid: */
+    .step.finish {
+        background-color: #209586;
+        color: white;
+    }
+    .typevehicle {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .wheeler {
+        width: 50%;
+        border: 1px solid rgb(228, 228, 228);
+        padding: 20px 20px 20px 20px;
+        text-align: center;
+        margin: 20px 20px 20px 20px;
+    }
+    .wheeler img {
+        height: 3.5rem;
+    }
+    .emgtxt p {
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .steps {
+        text-align: center;
+        margin-top: 0px;
+    }
+    #regForm {
+        padding-top: 20px;
+    }
+    #option:hover {
+        background-color: #209586;
+        color: white;
+    }
+    #nextBtn {
+        background-color: #209586;
+        color: white;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    #sbtBtn {
+        background-color: #209586;
+        color: white;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    #prevBtn {
+        background-color: #f0233e;
+        color: white;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .locemg {
+        margin-top: 20px;
+    }
+    #googlemap {
+        margin-top: 20px;
+        width: 100%;
+        height: 400px;
+        margin-bottom: 10px;
+    }
+    .locbtn {
+        margin-top: 10px;
+    }
+    /* preloader - connecting garage */
+    .loader-cont {
+        display: flex;
+        justify-content: center;
+        margin-top: 36%;
+        padding: 0.3rem;
+    }
+    .loaderimg1 img {
+        height: 75px;
+        margin-top: 10px;
+        margin-right: 2px;
+    }
+    .loaderimg2 img {
+        height: 55px;
+        margin-left: 17px;
+        margin-top: 20px;
+    }
+    #loader1 {
+        position: relative;
+        display: flex;
+        margin: 1rem;
+        margin-top: 3rem;
+    }
+    #loader1 span {
+        display: block;
+        width: 7px;
+        height: 7px;
+        background: #ffffff;
+        border: 2px solid #e3324a;
+        border-radius: 30%;
+        margin: 0 4px;
+    }
+    #loader1 span:nth-child(2) {
+        border: 2px solid #209586;
+        background: white;
+    }
+    #loader1 span:nth-child(3) {
+        background: #ffffff;
+        border: 2px solid #209586;
+    }
+    #loader1 span:nth-child(4) {
+        background: #ffffff;
+        border: 2px solid #209586;
+    }
+    #loader1 span:not(:last-child) {
+        animation: animate 1.5s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(30px);
+        }
+    }
+    #loader1 span:last-child {
+        animation: jump 1.5s ease-in-out infinite;
+    }
+    @keyframes jump {
+        0% {
+            transform: translate(0, 0);
+        }
+        10% {
+            transform: translate(10px, -10px);
+        }
+        20% {
+            transform: translate(20px, 10px);
+        }
+        30% {
+            transform: translate(30px, -20px);
+        }
+        70% {
+            transform: translate(-70px, -20px);
+        }
+        80% {
+            transform: translate(-60px, 10px);
+        }
+        90% {
+            transform: translate(-50px, -10px);
+        }
+        100% {
+            transform: translate(-40px, 0);
+        }
+    }
+    .msg-load {
+        width: 60%;
+        margin: 2rem;
+        margin-left: 20%;
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }
+    .msg-load p {
+        font-size: 13px;
+        color: grey;
+    }
+    /* work with us */
+    .work-cont {
+        background-color: #fff;
+        width: 96%;
+        margin: 2%;
+        padding: 20px;
+        padding-bottom: 0px;
+    }
+    .worklist {
+        display: flex;
+        margin: 0px;
+        border-bottom: 1px solid rgb(235, 235, 235);
+    }
+    .workicon img {
+        height: 3.8rem;
+        margin-top: 1rem;
+        margin-right: 2rem;
+    }
+    .worktxt1 p {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 7px;
+    }
+    .worktxt2 p {
+        font-size: 13px;
+        color: grey;
+    }
+    .work-explore {
+        margin-top: 0px;
+        text-align: right;
+        padding-bottom: 8px;
+        display: flex;
+        margin-top: 7px;
+        width: 25%;
+        margin-left: 75%;
+    }
+    .work-explore p {
+        margin-bottom: 0px;
+        color: #209586;
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .work-explore p:hover {
+        text-decoration: underline #209586;
+    }
+    .work-explore img {
+        margin-left: 0.3rem;
+        margin-top: 0.4rem;
+        height: 0.5rem;
+    }
+    /* bottom cards - emergency service and work with us */
+    .vehrepaired-em-cont {
+        padding: 1.4rem;
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 7px;
+    }
+    .vehrepaired-em {
+        display: flex;
+        border-bottom: 1px solid rgb(226, 226, 226);
+    }
+    .vehrepaired-img img {
+        height: 4rem;
+        margin-top: 0.8rem;
+    }
+    .vehrepaired-txt {
+        margin-right: 1.5rem;
+    }
+    .vehrtxt1 p {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 7px;
+    }
+    .vehrtxt2 p {
+        font-size: 12px;
+        color: grey;
+    }
+    .vehrepaired-explore {
+        display: flex;
+    }
+    .vehrepaired-explore p {
+        font-size: 13px;
+        margin-top: 9px;
+        margin-bottom: 0px;
+        color: #e3324a;
+        font-weight: 600;
+    }
+    .vehrepaired-explore img {
+        height: 1rem;
+        margin-top: 0.7rem;
+        margin-left: 0.5rem;
+    }
+    /* contact us */
+    .blackbg img {
+        width: 100%;
+        height: 7rem;
+    }
+    .con-info {
+        margin-top: 3rem;
+        padding: 1rem;
+        margin-bottom: 5px;
+    }
+    .con-heading h5 {
+        color: white;
+        margin-top: -4.3rem;
+        font-size: 22px;
+        text-align: center;
+    }
+    .con-info span {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .con-mob1 {
+        display: flex;
+        margin-top: 1rem;
+    }
+    .con-mob1 img {
+        height: 0.7rem;
+        margin-right: 0.6rem;
+        margin-top: 5px;
+    }
+    .con-mob2 p {
+        font-size: 14px;
+    }
+    .con-mob2 {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    .con-mob2 img {
+        height: 0.7rem;
+        margin-right: 0.6rem;
+        margin-top: 5px;
+    }
+    .con-mob1 p {
+        font-size: 14px;
+    }
+    .con-address {
+        display: flex;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .con-address p {
+        font-size: 14px;
+    }
+    .con-address img {
+        height: 0.9rem;
+        margin-right: 0.6rem;
+        margin-top: 5px;
+    }
+    .cont-form {
+        margin-top: 0px;
+        padding: 1.5rem;
+    }
+    .cont-form1 {
+        margin-top: 0px;
+    }
+    .inp-cont::-webkit-input-placeholder {
+        font-size: 14px;
+    }
+    .inp-cont:-moz-placeholder {
+        font-size: 14px;
+    }
+    .inp-cont::-moz-placeholder {
+        font-size: 14px;
+    }
+    .inp-cont:-ms-input-placeholder {
+        font-size: 14px;
+    }
+    .inp-cont {
+        font-size: 14px;
+    }
+    .cont-submit {
+        text-align: center;
+    }
+    .cont-sub {
+        background-color: #e3324a;
+        color: white;
+        font-size: 14px;
+        width: 100%;
+    }
+    .sociallinks-c {
+        display: flex;
+        margin-left: 0px;
+        color: #209586;
+    }
+    .socialitem img {
+        height: 1.7rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+    /* about us */
+    .values-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 1rem;
+        justify-content: center;
+    }
+    .valueitem {
+        width: 48%;
+        margin: 1%;
+        text-align: center;
+        padding: 0.4rem;
+    }
+    .valueicon img {
+        height: 2.5rem;
+    }
+    .valuetxt1 p {
+        font-size: 14px;
+        margin-top: 0.5rem;
+        margin-bottom: 6px;
+        font-weight: 600;
+    }
+    .valuetxt2 p {
+        font-size: 12px;
+    }
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .team-item {
+        width: 80%;
+        text-align: center;
+        border: 1px solid rgb(235, 235, 235);
+        margin: 5%;
+        border-radius: 5px;
+        margin-top: 4rem;
+    }
+    /* .teamiconbg img{
+        height: 5rem;
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    } */
+    .teamiconper img {
+        height: 7rem;
+        border-radius: 50%;
+        margin-top: -3.5rem;
+    }
+    .teamname p {
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .teamdes p {
+        font-size: 13px;
+        color: grey;
+    }
+    .teammail p {
+        font-size: 13px;
+    }
+    .teambtn a {
+        background-color: #e3324a;
+        color: white;
+        font-size: 14px;
+        margin: 3%;
+        width: 94%;
+        border-radius: 5px;
+    }
+    .teambtn1 {
+        width: 100%;
+        border-radius: 0px;
+    }
+    .reviewcard-c {
+        padding: 0.5rem;
+    }
+    .revcont {
+        padding-bottom: 1rem;
+    }
+    .reviewcard-c1 {
+        border: 1px solid rgb(235, 235, 235);
+        width: 80%;
+        margin: 5%;
+        margin-left: 10%;
+    }
+    .reviewcard {
+        text-align: center;
+        padding: 1rem;
+    }
+    .reviewname p {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+    .reviewdate p {
+        font-size: 12px;
+        margin-top: 2px;
+    }
+    .ratings1 img {
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+    .reviewdate p {
+        font-size: 13px;
+    }
+    .reviewtxt p {
+        font-size: 11px;
+        margin-bottom: 0px;
+    }
+    .nav-review1 {
+        background-color: #209586;
+        height: 1.8rem;
+        margin-top: 5.5rem;
+        width: 1.8rem;
+        margin-left: 1.3rem;
+        border-radius: 50%;
+    }
+    .nav-review2 {
+        background-color: #209586;
+        height: 1.8rem;
+        margin-top: 5.5rem;
+        width: 1.8rem;
+        margin-right: 1.3rem;
+        border-radius: 50%;
+    }
+    .txt-abt {
+        margin-top: 3rem;
+        padding: 2rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .txt-abt p {
+        color: grey;
+        font-size: 13px;
+        text-align: end;
+        margin-top: 0.5rem;
+        margin-right: 1.2rem;
+        margin-bottom: 0px;
+    }
+    .abttxt p {
+        margin-bottom: 0px;
+        font-size: 13px;
+        color: rgb(75, 75, 75);
+        font-weight: 600;
+    }
+    #leftq {
+        font-size: 20px;
+        color: #e3324a;
+        margin-right: -1rem;
+    }
+    #rightq {
+        font-size: 20px;
+        color: #e3324a;
+        margin-left: -12px;
+        margin-bottom: -20px;
+    }
+    #midtxt {
+        font-size: 14px;
+        font-style: italic;
+        color: rgb(75, 75, 75);
+        font-weight: 600;
+        margin: 1rem;
+        line-height: 14px;
+        text-align: center;
+    }
+    .brands-list {
+        display: flex;
+        padding: 0.5rem;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 0.3rem;
+    }
+    .brand-item {
+        width: 25%;
+        padding: 1.2rem;
+        border: 1px solid rgb(236, 236, 236);
+        text-align: center;
+    }
+    .brand-item img {
+        height: 2.7rem;
+        width: 2.7rem;
+    }
+    /* registration form */
+    .regform-cont {
+        padding: 0.8rem;
+    }
+    .fg1 label {
+        font-size: 15px;
+    }
+    .fg1 input {
+        font-size: 15px;
+        border: 1px solid lightgrey;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .fg-browse {
+        margin-bottom: 0;
+    }
+    .fg-browse input {
+        padding: 1rem;
+    }
+    .fg1 textarea {
+        font-size: 15px;
+    }
+    .fg2 {
+        font-size: 15px;
+    }
+    .fi1 {
+        width: 27%;
+        margin: 2%;
+    }
+    .fi1 label {
+        font-size: 15px;
+        margin-left: 3px;
+    }
+    .locationbtn a {
+        background-color: #e3324a;
+        color: white;
+        font-size: 15px;
+    }
+    .locationbtn {
+        text-align: center;
+    }
+    /* login page */
+    .loginform {
+        padding: 2.3rem;
+        text-align: center;
+    }
+    .reg-link {
+        margin-top: 0px;
+        font-size: 13px;
+    }
+    .reg-link:hover {
+        text-decoration: underline black;
+    }
+    .fg-log1 a {
+        background-color: #209586;
+        color: white;
+        width: 100%;
+        font-size: 14px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .fg-log input {
+        font-size: 14px;
+        height: 2.5rem;
+    }
+    .fg-log2 img {
+        height: 1rem;
+    }
+    .fg-log2 a {
+        font-size: 14px;
+    }
+    .fg-log3 img {
+        height: 1rem;
+    }
+    .fg-log3 a {
+        font-size: 14px;
+    }
+    .fg-log2 {
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+    .fg-log3 {
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+    /* userprofile edit */
+    .usereditform {
+        padding: 1rem;
+    }
+    .fg-log label {
+        font-size: 14px;
+    }
+    .userprofile-in {
+        display: flex;
+        border: 1px solid rgb(235, 235, 235);
+        margin: 1rem;
+        padding-bottom: 1rem;
+    }
+    .un1 p {
+        color: black;
+        font-size: 14px;
+        margin-top: 3px;
+    }
+    .un1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.4rem;
+    }
+    .fg-us {
+        display: flex;
+        width: 100%;
+        background-color: #fff;
+        padding: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        position: fixed;
+        bottom: 0;
+        justify-content: center;
+    }
+    .fg-space {
+        margin-bottom: 2.5rem;
+    }
+    .fg-us a {
+        background-color: #209586;
+        color: white;
+        width: 40%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 14px;
+    }
+    .fg-us .rst {
+        background-color: white;
+        border: 2px solid #209586;
+        color: #209586;
+    }
+    .us-gender {
+        padding-left: 0.5rem;
+        padding-top: 5px;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+    }
+    /* offer page */
+    .offerinfo-item img {
+        width: 96%;
+        margin: 2%;
+        margin-top: 1rem;
+        border-radius: 5px;
+    }
+    .offerinfo-itemtxt p {
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0.5rem;
+        margin-bottom: 0px;
+    }
+    .offerinfo-txt {
+        padding: 0.5rem;
+        padding-top: 0px;
+        border-bottom: 1px solid rgb(233, 233, 233);
+    }
+    .offerinfo-txt a {
+        font-size: 13px;
+        color: #209586;
+    }
+    .offerinfo-txt a:hover {
+        text-decoration: underline #209586;
+    }
+    .moretxt-offer {
+        margin-top: 0.5rem;
+    }
+    .moretxt-offer p {
+        font-size: 14px;
+    }
+    .offerinfo-cont {
+        padding: 0.5rem;
+    }
+    /* emergency info */
+    .emer-images {
+        margin-top: 1rem;
+    }
+    .emersteptxt p {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .emerstepicon {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .emerstepicon img {
+        height: 15rem;
+        margin: 0.5rem;
+    }
+    .emergencyservicego {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .emergencyservicego a {
+        font-size: 14px;
+        background-color: #209586;
+        color: white;
+    }
+    /* price card */
+    .pricetable-c {
+        padding-bottom: 1rem;
+    }
+    .price-table {
+        width: 94%;
+        margin: 3%;
+        margin-top: 1rem;
+        border-bottom: 1px solid lightgrey;
+    }
+    .price-item {
+        width: 100%;
+        display: flex;
+        border: 1px solid lightgrey;
+        border-bottom: none;
+    }
+    .price-item1 {
+        width: 100%;
+        display: flex;
+        border: 1px solid lightgrey;
+        border-bottom: none;
+        background-color: rgb(230, 224, 224);
+    }
+    .price-cat {
+        width: 70%;
+        padding: 0.7rem;
+        padding-left: 1rem;
+        border-right: 1px solid rgb(233, 233, 233);
+    }
+    .price-rs {
+        width: 30%;
+        padding: 0.7rem;
+        text-align: center;
+    }
+    .price-cat p {
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    .price-rs p {
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    /* vehicle info */
+    .vehindicators img {
+        height: 2rem;
+        width: 2rem;
+        margin: 0.1rem;
+    }
+    .vehimages {
+        padding-bottom: 0.5rem;
+    }
+    .vehspecs-c {
+        padding: 0.7rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .vehspecitem {
+        width: 28%;
+        text-align: center;
+        margin: 2.6%;
+        border: 1px solid rgb(231, 231, 231);
+        border-radius: 5px;
+    }
+    .vehspecicon img {
+        height: 2.5rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.3rem;
+    }
+    .vehspectxt1 p {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .vehspectxt2 p {
+        font-size: 13px;
+        margin-bottom: 3px;
+        color: grey;
+    }
+    #spec-show {
+        width: 96%;
+        margin-left: 2%;
+        margin-bottom: 1rem;
+        background-color: #209586;
+        text-align: start;
+        color: white;
+        margin-top: 20px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-size: 14px;
+    }
+    .spec-tab {
+        overflow: scroll;
+        height: 25rem;
+        width: 96%;
+        margin-left: 2%;
+        border-left: 1px solid rgb(233, 233, 233);
+        border-right: 1px solid rgb(233, 233, 233);
+    }
+    #spec-show2 {
+        width: 96%;
+        margin-left: 2%;
+        margin-bottom: 1rem;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        background-color: #e3324a;
+        text-align: start;
+        color: white;
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    .plus-minus {
+        font-size: 15px;
+        font-weight: 650;
+        float: right;
+        margin-right: 1rem;
+    }
+    .vehvideos {
+        padding: 1rem;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .vehvideo-item {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+    .vehvideo-item iframe {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .headshrmprice p {
+        font-size: 12px;
+        color: grey;
+        margin-left: 0.6rem;
+    }
+    .headshrmprice span {
+        color: #e3324a;
+    }
+    .headshrmprice img {
+        height: 0.6rem;
+        margin-left: 0rem;
+        margin-bottom: 0.2rem;
+    }
+    .offerbtn-veh button {
+        width: 50%;
+    }
+    /* edit garage page */
+    .grimges {
+        margin-top: -15px;
+        margin-bottom: 16px;
+    }
+    .imggr1 {
+        width: 33%;
+        display: inline-block;
+    }
+    .cancelbtn {
+        text-align: center;
+    }
+    .cancelbtn img {
+        height: 0.7rem;
+    }
+    .grimg img {
+        height: 4rem;
+    }
+    .addvehbtn a {
+        background-color: #209586;
+        font-size: 15px;
+        color: white;
+        width: 60%;
+        margin-top: 5px;
+    }
+    .addvehbtn {
+        text-align: center;
+    }
+    .deletevehbtn a {
+        background-color: #f0233e;
+        font-size: 12px;
+        color: white;
+        padding: 0.8px;
+        margin-bottom: 5px;
+        width: 50%;
+        margin-top: 5px;
+        border: none;
+    }
+    .deletevehbtn {
+        text-align: center;
+    }
+    .editshowroomsteps {
+        width: 40%;
+    }
+
+    /* compare vehicles */
+    .compveh-table {
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+    .compveh-table thead th {
+        background-color: rgb(230, 224, 224);
+        padding: 10px;
+        padding-left: 17px;
+        text-align: left;
+        font-size: 14px;
+        white-space: wrap;
+       
+    }
+    .compveh-table tbody{
+        height: 10rem;
+        overflow-y: scroll;
+    }
+    .compveh-table tbody td {
+        color: #333;
+        padding: 17px;
+        white-space: wrap;
+        font-size: 13px;
+    }
+     .compveh-wrapper {
+        position: relative;
+    } 
+    .compveh-scroller {
+        margin-left: 35%;
+        overflow-x: scroll;
+        overflow-y: visible;
+        padding-bottom: 5px;
+        width: 65%;
+        border-left: 1px solid rgb(238, 238, 238);
+    }
+    .compveh-table .compveh-sticky-col {
+        left: 0;
+        position: absolute;
+        width: 35%;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .compveh-col1 img{
+        height: 4rem;
+    }
+
+
+    .compbox{
+        padding: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .veh-addicon{
+        padding: 1rem;
+        border: 1px dashed lightgrey;
+        border-radius: 50%;
+    }
+    .veh-addicon img{
+        height: 3rem;
+    }
+    .comp-btn a{
+        background-color: #209586;
+        color: white;
+        width: 70%;
+        margin: 1rem;
+        margin-top: 0.2rem;
+        margin-left: 15%;
+        font-size: 14px;
+    }
+    .veh-addvs{
+        margin-top: 2rem;
+    }
+    .veh-addvs p{
+        font-weight: 700;
+        color: #e3324a;
+    }
+    .modal-vehcomp .vehcompbtn1{
+        background-color: #209586;
+        color: white;
+        font-size: 14px;
+    }
+    .modal-vehcomp .vehcompbtn2{
+        background-color: #e3324a;
+        color: white;
+        font-size: 14px;
+    }
+    .vehmodtitle{
+        font-size: 15px;
+    }
+
+
+
 }
 
 /* Medium devices (Desktop, 850px and up) */
