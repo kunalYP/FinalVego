@@ -283,223 +283,149 @@
     </div>
     <!-- add location modal desktop end-->
 
-
-    <section class="">
-        <div class="garagevector ">
-            <img src="assets/images/vector-showroom.png" alt="">
-        </div>
-        <div class="defaultcard topgarage serv-c">
-            <div class="garagetxthead">
-                <h5>Register Your Showroom With Us.</h5>
-                <p>Bring Your Showroom Online and Get More Customers To You !</p>
-                <p id="garagetxthead1">Earn Upto <span id="garagetxthead2">₹ 2 Lakhs</span> Per Year</p>
-            </div>
-        </div>
-
-    </section>
-
+    <!-- register form -->
     <section>
-        <div class="defaultcard serv-c">
-            <div class="heading">
-                <h5>Your Benefits</h5>
-                <hr class="headingunderline">
-            </div>
-            <div class="ourservices">
-                <div class="pro-service">
-                    <div class="proserviceimg">
-                        <img src="assets/images/shr-on.png" alt="">
+        <div class="topshowrooms">
+           
+            <form id="regForm" action="/action_page.php">
+                <!-- Circles which indicates the steps of the form: -->
+                <div class="steps">
+                    <span class="step">1</span>
+                    <span class="step">2</span>
+                    <span class="step">3</span>
+
+                </div>
+                <!-- One "tab" for each step in the form: -->
+                <div class="tab">
+                    <div class="heading">
+                        <h5>Showroom Details</h5>
+                        <hr class="headingunderline">
                     </div>
-                    <div class="proservicetxt">
-                        <p>Showroom Will Be On Internet</p>
+                    <div class="regform-cont">
+                        <div class="form-group fg1">
+                            <label for="exampleFormControlInput1">Showroom Name :</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="form-group fg1 fg-browse">
+                            <label for="your_email">Showroom Photos : ( Min : 6 and Max: 10 )</label>
+                            <input type="file" name="files[]" id="files" multiple
+                                accept="image/jpeg, image/png, image/gif," class="imageupload">
+                            <output id="Filelist"></output>
+                        </div>
+                        <div class="form-group fg1">
+                            <label for="exampleFormControlTextarea1">Showroom Address :</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group fg1">
+                            <label for="exampleFormControlInput1">State :</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput3">
+                        </div>
+                        <div class="form-group fg1">
+                            <label for="exampleFormControlInput1">City :</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput4">
+                        </div>
+                        <div class="form-group fg1">
+                            <label for="exampleFormControlInput1">Services :</label>
+                            <select class="custom-select fg2" id="inlineFormCustomSelect">
+                                <option selected>Choose...</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="form-group fg1">
+                            <label for="exampleFormControlInput1">Whatsapp No :</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput5">
+                        </div>
+                        <div class="form-group fg1">
+                            <label for="exampleFormControlInput1">Facebook ID :</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput6">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="heading">
+                        <h5>Showroom Timings</h5>
+                        <hr class="headingunderline">
+                    </div>
+                    <div class="regform-cont">
+                       
+                        <div class="form-group fg1">
+                            <label for="exampleFormControlInput1">Opening Time :</label>
+                            <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                        </div>
+                        <div class="form-group fg1">
+                            <label for="exampleFormControlInput1">Closing Time :</label>
+                            <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check form-check-inline fi1">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Monday</label>
+                            </div>
+                            <div class="form-check form-check-inline fi1">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Tuesday</label>
+                            </div>
+                            <div class="form-check form-check-inline fi1">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Wednesday</label>
+                            </div>
+                            <div class="form-check form-check-inline fi1">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Thursday</label>
+                            </div>
+                            <div class="form-check form-check-inline fi1">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Friday</label>
+                            </div>
+                            <div class="form-check form-check-inline fi1">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Saturday</label>
+                            </div>
+                            <div class="form-check form-check-inline fi1">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Sunday</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="heading">
+                        <h5>Showroom Location</h5>
+                        <hr class="headingunderline">
+                    </div>
+                    <div class="regform-cont">
+                       
+                        <div class="form-group fg1">
+                            <label for="exampleFormControlInput1">Showroom Address :</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput5">
+                        </div>
+                        <div class="locationbtn">
+                            <a href="" class="btn">Use Current Location</a>
+                        </div>
+                        <div class="form-group">
+                            <iframe id="googlemap"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15073.234307308167!2d77.02138377450119!3d19.181720042435785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f853c6a83fbf800!2sPurna%20Junction!5e0!3m2!1sen!2sin!4v1597152317620!5m2!1sen!2sin"
+                                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                                tabindex="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div style="overflow:auto;">
+                    <div style="float:right;">
+                        <button type="button" id="prevBtn" class="btn" onclick="nextPrev(-1)">Previous</button>
+                        <button type="button" class="btn" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                        <a href=""><button type="button" class="btn" id="sbtBtn">Submit</button></a>
                     </div>
                 </div>
 
-                <!-- <div class="pro-service">
-                    <div class="proserviceimg">
-                        <img src="assets/images/prd-on-service.png" alt="">
-                    </div>
-                    <div class="proservicetxt">
-                        <p>Provide Online Service</p>
-                    </div>
-                </div> -->
+            </form>
 
-                <div class="pro-service">
-                    <div class="proserviceimg">
-                        <img src="assets/images/get-n-cust.png" alt="">
-                    </div>
-                    <div class="proservicetxt">
-                        <p>Get All Nearby Customers</p>
-                    </div>
-                </div>
 
-                <div class="pro-service">
-                    <div class="proserviceimg">
-                        <img src="assets/images/cust-feedback.png" alt="">
-                    </div>
-                    <div class="proservicetxt">
-                        <p>Get Customers Feedback</p>
-                    </div>
-                </div>
-
-                <div class="pro-service">
-                    <div class="proserviceimg">
-                        <img src="assets/images/fast-ser.png" alt="">
-                    </div>
-                    <div class="proservicetxt">
-                        <p>Faster Service</p>
-                    </div>
-                </div>
-
-                <div class="pro-service">
-                    <div class="proserviceimg">
-                        <img src="assets/images/24.png" alt="">
-                    </div>
-                    <div class="proservicetxt">
-                        <p>24 X 7 Available</p>
-                    </div>
-                </div>
-
-                <div class="pro-service">
-                    <div class="proserviceimg">
-                        <img src="assets/images/get-m-cust.png" alt="">
-                    </div>
-                    <div class="proservicetxt">
-                        <p>Get More Customers</p>
-                    </div>
-                </div>
-
-                <div class="pro-service">
-                    <div class="proserviceimg">
-                        <img src="assets/images/service-p.png" alt="">
-                    </div>
-                    <div class="proservicetxt">
-                        <p>More Profit Margin !</p>
-                    </div>
-                </div>
-
-                <!-- <div class="pro-service">
-                    <div class="proserviceimg">
-                        <img src="assets/images/get-1yr-free.png" alt="">
-                    </div>
-                    <div class="proservicetxt">
-                        <p>Get 1 Year Free Service</p>
-                    </div>
-                </div> -->
-
-                <!-- <div class="pro-service">
-                    <div class="proserviceimg">
-                        <img src="assets/images/yearly-m.png" alt="">
-                    </div>
-                    <div class="proservicetxt">
-                        <p>Yearly Maintenance</p>
-                    </div>
-                </div> -->
-
-            </div>
         </div>
     </section>
-
-
-
-  <!-- timeline -->
-  <section>
-    <div class="defaultcard serv-c vegow">
-        <div class="heading">
-            <h5>How VeGO Works ?</h5>
-            <hr class="headingunderline">
-        </div>
-
-        <div class="timeline">
-            <div class="vectorcol">
-                <img src="assets/images/step4.svg" alt="">
-            </div>
-            <div class="verticalline">
-                <div class="number">
-                    1
-                </div>
-            </div>
-            <div class="textcol">
-                <p>Whenever Customer wants to buy a vehicle.</p>
-            </div>
-        </div>
-
-        <div class="timeline">
-            <div class="vectorcol">
-                <img src="assets/images/step2.svg" alt="">
-            </div>
-            <div class="verticalline">
-                <div class="number">
-                    2
-                </div>
-            </div>
-            <div class="textcol">
-                <p>Customer searches for nearby Showroom with the help of VeGO.</p>
-            </div>
-        </div>
-
-        <div class="timeline">
-            <div class="vectorcol">
-                <img src="assets/images/step3.svg" alt="">
-            </div>
-            <div class="verticalline">
-                <div class="number">
-                    3
-                </div>
-            </div>
-            <div class="textcol">
-                <p>This is how Customer find your Showroom and number of Customers get increased !</p>
-            </div>
-        </div>
-    </div>
-
-</section>
-<!-- timeline end -->
-
-
-
-    <section>
-        <div class="defaultcard serv-c fg-space">
-            <div class="heading">
-                <h5>Work With Us</h5>
-                <hr class="headingunderline">
-            </div>
-            <div class="ourservices">
-
-
-                <div class="pro-service">
-                    <div class="proserviceimg">
-                        <img src="assets/images/get-1yr-free.png" alt="">
-                    </div>
-                    <div class="proservicetxt">
-                        <p> <b> Get 1 Year Free Service</b> </p>
-                    </div>
-                </div>
-
-                <div class="pro-service">
-                    <div class="proserviceimg">
-                        <img src="assets/images/yearly-m.png" alt="">
-                    </div>
-                    <div class="proservicetxt">
-                        <p>After 1 Year Pay : ₹999 Per Year. </p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-  
-
-    <!-- register button -->
-    <section>
-        <div class="defaultcard serv-c">
-                <div class="regbtn-cont">
-                    <a href="" class="btn regbtn">Enquire</a>
-                    <a href="registershowroomform.html" class="btn enbtn">Register</a>
-                </div>
-     
-        </div>
-    </section>
-    <!-- register button end -->
+    <!-- register form ends -->
 
     <!-- Option 1: jQuery, Popper.js, and Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
