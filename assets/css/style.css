@@ -2232,6 +2232,50 @@ hr {
     .compveh-col1 img{
         height: 4rem;
     }
+
+
+    .compbox{
+        padding: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .veh-addicon{
+        padding: 1rem;
+        border: 1px dashed lightgrey;
+        border-radius: 50%;
+    }
+    .veh-addicon img{
+        height: 3rem;
+    }
+    .comp-btn a{
+        background-color: #209586;
+        color: white;
+        width: 70%;
+        margin: 1rem;
+        margin-top: 0.2rem;
+        margin-left: 15%;
+        font-size: 14px;
+    }
+    .veh-addvs{
+        margin-top: 2rem;
+    }
+    .veh-addvs p{
+        font-weight: 700;
+        color: #e3324a;
+    }
+    .modal-vehcomp .vehcompbtn1{
+        background-color: #209586;
+        color: white;
+        font-size: 14px;
+    }
+    .modal-vehcomp .vehcompbtn2{
+        background-color: #e3324a;
+        color: white;
+        font-size: 14px;
+    }
+    .vehmodtitle{
+        font-size: 15px;
+    }
    
 }
 
