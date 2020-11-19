@@ -289,9 +289,56 @@
     </div>
     <!-- add location modal desktop end-->
 
+<!-- modal to add vehicle -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title vehmodtitle" id="exampleModalLabel">Add Vehicle</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="form-group fg-log">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Vehicle Brand">
+            </div>
+            <div class="form-group fg-log">
+                <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Vehicle Model">
+            </div>
+            <div class="form-group fg-log">
+                <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Vehicle Variant">
+            </div>
+        </div>
+        <div class="modal-footer modal-vehcomp">
+          <button type="button" class="btn vehcompbtn1" data-dismiss="modal">Add Vehicle</button>
+          <button type="button" class="btn vehcompbtn2">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- modal to add vehicle ends -->
+
+
 <!-- compare vehicles - add vehicles -->
 <section class="defaultcard">
-     
+     <div class="compbox">
+         <div class="veh-addicon" data-toggle="modal" data-target="#exampleModal">
+             <img src="assets/images/car.svg" alt="">
+         </div>
+         <div class="veh-addvs">
+             <p>VS</p>
+         </div>
+         <div class="veh-addicon" data-toggle="modal" data-target="#exampleModal">
+            <img src="assets/images/car.svg" alt="">
+        </div>
+     </div>
+     <div class="comp-btn">
+         <a href="" class="btn">Compare Now</a>
+     </div>
 </section>
 <!-- compare vehicles - add vehicles ends-->
 
@@ -318,6 +365,13 @@
                         <td class="compveh-col1"><img src="assets/images/car1.png" alt=""></td>
                        
                     </tr>
+                </tbody>
+            </table>
+
+            <table class="compveh-table table">
+               
+                <tbody>
+                  
                     <tr>
                         <td class="compveh-sticky-col">Fuel Type</td>
                         <td class="compveh-col1">Petrol</td>
