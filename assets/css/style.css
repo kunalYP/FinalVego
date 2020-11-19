@@ -2186,6 +2186,53 @@ hr {
     .editshowroomsteps {
         width: 40%;
     }
+
+    /* compare vehicles */
+    .compveh-table {
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+    .compveh-table thead th {
+        background-color: rgb(230, 224, 224);
+        padding: 10px;
+        padding-left: 17px;
+        text-align: left;
+        font-size: 14px;
+        white-space: wrap;
+       
+    }
+    .compveh-table tbody{
+        height: 10rem;
+        overflow-y: scroll;
+    }
+    .compveh-table tbody td {
+        color: #333;
+        padding: 17px;
+        white-space: wrap;
+        font-size: 13px;
+    }
+     .compveh-wrapper {
+        position: relative;
+    } 
+    .compveh-scroller {
+        margin-left: 35%;
+        overflow-x: scroll;
+        overflow-y: visible;
+        padding-bottom: 5px;
+        width: 65%;
+        border-left: 1px solid rgb(238, 238, 238);
+    }
+    .compveh-table .compveh-sticky-col {
+        left: 0;
+        position: absolute;
+        width: 35%;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .compveh-col1 img{
+        height: 4rem;
+    }
+   
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
