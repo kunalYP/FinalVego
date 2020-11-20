@@ -288,22 +288,15 @@
         <div class="topshowrooms">
            
             <form id="regForm" action="/action_page.php">
-                <!-- Circles which indicates the steps of the form: -->
-                <div class="steps">
-                    <span class="step">1</span>
-                    <span class="step">2</span>
-                    <span class="step">3</span>
-
-                </div>
-                <!-- One "tab" for each step in the form: -->
-                <div class="tab">
+              
+                
                     <div class="heading">
                         <h5>Showroom Details</h5>
                         <hr class="headingunderline">
                     </div>
                     <div class="regform-cont">
                         <div class="form-group fg1">
-                            <label for="exampleFormControlInput1">Showroom Name :</label>
+                            <label for="exampleFormControlInput1">Showroom Name :<span class="required-f">*</span></label>
                             <input type="email" class="form-control" id="exampleFormControlInput1">
                         </div>
                         <div class="form-group fg1 fg-browse">
@@ -313,7 +306,7 @@
                             <output id="Filelist"></output>
                         </div>
                         <div class="form-group fg1">
-                            <label for="exampleFormControlInput1">Brand :</label>
+                            <label for="exampleFormControlInput1">Brand :<span class="required-f">*</span></label>
                             <input type="email" class="form-control" id="exampleFormControlInput3">
                         </div>
                         <div class="form-group fg1">
@@ -327,7 +320,7 @@
                             </select>
                         </div>
                         <div class="form-group fg1">
-                            <label for="exampleFormControlTextarea1">Showroom Address :</label>
+                            <label for="exampleFormControlTextarea1">Showroom Address :<span class="required-f">*</span></label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div class="form-group fg1">
@@ -338,7 +331,14 @@
                             <label for="exampleFormControlInput1">City :</label>
                             <input type="email" class="form-control" id="exampleFormControlInput4">
                         </div>
-                   
+                        <div class="form-group fg1">
+                            <label for="exampleFormControlInput1">Mobile No. 1 :<span class="required-f">*</span></label>
+                            <input type="email" class="form-control" id="exampleFormControlInput5">
+                        </div>
+                        <div class="form-group fg1">
+                            <label for="exampleFormControlInput1">Mobile No. 2 :</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput5">
+                        </div>
                         <div class="form-group fg1">
                             <label for="exampleFormControlInput1">Whatsapp No :</label>
                             <input type="email" class="form-control" id="exampleFormControlInput5">
@@ -348,8 +348,8 @@
                             <input type="email" class="form-control" id="exampleFormControlInput6">
                         </div>
                     </div>
-                </div>
-                <div class="tab">
+            
+                
                     <div class="heading">
                         <h5>Showroom Timings</h5>
                         <hr class="headingunderline">
@@ -357,11 +357,11 @@
                     <div class="regform-cont">
                        
                         <div class="form-group fg1">
-                            <label for="exampleFormControlInput1">Opening Time :</label>
+                            <label for="exampleFormControlInput1">Opening Time :<span class="required-f">*</span></label>
                             <input class="form-control" type="time" value="13:45:00" id="example-time-input">
                         </div>
                         <div class="form-group fg1">
-                            <label for="exampleFormControlInput1">Closing Time :</label>
+                            <label for="exampleFormControlInput1">Closing Time :<span class="required-f">*</span></label>
                             <input class="form-control" type="time" value="13:45:00" id="example-time-input">
                         </div>
                         <div class="form-group">
@@ -395,8 +395,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="tab">
+            
+                
                     <div class="heading">
                         <h5>Showroom Location</h5>
                         <hr class="headingunderline">
@@ -417,11 +417,9 @@
                                 tabindex="0"></iframe>
                         </div>
                     </div>
-                </div>
+            
                 <div style="overflow:auto;">
                     <div style="float:right;">
-                        <button type="button" id="prevBtn" class="btn" onclick="nextPrev(-1)">Previous</button>
-                        <button type="button" class="btn" id="nextBtn" onclick="nextPrev(1)">Next</button>
                         <a href=""><button type="button" class="btn" id="sbtBtn">Submit</button></a>
                     </div>
                 </div>
