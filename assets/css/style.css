@@ -232,6 +232,7 @@ hr {
         margin-bottom: 0;
         font-weight: 500;
         color: #209586;
+        color: #e3324a;
     }
     .carousel-item img {
         width: 100%;
@@ -2073,7 +2074,7 @@ hr {
         border-radius: 5px;
     }
     .vehspecicon img {
-        height: 2.5rem;
+        height: 2rem;
         margin-bottom: 0.5rem;
         margin-top: 0.3rem;
     }
