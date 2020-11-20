@@ -2347,7 +2347,7 @@ hr {
         display: flex;
     }
     .locationtxt p {
-        font-size: 15.4px;
+        font-size: 17px;
         margin-bottom: 0px;
         margin-top: 2px;
     }
@@ -2396,7 +2396,7 @@ hr {
     }
     .servicename p {
         margin-bottom: 5px;
-        font-size: 15px;
+        font-size: 17px;
     }
     #service1 {
         border-right: 1px solid lightgray;
@@ -2457,7 +2457,7 @@ hr {
         margin-top: 1.7rem;
         margin-left: 1rem;
         margin-bottom: 0;
-        font-size: 15px;
+        font-size: 17px;
     }
     .username {
         display: flex;
@@ -2469,7 +2469,7 @@ hr {
     }
     .usernumber p {
         color: rgb(218, 218, 218);
-        font-size: 14px;
+        font-size: 16px;
         margin-left: 1rem;
     }
     .sidebarlink {
@@ -2494,7 +2494,7 @@ hr {
         padding-left: 0.5rem;
     }
     .sblinktxt p {
-        font-size: 15px;
+        font-size: 17px;
         margin-top: 3px;
         margin-bottom: 0;
         color: black;
@@ -2513,18 +2513,21 @@ hr {
         height: 1.5rem;
     }
     .loctxt p {
-        font-size: 15px;
-        margin-bottom: 5px;
+        font-size: 17px;
+        margin-bottom: 20px;
     }
     #headloc {
-        font-size: 17px;
+        font-size: 19px;
         font-weight: 500;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
     }
     .dtbtn {
         background-color: #209586;
         color: white;
         font-size: 15px;
         padding: 7px;
+        margin-top: 1rem;
     }
     /* top Showorom cards  */
     /* top showrooms */
@@ -2536,14 +2539,14 @@ hr {
         margin-bottom: 10px;
     }
     .heading {
-        padding: 16px 14px 14px 14px;
+        padding: 16px 14px 18px 18px;
     }
     .heading h5 {
         font-size: 18px;
         font-weight: 600;
     }
     .headingunderline {
-        width: 10%;
+        width: 7%;
         text-align: left;
         margin: 0;
         background-color: #f0233e;
@@ -2566,9 +2569,9 @@ hr {
         white-space: pre-line;
     }
     .showroomname p {
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-weight: 550;
-        padding: 4px 0px 5px 7px;
+        padding: 6px 2px 7px 9px;
     }
     .showroomtype {
         display: flex;
@@ -2576,14 +2579,14 @@ hr {
         border-top: 1px solid #e9e9eb;
     }
     .showroomtype p {
-        font-size: 0.65rem;
+        font-size: 0.9rem;
         padding: 5px 0px 4px 2px;
     }
     .address {
         border-top: 1px solid #e9e9eb;
     }
     .address p {
-        font-size: 0.65rem;
+        font-size: 0.9rem;
         padding: 4px 0px 5px 7px;
     }
     .type {
@@ -2596,9 +2599,9 @@ hr {
         text-align: center;
     }
     .ratings img {
-        height: 0.56rem;
+        height: 0.7rem;
         width: 10%;
-        margin-top: -1px;
+        margin-top: 4px;
     }
     .emergencyservice {
         width: 100%;
@@ -2699,7 +2702,7 @@ hr {
     .apply button {
         background-color: #209586;
         color: white;
-        font-size: 14px;
+        font-size: 16px;
         padding: 9px 12px 9px 12px;
         margin-top: -11px;
     }
@@ -2735,13 +2738,13 @@ hr {
     }
     .garagename p {
         margin-bottom: 0;
-        font-size: 16px;
+        font-size: 18px;
         padding-top: 20px;
         word-wrap: break-word;
         font-weight: 590;
     }
     .garageaddress p {
-        font-size: 14px;
+        font-size: 16px;
         word-wrap: break-word;
         padding-top: 8px;
         margin-bottom: 0;
@@ -2768,19 +2771,19 @@ hr {
     }
     .garagestatus p {
         margin-bottom: 0;
-        font-size: 14px;
+        font-size: 16px;
         color: green;
         font-weight: 500;
     }
     .garagedistance p {
         margin-bottom: 0;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
         color: #f0233e;
     }
     .garagetype p {
         margin-bottom: 0;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
     }
     /* register garage */
@@ -2799,13 +2802,13 @@ hr {
         padding-bottom: 1rem;
     }
     .garagetxthead h5 {
-        font-size: 20px;
+        font-size: 23px;
         margin-bottom: 0;
         font-weight: 600;
     }
     .garagetxthead p {
         margin-top: 0.6rem;
-        font-size: 14.7px;
+        font-size: 16px;
         margin-bottom: 0;
         color: grey;
     }
@@ -2813,7 +2816,7 @@ hr {
         background-color: #209586;
         color: white;
         margin-top: 10px;
-        font-size: 15px;
+        font-size: 16px;
     }
     .garagetxthead .enbtn {
         background-color: #e3324a;
@@ -2830,25 +2833,25 @@ hr {
         border-top: 1px solid rgb(228, 228, 228);
     }
     .proserviceimg img {
-        height: 2.5rem;
+        height:3rem;
         margin-right: 0.5rem;
         padding-right: 0.5rem;
     }
     .proservicetxt {
-        height: 2.5rem;
+        height: 3rem;
         text-align: center;
     }
     .proservicetxt p {
-        line-height: 2.5rem;
-        font-size: 14px;
+        line-height: 3rem;
+        font-size: 16px;
     }
-    /* tomeline */
+    /* timeline */
     .vectorcol {
         float: left;
         padding: 17px 25px 10px 15px;
     }
     .vectorcol img {
-        height: 3.7rem;
+        height: 4rem;
     }
     .verticalline {
         border-left: 6px solid #f3324c;
@@ -2860,9 +2863,9 @@ hr {
         border-bottom: 1px solid rgb(228, 228, 228);
     }
     .textcol p {
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 0;
-        padding-top: 10px;
+        padding-top: 13px;
         padding-bottom: 5px;
     }
     .number {
@@ -2892,14 +2895,14 @@ hr {
     .enbtn {
         background-color: #209586;
         color: white;
-        font-size: 14px;
+        font-size: 16px;
         width: 39%;
         margin-left: 2.5rem;
     }
     .regbtn {
         background-color: #e3324a;
         color: white;
-        font-size: 14px;
+        font-size: 16px;
         width: 39%;
     }
     .vegow {
@@ -2931,7 +2934,7 @@ hr {
         margin-bottom: 0;
     }
     .vehname p {
-        font-size: 12px;
+        font-size: 14px;
     }
     .vehinfo1 {
         display: flex;
@@ -2941,7 +2944,7 @@ hr {
         border-bottom: 1px solid rgb(228, 228, 228);
     }
     .vehinfo1 p {
-        font-size: 12px;
+        font-size: 14px;
     }
     .vehinfo2 {
         display: flex;
@@ -2950,14 +2953,14 @@ hr {
         border-bottom: 1px solid rgb(228, 228, 228);
     }
     .vehinfo2 p {
-        font-size: 12px;
+        font-size: 14px;
     }
     .vehratings img {
         height: 0.7rem;
         padding: 0;
     }
     .vehprice p {
-        font-size: 13px;
+        font-size: 15px;
     }
     .vehprice {
         padding: 2px 0px 2px 8px;
@@ -2967,7 +2970,7 @@ hr {
         border-top: 1px solid rgb(228, 228, 228);
     }
     .vehname p {
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 600;
     }
     .year {
@@ -3042,7 +3045,7 @@ hr {
         height: 3.5rem;
     }
     .emgtxt p {
-        font-size: 13px;
+        font-size: 15px;
         text-align: center;
         margin-bottom: 0px;
     }
@@ -3062,21 +3065,21 @@ hr {
         color: white;
         margin-bottom: 10px;
         margin-right: 10px;
-        font-size: 15px;
+        font-size: 17px;
     }
     #sbtBtn {
         background-color: #209586;
         color: white;
         margin-bottom: 10px;
         margin-right: 10px;
-        font-size: 15px;
+        font-size: 17px;
     }
     #prevBtn {
         background-color: #f0233e;
         color: white;
         margin-bottom: 10px;
         margin-right: 10px;
-        font-size: 15px;
+        font-size: 17px;
     }
     .locemg {
         margin-top: 20px;
@@ -3182,7 +3185,7 @@ hr {
         padding-bottom: 1.5rem;
     }
     .msg-load p {
-        font-size: 13px;
+        font-size: 15px;
         color: grey;
     }
     /* work with us */
@@ -3204,12 +3207,12 @@ hr {
         margin-right: 2rem;
     }
     .worktxt1 p {
-        font-size: 15px;
+        font-size: 16px;
         font-weight: 600;
         margin-bottom: 7px;
     }
     .worktxt2 p {
-        font-size: 13px;
+        font-size: 15px;
         color: grey;
     }
     .work-explore {
@@ -3225,7 +3228,7 @@ hr {
         margin-bottom: 0px;
         color: #209586;
         font-weight: 600;
-        font-size: 13px;
+        font-size: 15px;
     }
     .work-explore p:hover {
         text-decoration: underline #209586;
@@ -3262,12 +3265,12 @@ hr {
         margin-right: 1.5rem;
     }
     .vehrtxt1 p {
-        font-size: 16px;
+        font-size: 17px;
         font-weight: 600;
         margin-bottom: 7px;
     }
     .vehrtxt2 p {
-        font-size: 12px;
+        font-size: 13px;
         color: grey;
     }
     .vehrepaired-explore {
@@ -3298,11 +3301,11 @@ hr {
     .con-heading h5 {
         color: white;
         margin-top: -4.3rem;
-        font-size: 22px;
+        font-size: 27px;
         text-align: center;
     }
     .con-info span {
-        font-size: 16px;
+        font-size: 17px;
         font-weight: 600;
     }
     .con-mob1 {
@@ -3315,19 +3318,19 @@ hr {
         margin-top: 5px;
     }
     .con-mob2 p {
-        font-size: 14px;
+        font-size: 16px;
     }
     .con-mob2 {
         display: flex;
         margin-bottom: 1rem;
     }
     .con-mob2 img {
-        height: 0.7rem;
+        height: 0.9rem;
         margin-right: 0.6rem;
         margin-top: 5px;
     }
     .con-mob1 p {
-        font-size: 14px;
+        font-size: 16px;
     }
     .con-address {
         display: flex;
@@ -3335,7 +3338,7 @@ hr {
         margin-bottom: 1rem;
     }
     .con-address p {
-        font-size: 14px;
+        font-size: 16px;
     }
     .con-address img {
         height: 0.9rem;
@@ -3344,25 +3347,27 @@ hr {
     }
     .cont-form {
         margin-top: 0px;
-        padding: 1.5rem;
+        padding: 3rem;
+        width: 76%;
+        margin-left: 12%;
     }
     .cont-form1 {
         margin-top: 0px;
     }
     .inp-cont::-webkit-input-placeholder {
-        font-size: 14px;
+        font-size: 16px;
     }
     .inp-cont:-moz-placeholder {
-        font-size: 14px;
+        font-size: 16px;
     }
     .inp-cont::-moz-placeholder {
-        font-size: 14px;
+        font-size: 16px;
     }
     .inp-cont:-ms-input-placeholder {
-        font-size: 14px;
+        font-size: 16px;
     }
     .inp-cont {
-        font-size: 14px;
+        font-size: 16px;
     }
     .cont-submit {
         text-align: center;
@@ -3370,7 +3375,7 @@ hr {
     .cont-sub {
         background-color: #e3324a;
         color: white;
-        font-size: 14px;
+        font-size: 16px;
         width: 100%;
     }
     .sociallinks-c {
@@ -3398,16 +3403,16 @@ hr {
         padding: 0.4rem;
     }
     .valueicon img {
-        height: 2.5rem;
+        height: 3rem;
     }
     .valuetxt1 p {
-        font-size: 14px;
+        font-size: 16px;
         margin-top: 0.5rem;
         margin-bottom: 6px;
         font-weight: 600;
     }
     .valuetxt2 p {
-        font-size: 12px;
+        font-size: 14px;
     }
     .team-list {
         display: flex;
@@ -3415,19 +3420,14 @@ hr {
         justify-content: center;
     }
     .team-item {
-        width: 80%;
+        width: 30%;
         text-align: center;
         border: 1px solid rgb(235, 235, 235);
-        margin: 5%;
+        margin: 1%;
         border-radius: 5px;
         margin-top: 4rem;
     }
-    /* .teamiconbg img{
-        height: 5rem;
-        width: 100%;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-    } */
+   
     .teamiconper img {
         height: 7rem;
         border-radius: 50%;
@@ -3519,7 +3519,7 @@ hr {
     }
     .txt-abt p {
         color: grey;
-        font-size: 13px;
+        font-size: 16px;
         text-align: end;
         margin-top: 0.5rem;
         margin-right: 1.2rem;
@@ -3527,23 +3527,23 @@ hr {
     }
     .abttxt p {
         margin-bottom: 0px;
-        font-size: 13px;
+        font-size: 16px;
         color: rgb(75, 75, 75);
         font-weight: 600;
     }
     #leftq {
-        font-size: 20px;
+        font-size: 22px;
         color: #e3324a;
         margin-right: -1rem;
     }
     #rightq {
-        font-size: 20px;
+        font-size: 22px;
         color: #e3324a;
         margin-left: -12px;
         margin-bottom: -20px;
     }
     #midtxt {
-        font-size: 14px;
+        font-size: 16px;
         font-style: italic;
         color: rgb(75, 75, 75);
         font-weight: 600;
@@ -3573,10 +3573,10 @@ hr {
         padding: 3.5rem;
     }
     .fg1 label {
-        font-size: 15px;
+        font-size: 17px;
     }
     .fg1 input {
-        font-size: 15px;
+        font-size: 17px;
         border: 1px solid lightgrey;
         width: 100%;
         border-radius: 5px;
@@ -3588,23 +3588,23 @@ hr {
         padding: 1rem;
     }
     .fg1 textarea {
-        font-size: 15px;
+        font-size: 17px;
     }
     .fg2 {
-        font-size: 15px;
+        font-size: 17px;
     }
     .fi1 {
         width: 27%;
         margin: 2%;
     }
     .fi1 label {
-        font-size: 15px;
+        font-size: 17px;
         margin-left: 3px;
     }
     .locationbtn a {
         background-color: #e3324a;
         color: white;
-        font-size: 15px;
+        font-size: 17px;
     }
     .locationbtn {
         text-align: center;
@@ -3613,10 +3613,12 @@ hr {
     .loginform {
         padding: 2.3rem;
         text-align: center;
+        width: 80%;
+        margin-left: 10%;
     }
     .reg-link {
         margin-top: 0px;
-        font-size: 13px;
+        font-size: 16px;
     }
     .reg-link:hover {
         text-decoration: underline black;
@@ -3625,25 +3627,25 @@ hr {
         background-color: #209586;
         color: white;
         width: 100%;
-        font-size: 14px;
+        font-size: 16px;
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
     }
     .fg-log input {
-        font-size: 14px;
+        font-size: 16px;
         height: 2.5rem;
     }
     .fg-log2 img {
-        height: 1rem;
+        height: 1.2rem;
     }
     .fg-log2 a {
-        font-size: 14px;
+        font-size: 16px;
     }
     .fg-log3 img {
-        height: 1rem;
+        height: 1.2rem;
     }
     .fg-log3 a {
-        font-size: 14px;
+        font-size: 16px;
     }
     .fg-log2 {
         border: 1px solid lightgrey;
@@ -3657,7 +3659,8 @@ hr {
     }
     /* userprofile edit */
     .usereditform {
-        padding: 1rem;
+        padding: 3rem;
+        padding-top: 1rem;
     }
     .fg-log label {
         font-size: 14px;
@@ -3666,11 +3669,13 @@ hr {
         display: flex;
         border: 1px solid rgb(235, 235, 235);
         margin: 1rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
         padding-bottom: 1rem;
     }
     .un1 p {
         color: black;
-        font-size: 14px;
+        font-size: 16px;
         margin-top: 3px;
     }
     .un1 {
@@ -3698,7 +3703,7 @@ hr {
         width: 40%;
         margin-left: 1rem;
         margin-right: 1rem;
-        font-size: 14px;
+        font-size: 16px;
     }
     .fg-us .rst {
         background-color: white;
@@ -3719,7 +3724,7 @@ hr {
         border-radius: 5px;
     }
     .offerinfo-itemtxt p {
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 600;
         margin: 0.5rem;
         margin-bottom: 0px;
@@ -3730,7 +3735,7 @@ hr {
         border-bottom: 1px solid rgb(233, 233, 233);
     }
     .offerinfo-txt a {
-        font-size: 13px;
+        font-size: 15px;
         color: #209586;
     }
     .offerinfo-txt a:hover {
@@ -3740,7 +3745,7 @@ hr {
         margin-top: 0.5rem;
     }
     .moretxt-offer p {
-        font-size: 14px;
+        font-size: 15px;
     }
     .offerinfo-cont {
         padding: 0.5rem;
@@ -3756,7 +3761,7 @@ hr {
         width: 50%;
     }
     .emersteptxt p {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
         text-align: center;
     }
@@ -3773,7 +3778,7 @@ hr {
         padding-bottom: 1rem;
     }
     .emergencyservicego a {
-        font-size: 14px;
+        font-size: 16px;
         background-color: #209586;
         color: white;
     }
@@ -3781,7 +3786,7 @@ hr {
 
 /* garage info page */
 #hstype {
-    margin-left: 14px;
+    margin-left: 16px;
     font-size: 550;
     color: grey;
 }
@@ -3795,7 +3800,7 @@ hr {
     padding: 10px 0px 0px 10px;
 }
 .headtext h5 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 0;
 }
@@ -3812,7 +3817,7 @@ hr {
     padding: 5px 0px 10px 10px;
 }
 .headstatus p {
-    font-size: 13px;
+    font-size: 15px;
     color: green;
     margin-bottom: 0;
 }
@@ -3820,11 +3825,11 @@ hr {
     color: black;
 }
 .headadress p {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 0;
 }
 .headprice p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     margin-bottom: 0px;
     margin-left: 0.6rem;
@@ -3851,7 +3856,7 @@ hr {
     background-color: #209586;
     color: white;
     width: 6rem;
-    font-size: 14px;
+    font-size: 16px;
     border: none;
 }
 .stick-t {
@@ -3886,14 +3891,14 @@ hr {
 }
 .grgsername p {
     margin-top: 1rem;
-    font-size: 13px;
+    font-size: 15px;
     margin-bottom: 0px;
 }
 .grgsername {
     margin-top: 0.2rem;
 }
 .grgserprice p {
-    font-size: 15px;
+    font-size: 17px;
     margin-bottom: 0px;
 }
 .garageabt {
@@ -3914,7 +3919,7 @@ hr {
     border-right: 1px solid rgb(197, 197, 197);
     width: 33%;
     padding: 14px 14px 13px 11px;
-    font-size: 14px;
+    font-size: 16px;
 }
 .scmd {
     display: flex;
@@ -3973,7 +3978,7 @@ hr {
 }
 .grg3 p {
     margin-top: 0.5rem;
-    font-size: 13px;
+    font-size: 15px;
     border-radius: 3px;
     padding: 0.2rem;
     /* background-color:#A2FBA2; */
@@ -3994,7 +3999,7 @@ hr {
     margin-top: -2.1px;
 }
 .col-r span {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 550;
 }
 .row-c {
@@ -4117,11 +4122,11 @@ hr {
     }
     .price-cat p {
         margin-bottom: 0px;
-        font-size: 14px;
+        font-size: 16px;
     }
     .price-rs p {
         margin-bottom: 0px;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
     }
     /* vehicle info */
@@ -4153,11 +4158,11 @@ hr {
         margin-top: 0.3rem;
     }
     .vehspectxt1 p {
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 0px;
     }
     .vehspectxt2 p {
-        font-size: 13px;
+        font-size: 15px;
         margin-bottom: 3px;
         color: grey;
     }
@@ -4171,7 +4176,7 @@ hr {
         margin-top: 20px;
         padding-top: 16px;
         padding-bottom: 16px;
-        font-size: 14px;
+        font-size: 16px;
     }
     .spec-tab {
         overflow: scroll;
@@ -4191,7 +4196,7 @@ hr {
         text-align: start;
         color: white;
         margin-top: 0px;
-        font-size: 14px;
+        font-size: 16px;
     }
     .plus-minus {
         font-size: 15px;
@@ -4215,7 +4220,7 @@ hr {
         border-radius: 5px;
     }
     .headshrmprice p {
-        font-size: 12px;
+        font-size: 14px;
         color: grey;
         margin-left: 0.6rem;
     }
@@ -4285,7 +4290,7 @@ hr {
         padding: 10px;
         padding-left: 17px;
         text-align: left;
-        font-size: 14px;
+        font-size: 16px;
         white-space: wrap;
        
     }
@@ -4297,7 +4302,7 @@ hr {
         color: #333;
         padding: 17px;
         white-space: wrap;
-        font-size: 13px;
+        font-size: 15px;
     }
      .compveh-wrapper {
         position: relative;
@@ -4315,7 +4320,7 @@ hr {
         position: absolute;
         width: 35%;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 16px;
     }
     .compveh-col1 img{
         height: 4rem;
@@ -4342,7 +4347,7 @@ hr {
         margin: 1rem;
         margin-top: 0.2rem;
         margin-left: 15%;
-        font-size: 14px;
+        font-size: 16px;
     }
     .veh-addvs{
         margin-top: 2rem;
@@ -4354,12 +4359,12 @@ hr {
     .modal-vehcomp .vehcompbtn1{
         background-color: #209586;
         color: white;
-        font-size: 14px;
+        font-size: 16px;
     }
     .modal-vehcomp .vehcompbtn2{
         background-color: #e3324a;
         color: white;
-        font-size: 14px;
+        font-size: 16px;
     }
     .vehmodtitle{
         font-size: 15px;
