@@ -2284,6 +2284,10 @@ hr {
 /* Medium devices (landscape tablets, 550px to 850) */
 
 @media only screen and (min-width: 550px) and (max-width: 991px) {
+    .carousel-item img {
+        height: 320px;
+        width: 100%;
+    }
     #desksearch {
         display: none;
     }
