@@ -210,12 +210,11 @@ hr {
 /* Extra small devices (phones, 0px to 550px) */
 
 @media only screen and (max-width: 550px) {
-    .regsbtbtndiv{
-       text-align:center;
-       margin-top:-10px;
+    .regsbtbtndiv {
+        text-align: center;
     }
-    .regsbtbtn{
-        width:70%;
+    .regsbtbtn {
+        width: 70%;
     }
     .bgc-s {
         background-color: white;
@@ -1816,7 +1815,7 @@ hr {
         padding: 1.3rem;
         padding-top: 0.8rem;
         border-bottom: 1px solid rgb(236, 236, 236);
-        margin-bottom:10px;
+        margin-bottom: 10px;
     }
     .fg1 label {
         font-size: 15px;
@@ -2302,6 +2301,12 @@ hr {
 /* Medium devices (landscape tablets, 550px to 850) */
 
 @media only screen and (min-width: 550px) and (max-width: 991px) {
+    .regsbtbtndiv {
+        text-align: center;
+    }
+    .regsbtbtn {
+        width: 70%;
+    }
     .bgc-s {
         background-color: white;
     }
@@ -3586,6 +3591,8 @@ hr {
     /* registration form */
     .regform-cont {
         padding: 3.5rem;
+        border-bottom: 1px solid rgb(236, 236, 236);
+        margin-bottom: 10px;
     }
     .fg1 label {
         font-size: 17px;
@@ -4381,6 +4388,12 @@ hr {
 /* Large devices (Desktop, 850px and up) */
 
 @media only screen and (min-width: 992px) {
+    .regsbtbtndiv {
+        text-align: center;
+    }
+    .regsbtbtn {
+        width: 100px;
+    }
     body {
         background-color: white;
     }
@@ -6095,7 +6108,6 @@ hr {
     }
     .revcont {
         padding-bottom: 1rem;
-        
     }
     .reviewcard-c1 {
         border: 1px solid rgb(235, 235, 235);
@@ -6206,6 +6218,8 @@ hr {
         padding: 0.8rem;
         width: 60%;
         margin-left: 20%;
+        border-bottom: 1px solid rgb(236, 236, 236);
+        margin-bottom: 10px;
     }
     .fg1 label {
         font-size: 15px;
