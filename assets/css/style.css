@@ -143,6 +143,7 @@ hr {
     z-index: 1;
     overflow: auto;
     bottom: 0;
+    z-index: 2000 !important;
 }
 
 .vego-bar-block {
@@ -200,7 +201,7 @@ hr {
     box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
 }
 
-.required-f{
+.required-f {
     color: red;
     font-size: 14px;
     margin-left: 2px;
@@ -209,6 +210,13 @@ hr {
 /* Extra small devices (phones, 0px to 550px) */
 
 @media only screen and (max-width: 550px) {
+    .regsbtbtndiv{
+       text-align:center;
+       margin-top:-10px;
+    }
+    .regsbtbtn{
+        width:70%;
+    }
     .bgc-s {
         background-color: white;
     }
@@ -807,6 +815,7 @@ hr {
         position: -webkit-sticky;
         position: sticky;
         top: 0;
+        z-index: 1000 !important;
     }
     .grgservices {
         display: flex;
@@ -999,7 +1008,6 @@ hr {
     }
     .rating-grg>span {
         display: inline-block;
-        position: relative;
         width: 1em;
     }
     .rating-grg span {
@@ -1807,6 +1815,8 @@ hr {
     .regform-cont {
         padding: 1.3rem;
         padding-top: 0.8rem;
+        border-bottom: 1px solid rgb(236, 236, 236);
+        margin-bottom:10px;
     }
     .fg1 label {
         font-size: 15px;
@@ -2840,7 +2850,7 @@ hr {
         border-top: 1px solid rgb(228, 228, 228);
     }
     .proserviceimg img {
-        height:3rem;
+        height: 3rem;
         margin-right: 0.5rem;
         padding-right: 0.5rem;
     }
@@ -2887,8 +2897,6 @@ hr {
         margin: 35px 0px 0px -10.2px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-
-
     .regbtn-cont {
         display: flex;
         justify-content: center;
@@ -3434,7 +3442,6 @@ hr {
         border-radius: 5px;
         margin-top: 4rem;
     }
-   
     .teamiconper img {
         height: 7rem;
         border-radius: 50%;
@@ -3764,7 +3771,7 @@ hr {
         flex-wrap: wrap;
         width: 100%;
     }
-    .emerstep{
+    .emerstep {
         width: 50%;
     }
     .emersteptxt p {
@@ -3789,310 +3796,306 @@ hr {
         background-color: #209586;
         color: white;
     }
-
-
-/* garage info page */
-#hstype {
-    margin-left: 16px;
-    font-size: 550;
-    color: grey;
-}
-.infopageimgs img {
-    height: 3rem;
-    width: 20%;
-    margin-top: 8px;
-    border-radius: 5px;
-}
-.headtext {
-    padding: 10px 0px 0px 10px;
-}
-.headtext h5 {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 0;
-}
-.headratings {
-    padding: 1px 0px 0px 10px;
-}
-.headratings img {
-    height: 0.7rem;
-}
-.headstatus {
-    padding: 5px 0px 0px 10px;
-}
-.headadress {
-    padding: 5px 0px 10px 10px;
-}
-.headstatus p {
-    font-size: 15px;
-    color: green;
-    margin-bottom: 0;
-}
-.headstatus span {
-    color: black;
-}
-.headadress p {
-    font-size: 14px;
-    margin-bottom: 0;
-}
-.headprice p {
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 0px;
-    margin-left: 0.6rem;
-    margin-top: 0.3rem;
-    margin-bottom: 0.5rem;
-}
-.pricebtn {
-    display: flex;
-    padding: 0px 0px 10px 10px;
-}
-.pricebtn a {
-    border: 1px solid rgb(197, 197, 197);
-    width: 2rem;
-    padding: 0px;
-    margin-left: 5px;
-}
-.pricebtn img {
-    margin-top: 0.45rem;
-    height: 1rem;
-    padding: 0px;
-    margin-bottom: 5px;
-}
-.pricebtn button {
-    background-color: #209586;
-    color: white;
-    width: 6rem;
-    font-size: 16px;
-    border: none;
-}
-.stick-t {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
-.grgservices {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    padding: 0px;
-    justify-content: center;
-    margin-top: 0.3rem;
-}
-.grgservice {
-    width: 31.2%;
-    border-radius: 5px;
-    margin: 1%;
-    margin-bottom: 1.2rem;
-}
-.grgserviceimg {
-    padding-top: 2px;
-    text-align: center;
-    height: 2.6rem;
-}
-.grgserviceimg img {
-    height: 3.2rem;
-}
-.grgservicetxt {
-    text-align: center;
-}
-.grgsername p {
-    margin-top: 1rem;
-    font-size: 15px;
-    margin-bottom: 0px;
-}
-.grgsername {
-    margin-top: 0.2rem;
-}
-.grgserprice p {
-    font-size: 17px;
-    margin-bottom: 0px;
-}
-.garageabt {
-    padding-bottom: 10px;
-    margin-top: 1rem;
-}
-.cellabt {
-    display: flex;
-    width: 100%;
-    word-wrap: break-word;
-    border: none;
-    border-bottom: 1px solid rgb(197, 197, 197);
-}
-.cellabt p {
-    margin-bottom: 0px;
-}
-.cell1 {
-    border-right: 1px solid rgb(197, 197, 197);
-    width: 33%;
-    padding: 14px 14px 13px 11px;
-    font-size: 16px;
-}
-.scmd {
-    display: flex;
-}
-.scmd img {
-    height: 1rem;
-    margin-top: 4px;
-    margin-left: 4px;
-}
-.scmd2 img {
-    height: 0.7rem;
-    margin-top: 5px;
-    margin-left: 4px;
-}
-.cell2 {
-    width: 67%;
-    font-size: 14px;
-    padding: 14px 14px 13px 12px;
-    font-weight: 550;
-}
-.clr {
-    background-color: rgb(230, 224, 224);
-}
-/* about garage */
-/* ratings */
-.grgrating-cont {
-    display: flex;
-    padding-left: 20px;
-    padding-top: 1rem;
-    padding-bottom: 1.2rem;
-}
-.grgratings-c {
-    width: 30%;
-}
-.grgratings {
-    width: 70%;
-}
-.grg1 {
-    margin-top: 1rem;
-    padding-right: 20px;
-    text-align: center;
-}
-.grg1 h3 {
-    margin-bottom: 0px;
-}
-.grg2 {
-    text-align: center;
-    padding-right: 20px;
-}
-.grg2 img {
-    height: 0.5rem;
-}
-.grg3 {
-    padding-right: 20px;
-    text-align: center;
-}
-.grg3 p {
-    margin-top: 0.5rem;
-    font-size: 15px;
-    border-radius: 3px;
-    padding: 0.2rem;
-    /* background-color:#A2FBA2; */
-    background-color: #209586;
-    color: white;
-    font-weight: 550;
-}
-.middle {
-    margin-top: 10px;
-    float: left;
-    width: 80%;
-}
-.col-r {
-    width: 13%;
-}
-.col-r img {
-    height: 0.7rem;
-    margin-top: -2.1px;
-}
-.col-r span {
-    font-size: 15px;
-    font-weight: 550;
-}
-.row-c {
-    width: 100%;
-    margin-bottom: 0rem;
-}
-.rowc {
-    margin-top: 0px;
-    display: flex;
-}
-/* reviews bar graph */
-.bar-container {
-    width: 90%;
-    background-color: #f1f1f1;
-    text-align: center;
-    color: white;
-    margin-bottom: 0px;
-    border-radius: 30px;
-}
-.bar-5 {
-    width: 60%;
-    height: 5px;
-    background-color: #e3324a;
-    border-radius: 30px;
-}
-.bar-4 {
-    width: 30%;
-    height: 5px;
-    background-color: #e3324a;
-    border-radius: 30px;
-}
-.bar-3 {
-    width: 10%;
-    height: 5px;
-    background-color: #e3324a;
-    border-radius: 30px;
-}
-.bar-2 {
-    width: 7%;
-    height: 5px;
-    background-color: #e3324a;
-    border-radius: 30px;
-}
-.bar-1 {
-    width: 15%;
-    height: 5px;
-    background-color: #e3324a;
-    border-radius: 30px;
-}
-/* tap to rate */
-.rating-grg {
-    unicode-bidi: bidi-override;
-    direction: rtl;
-}
-.rating-grg>span {
-    display: inline-block;
-    position: relative;
-    width: 1em;
-}
-.rating-grg span {
-    font-size: 2rem;
-    color: rgb(175, 175, 175);
-}
-.rating-grg>span:hover:before, .rating-grg>span:hover~span:before {
-    content: "\2605";
-    position: absolute;
-    color: #e3324a;
-}
-.rate-cust {
-    padding: 10px;
-    border-bottom: 1px dashed lightgrey;
-}
-.tap-rate p {
-    margin-bottom: 0px;
-    font-size: 15px;
-    font-weight: 550;
-}
-.rating-grg p {
-    color: #e3324a;
-    float: right;
-    margin-right: 20px;
-    font-size: 14px;
-    margin-top: 0.8rem;
-}
-
-
+    /* garage info page */
+    #hstype {
+        margin-left: 16px;
+        font-size: 550;
+        color: grey;
+    }
+    .infopageimgs img {
+        height: 3rem;
+        width: 10%;
+        margin-top: 8px;
+        border-radius: 5px;
+    }
+    .headtext {
+        padding: 10px 0px 0px 15px;
+    }
+    .headtext h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    .headratings {
+        padding: 1px 0px 0px 15px;
+    }
+    .headratings img {
+        height: 0.7rem;
+    }
+    .headstatus {
+        padding: 5px 0px 0px 15px;
+    }
+    .headadress {
+        padding: 5px 0px 10px 15px;
+    }
+    .headstatus p {
+        font-size: 15px;
+        color: green;
+        margin-bottom: 0;
+    }
+    .headstatus span {
+        color: black;
+    }
+    .headadress p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .headprice p {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 0px;
+        margin-left: 0.6rem;
+        margin-top: 0.3rem;
+        margin-bottom: 0.5rem;
+    }
+    .pricebtn {
+        display: flex;
+        padding: 0px 0px 10px 15px;
+    }
+    .pricebtn a {
+        border: 1px solid rgb(197, 197, 197);
+        width: 2rem;
+        padding: 0px;
+        margin-left: 5px;
+    }
+    .pricebtn img {
+        margin-top: 0.45rem;
+        height: 1rem;
+        padding: 0px;
+        margin-bottom: 5px;
+    }
+    .pricebtn button {
+        background-color: #209586;
+        color: white;
+        width: 6rem;
+        font-size: 16px;
+        border: none;
+    }
+    .stick-t {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1000 !important;
+    }
+    .grgservices {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0px;
+        justify-content: center;
+        margin-top: 0.3rem;
+    }
+    .grgservice {
+        width: 31.2%;
+        border-radius: 5px;
+        margin: 1%;
+        margin-bottom: 1.2rem;
+    }
+    .grgserviceimg {
+        padding-top: 2px;
+        text-align: center;
+        height: 2.6rem;
+    }
+    .grgserviceimg img {
+        height: 3.2rem;
+    }
+    .grgservicetxt {
+        text-align: center;
+    }
+    .grgsername p {
+        margin-top: 1rem;
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    .grgsername {
+        margin-top: 0.2rem;
+    }
+    .grgserprice p {
+        font-size: 17px;
+        margin-bottom: 0px;
+    }
+    .garageabt {
+        padding-bottom: 10px;
+        margin-top: 1rem;
+    }
+    .cellabt {
+        display: flex;
+        width: 100%;
+        word-wrap: break-word;
+        border: none;
+        border-bottom: 1px solid rgb(197, 197, 197);
+    }
+    .cellabt p {
+        margin-bottom: 0px;
+    }
+    .cell1 {
+        border-right: 1px solid rgb(197, 197, 197);
+        width: 33%;
+        padding: 14px 14px 13px 11px;
+        font-size: 16px;
+    }
+    .scmd {
+        display: flex;
+    }
+    .scmd img {
+        height: 1rem;
+        margin-top: 4px;
+        margin-left: 4px;
+    }
+    .scmd2 img {
+        height: 0.7rem;
+        margin-top: 5px;
+        margin-left: 4px;
+    }
+    .cell2 {
+        width: 67%;
+        font-size: 14px;
+        padding: 14px 14px 13px 12px;
+        font-weight: 550;
+    }
+    .clr {
+        background-color: rgb(230, 224, 224);
+    }
+    /* about garage */
+    /* ratings */
+    .grgrating-cont {
+        display: flex;
+        padding-left: 20px;
+        padding-top: 1rem;
+        padding-bottom: 1.2rem;
+    }
+    .grgratings-c {
+        width: 30%;
+    }
+    .grgratings {
+        width: 70%;
+    }
+    .grg1 {
+        margin-top: 1rem;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .grg1 h3 {
+        margin-bottom: 0px;
+    }
+    .grg2 {
+        text-align: center;
+        padding-right: 20px;
+    }
+    .grg2 img {
+        height: 0.5rem;
+    }
+    .grg3 {
+        padding-right: 20px;
+        text-align: center;
+    }
+    .grg3 p {
+        margin-top: 0.5rem;
+        font-size: 15px;
+        border-radius: 3px;
+        padding: 0.2rem;
+        /* background-color:#A2FBA2; */
+        background-color: #209586;
+        color: white;
+        font-weight: 550;
+    }
+    .middle {
+        margin-top: 10px;
+        float: left;
+        width: 80%;
+    }
+    .col-r {
+        width: 13%;
+    }
+    .col-r img {
+        height: 0.7rem;
+        margin-top: -2.1px;
+    }
+    .col-r span {
+        font-size: 15px;
+        font-weight: 550;
+    }
+    .row-c {
+        width: 100%;
+        margin-bottom: 0rem;
+    }
+    .rowc {
+        margin-top: 0px;
+        display: flex;
+    }
+    /* reviews bar graph */
+    .bar-container {
+        width: 90%;
+        background-color: #f1f1f1;
+        text-align: center;
+        color: white;
+        margin-bottom: 0px;
+        border-radius: 30px;
+    }
+    .bar-5 {
+        width: 60%;
+        height: 5px;
+        background-color: #e3324a;
+        border-radius: 30px;
+    }
+    .bar-4 {
+        width: 30%;
+        height: 5px;
+        background-color: #e3324a;
+        border-radius: 30px;
+    }
+    .bar-3 {
+        width: 10%;
+        height: 5px;
+        background-color: #e3324a;
+        border-radius: 30px;
+    }
+    .bar-2 {
+        width: 7%;
+        height: 5px;
+        background-color: #e3324a;
+        border-radius: 30px;
+    }
+    .bar-1 {
+        width: 15%;
+        height: 5px;
+        background-color: #e3324a;
+        border-radius: 30px;
+    }
+    /* tap to rate */
+    .rating-grg {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+    }
+    .rating-grg>span {
+        display: inline-block;
+        position: relative;
+        width: 1em;
+    }
+    .rating-grg span {
+        font-size: 2rem;
+        color: rgb(175, 175, 175);
+    }
+    .rating-grg>span:hover:before, .rating-grg>span:hover~span:before {
+        content: "\2605";
+        position: absolute;
+        color: #e3324a;
+    }
+    .rate-cust {
+        padding: 10px;
+        border-bottom: 1px dashed lightgrey;
+    }
+    .tap-rate p {
+        margin-bottom: 0px;
+        font-size: 15px;
+        font-weight: 550;
+    }
+    .rating-grg p {
+        color: #e3324a;
+        margin-left: 10px;
+        font-size: 14px;
+        margin-top: 0.8rem;
+    }
     /* price card */
     .pricetable-c {
         padding-bottom: 1rem;
@@ -4286,7 +4289,6 @@ hr {
     .editshowroomsteps {
         width: 40%;
     }
-
     /* compare vehicles */
     .compveh-table {
         border-collapse: separate;
@@ -4299,9 +4301,8 @@ hr {
         text-align: left;
         font-size: 16px;
         white-space: wrap;
-       
     }
-    .compveh-table tbody{
+    .compveh-table tbody {
         height: 10rem;
         overflow-y: scroll;
     }
@@ -4311,9 +4312,9 @@ hr {
         white-space: wrap;
         font-size: 15px;
     }
-     .compveh-wrapper {
+    .compveh-wrapper {
         position: relative;
-    } 
+    }
     .compveh-scroller {
         margin-left: 35%;
         overflow-x: scroll;
@@ -4329,25 +4330,23 @@ hr {
         font-weight: 600;
         font-size: 16px;
     }
-    .compveh-col1 img{
+    .compveh-col1 img {
         height: 4rem;
     }
-
-
-    .compbox{
+    .compbox {
         padding: 1rem;
         display: flex;
         justify-content: space-evenly;
     }
-    .veh-addicon{
+    .veh-addicon {
         padding: 1rem;
         border: 1px dashed lightgrey;
         border-radius: 50%;
     }
-    .veh-addicon img{
+    .veh-addicon img {
         height: 3rem;
     }
-    .comp-btn a{
+    .comp-btn a {
         background-color: #209586;
         color: white;
         width: 70%;
@@ -4356,30 +4355,28 @@ hr {
         margin-left: 15%;
         font-size: 16px;
     }
-    .veh-addvs{
+    .veh-addvs {
         margin-top: 2rem;
     }
-    .veh-addvs p{
+    .veh-addvs p {
         font-weight: 700;
         color: #e3324a;
     }
-    .modal-vehcomp .vehcompbtn1{
+    .modal-vehcomp .vehcompbtn1 {
         background-color: #209586;
         color: white;
         font-size: 16px;
     }
-    .modal-vehcomp .vehcompbtn2{
+    .modal-vehcomp .vehcompbtn2 {
         background-color: #e3324a;
         color: white;
         font-size: 16px;
     }
-    .vehmodtitle{
+    .vehmodtitle {
         font-size: 15px;
     }
-
-
-
 }
+
 /* Large devices (Desktop, 850px and up) */
 
 @media only screen and (min-width: 992px) {
@@ -4502,7 +4499,7 @@ hr {
         display: none;
     }
     .addlocationdesk input {
-        font-size: 15px;
+        font-size: 14px;
         border: none;
     }
     /* Location detect model */
@@ -4515,8 +4512,8 @@ hr {
         margin-bottom: 5px;
     }
     #headloc {
-        font-size: 17px;
-        font-weight: 500;
+        font-size: 15px;
+        font-weight: 600;
         padding-top: 1rem;
     }
     #loc2 {
@@ -4540,105 +4537,101 @@ hr {
         height: 1.4rem;
         margin: -33px 0px 0px 18px;
     }
-
-
-/* preloader - connecting garage */
-.loader-cont {
-    display: flex;
-    justify-content: center;
-    margin-top: 15%;
-    padding: 0.3rem;
-}
-.loaderimg1 img {
-    height: 95px;
-    margin-top: 10px;
-    margin-right: 2px;
-}
-.loaderimg2 img {
-    height: 75px;
-    margin-left: 17px;
-    margin-top: 20px;
-}
-#loader1 {
-    position: relative;
-    display: flex;
-    margin: 1rem;
-    margin-top: 3rem;
-}
-#loader1 span {
-    display: block;
-    width: 7px;
-    height: 7px;
-    background: #ffffff;
-    border: 2px solid #e3324a;
-    border-radius: 30%;
-    margin: 0 4px;
-}
-#loader1 span:nth-child(2) {
-    border: 2px solid #209586;
-    background: white;
-}
-#loader1 span:nth-child(3) {
-    background: #ffffff;
-    border: 2px solid #209586;
-}
-#loader1 span:nth-child(4) {
-    background: #ffffff;
-    border: 2px solid #209586;
-}
-#loader1 span:not(:last-child) {
-    animation: animate 1.5s linear infinite;
-}
-@keyframes animate {
-    0% {
-        transform: translateX(0);
+    /* preloader - connecting garage */
+    .loader-cont {
+        display: flex;
+        justify-content: center;
+        margin-top: 15%;
+        padding: 0.3rem;
     }
-    100% {
-        transform: translateX(30px);
+    .loaderimg1 img {
+        height: 95px;
+        margin-top: 10px;
+        margin-right: 2px;
     }
-}
-#loader1 span:last-child {
-    animation: jump 1.5s ease-in-out infinite;
-}
-@keyframes jump {
-    0% {
-        transform: translate(0, 0);
+    .loaderimg2 img {
+        height: 75px;
+        margin-left: 17px;
+        margin-top: 20px;
     }
-    10% {
-        transform: translate(10px, -10px);
+    #loader1 {
+        position: relative;
+        display: flex;
+        margin: 1rem;
+        margin-top: 3rem;
     }
-    20% {
-        transform: translate(20px, 10px);
+    #loader1 span {
+        display: block;
+        width: 7px;
+        height: 7px;
+        background: #ffffff;
+        border: 2px solid #e3324a;
+        border-radius: 30%;
+        margin: 0 4px;
     }
-    30% {
-        transform: translate(30px, -20px);
+    #loader1 span:nth-child(2) {
+        border: 2px solid #209586;
+        background: white;
     }
-    70% {
-        transform: translate(-70px, -20px);
+    #loader1 span:nth-child(3) {
+        background: #ffffff;
+        border: 2px solid #209586;
     }
-    80% {
-        transform: translate(-60px, 10px);
+    #loader1 span:nth-child(4) {
+        background: #ffffff;
+        border: 2px solid #209586;
     }
-    90% {
-        transform: translate(-50px, -10px);
+    #loader1 span:not(:last-child) {
+        animation: animate 1.5s linear infinite;
     }
-    100% {
-        transform: translate(-40px, 0);
+    @keyframes animate {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(30px);
+        }
     }
-}
-.msg-load {
-    width: 60%;
-    margin: 2rem;
-    margin-left: 20%;
-    text-align: center;
-    padding-bottom: 1.5rem;
-}
-.msg-load p {
-    font-size: 16px;
-    color: grey;
-}
-
-
+    #loader1 span:last-child {
+        animation: jump 1.5s ease-in-out infinite;
+    }
+    @keyframes jump {
+        0% {
+            transform: translate(0, 0);
+        }
+        10% {
+            transform: translate(10px, -10px);
+        }
+        20% {
+            transform: translate(20px, 10px);
+        }
+        30% {
+            transform: translate(30px, -20px);
+        }
+        70% {
+            transform: translate(-70px, -20px);
+        }
+        80% {
+            transform: translate(-60px, 10px);
+        }
+        90% {
+            transform: translate(-50px, -10px);
+        }
+        100% {
+            transform: translate(-40px, 0);
+        }
+    }
+    .msg-load {
+        width: 60%;
+        margin: 2rem;
+        margin-left: 20%;
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }
+    .msg-load p {
+        font-size: 16px;
+        color: grey;
+    }
     /* top Showorom cards  */
     /* top showrooms */
     .scroll-container {
@@ -4654,7 +4647,7 @@ hr {
         margin-bottom: 10px;
     }
     .heading {
-        padding: 19px 14px 14px 14px;
+        padding: 19px 14px 19px 14px;
         text-align: center;
     }
     .heading h5 {
@@ -6101,23 +6094,24 @@ hr {
     }
     .revcont {
         padding-bottom: 1rem;
+        
     }
     .reviewcard-c1 {
         border: 1px solid rgb(235, 235, 235);
-        width: 80%;
-        margin: 20px 0px 20px 10%;
+        width: 70%;
+        margin: 20px 0px 20px 15%;
     }
     .reviewcard {
         text-align: center;
         padding: 1rem;
     }
     .reviewname p {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
         margin-bottom: 0px;
     }
     .reviewdate p {
-        font-size: 12px;
+        font-size: 14px;
         margin-top: 2px;
     }
     .ratings1 img {
@@ -6125,10 +6119,10 @@ hr {
         height: 0.6rem;
     }
     .reviewdate p {
-        font-size: 13px;
+        font-size: 15px;
     }
     .reviewtxt p {
-        font-size: 11px;
+        font-size: 13px;
         margin-bottom: 0px;
     }
     .nav-review1 {
@@ -6136,7 +6130,7 @@ hr {
         height: 1.8rem;
         margin-top: 5.5rem;
         width: 1.8rem;
-        margin-left: 1.3rem;
+        margin-left: 14%;
         border-radius: 50%;
     }
     .nav-review2 {
@@ -6144,7 +6138,7 @@ hr {
         height: 1.8rem;
         margin-top: 5.5rem;
         width: 1.8rem;
-        margin-right: 1.3rem;
+        margin-right: 14%;
         border-radius: 50%;
     }
     .txt-abt {
@@ -6511,7 +6505,7 @@ hr {
     }
     .cancelbtn {
         float: end;
-        margin-left:25%;
+        margin-left: 25%;
     }
     .cancelbtn img {
         height: 0.7rem;
