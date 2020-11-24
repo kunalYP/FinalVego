@@ -2296,6 +2296,17 @@ hr {
     .vehmodtitle {
         font-size: 15px;
     }
+
+    /* footer of about us page */
+    .abt-footer p{
+        text-align: center;
+        font-size: 14px;
+        color: rgb(90, 90, 90);
+        margin-bottom: 0px;
+    }
+    .abt-footer{
+        padding: 0.3rem;
+    }
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
@@ -4382,6 +4393,17 @@ hr {
     }
     .vehmodtitle {
         font-size: 15px;
+    }
+
+     /* footer of about us page */
+     .abt-footer p{
+        text-align: center;
+        font-size: 15px;
+        color: rgb(90, 90, 90);
+        margin-bottom: 0px;
+    }
+    .abt-footer{
+        padding: 0.3rem;
     }
 }
 
@@ -6553,5 +6575,16 @@ hr {
     }
     .editshowroomsteps {
         width: 12%;
+    }
+
+    /* footer of about us page */
+    .abt-footer p{
+        text-align: center;
+        font-size: 15px;
+        color: rgb(90, 90, 90);
+        margin-bottom: 0px;
+    }
+    .abt-footer{
+        padding: 0.3rem;
     }
 }
